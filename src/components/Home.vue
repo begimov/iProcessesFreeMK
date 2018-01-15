@@ -62,7 +62,7 @@
         </div>
       </div>
 
-      <div class="row">
+      <div class="row last-row">
         <div class="col">
           <div class="card">
             <h3 class="card-header">Видимые улучшения в управляемости компанией за два месяца</h3>
@@ -79,6 +79,23 @@
                   </p>
                 </div>
               </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="row text-center">
+        <div class="col">
+          <h2>Я учавствую!</h2>
+        </div>
+      </div>
+      <div class="row last-row text-center">
+        <div class="col">
+          <div class="card">
+            <div class="card-body">
+              <p class="card-text">
+                условия и тарифы
+              </p>
             </div>
           </div>
         </div>
