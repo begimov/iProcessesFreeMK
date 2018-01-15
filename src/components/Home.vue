@@ -133,6 +133,17 @@
         </div>
       </div>
 
+      <div class="row text-center">
+        <div class="col">
+          <h2>Дополнительно - конференция в Анапе для участников!</h2>
+        </div>
+      </div>
+      <div class="row last-row text-center">
+        <div class="col">
+          <p><a href="№" class="btn btn-danger">ПОДРОБНЕЕ</a></p>
+        </div>
+      </div>
+
     </div>
   </div>
 </template>
