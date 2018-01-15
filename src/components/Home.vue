@@ -96,6 +96,7 @@
               <p class="card-text">
                 условия и тарифы
               </p>
+              <Payment/>
             </div>
           </div>
         </div>
