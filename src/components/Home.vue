@@ -13,7 +13,7 @@
           <h2>Вам знакомы эти проблемы?</h2>
         </div>
       </div>
-      <div class="row">
+      <div class="row last-row">
         <div class="col">
           <p>Компания малоуправляема...</p>
         </div>
@@ -32,7 +32,7 @@
           <p>сопровождение консультанта-наставника</p>
         </div>
       </div>
-      <div class="row">
+      <div class="row last-row">
         <div class="col-sm-6">
           <p>обущающие материалы в комплекте</p>
         </div>
@@ -41,7 +41,7 @@
         </div>
       </div>
 
-      <div class="row">
+      <div class="row last-row">
         <div class="col">
           <ul class="nav nav-tabs" id="myTab" role="tablist">
             <li class="nav-item">
@@ -62,10 +62,36 @@
         </div>
       </div>
 
+      <div class="row">
+        <div class="col">
+          <div class="card">
+            <h3 class="card-header">Видимые улучшения в управляемости компанией за два месяца</h3>
+            <div class="card-body">
+              <div class="row">
+                <div class="col-md-3"></div>
+                <div class="col-md-9">
+                  <p class="card-text">
+                    <ul>
+                      <li>Слабые места компании найдены</li>
+                      <li>...</li>
+                      <li>...</li>
+                    </ul>
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
     </div>
   </div>
 </template>
 
 <script src="./home.js"></script>
 
-<style scoped></style>
+<style scoped>
+.last-row {
+  margin-bottom: 50px;
+}
+</style>
