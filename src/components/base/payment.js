@@ -6,7 +6,12 @@ export default {
             email: '',
         }
     },
+    methods: {
+        buy () {
+            console.log('buy')
+        }
+    },
     mounted() {
-        console.log('Home mounted')
+        //
     }
 }
