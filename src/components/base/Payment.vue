@@ -40,7 +40,7 @@
                               <input type="email" class="form-control" name="email" placeholder="Эл.адрес" v-model="modal.email">
                             </div>
                           </div>
-                          <input type="hidden" name="campaign_token" value="nIGYh" />
+                          <input type="hidden" name="campaign_token" v-model="modal.campaign_token" />
                           <input type="hidden" name="orderid" v-model="modal.orderid" />
                       </div>
                       <a href="#" class="btn btn-danger btn-lg" id="grFormBtn" @click.prevent="buy">КУПИТЬ</a>

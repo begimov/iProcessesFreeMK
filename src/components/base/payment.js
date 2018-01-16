@@ -18,7 +18,8 @@ export default {
             modal: {
                 name: '',
                 email: '',
-                orderid: ''
+                orderid: '',
+                campaign_token: 'nIGYh'
             }
         }
     },
