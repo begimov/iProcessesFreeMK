@@ -27,7 +27,8 @@ export default {
                 email: '',
                 orderid: '',
                 campaign_token: this.campaign_token
-            }
+            },
+            error: ''
         }
     },
     methods: {
@@ -43,7 +44,6 @@ export default {
                     ...payload
                 }
             }).then((response) => {
-                console.log(response.data)
                 if (response.data.status === 'ok') {
                     this.payment.WMI_SIGNATURE = response.data.WMI_SIGNATURE
                     this.$nextTick(() => {

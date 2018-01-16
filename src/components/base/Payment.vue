@@ -45,7 +45,7 @@
                       </div>
                       <a href="#" class="btn btn-danger btn-lg" id="grFormBtn" @click.prevent="buy">КУПИТЬ</a>
                   </form>
-                  <p class="help-block alert-danger" id="grFormHelpBlock">...</p>
+                  <p class="help-block alert-danger" id="grFormHelpBlock" v-if="error">{{ error }}</p>
               </div>
             </div>
           </div>
