@@ -1,6 +1,6 @@
 <template>
   <div>
-    <form accept-charset="UTF-8" method="POST" id="paymentForm" class="ajax-update-order-yandex" action="https://wl.walletone.com/checkout/checkout/Index">
+    <form accept-charset="UTF-8" method="POST" id="paymentForm" action="https://wl.walletone.com/checkout/checkout/Index">
       <input type="hidden" name="WMI_MERCHANT_ID" value="132360589069"/>
       <input type="hidden" name="WMI_PAYMENT_AMOUNT" value="990"/>
       <input type="hidden" name="WMI_CURRENCY_ID" value="643"/>
@@ -11,16 +11,14 @@
       <input type="hidden" name="WMI_FAIL_URL" value="https://iteam.ru/promo/2018/"/>
       <input type="hidden" name="WMI_SIGNATURE" value=""/>
     </form>
-    <button type="button" class="btn btn-danger btn-lg" data-toggle="modal" data-target="#set1" style="margin-top:20px;cursor: pointer;">
-      <strong>КУПИТЬ</strong>
-    </button>
+    <button type="button" class="btn btn-danger btn-lg" data-toggle="modal" data-target="#set1">КУПИТЬ</button>
                 
     <!-- Modal -->
     <div class="modal fade" id="set1" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
       <div class="modal-dialog" role="document">
         <div class="modal-content">
           <div class="modal-header">
-            <h5 class="modal-title">Комплект ПЛАНИРОВАНИЕ 2018</h5>
+            <h5 class="modal-title">Название продукта</h5>
             <button type="button" class="close" data-dismiss="modal" aria-label="Close">
               <span aria-hidden="true">&times;</span>
             </button>
@@ -45,9 +43,9 @@
                           <input type="hidden" name="campaign_token" value="nIGYh" />
                           <input type="hidden" name="orderid" value="1" />
                       </div>
-                      <a href="#" class="btn btn-danger btn-lg" id="grFormBtn" data-loading-text="<div class='spinner'><div class='bounce1'></div><div class='bounce2'>fgghfhffh</div><div class='bounce3'></div></div>">КУПИТЬ</a>
+                      <a href="#" class="btn btn-danger btn-lg" id="grFormBtn">КУПИТЬ</a>
                   </form>
-                  <p class="help-block alert-danger" style="display: none;padding: 10px;" id="grFormHelpBlock"></p>
+                  <p class="help-block alert-danger" id="grFormHelpBlock">...</p>
               </div>
             </div>
           </div>
