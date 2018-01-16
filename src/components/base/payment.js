@@ -1,3 +1,5 @@
+import axios from 'axios'
+
 export default {
     name: 'Payment',
     data() {
@@ -24,6 +26,14 @@ export default {
         buy() {
             this.modal.orderid = Date.now()
             this.payment.WMI_PAYMENT_NO = 'NA=' + this.modal.email
+            axios.get('https://iteam.ru/grform/payment', {
+                ...this.payment,
+                ...this.modal
+            }).then(function (response) {
+                console.log(response);
+            }).catch(function (error) {
+                console.log(error);
+            });
         }
     },
     mounted() {
