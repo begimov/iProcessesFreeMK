@@ -23,6 +23,7 @@ export default {
     methods: {
         buy() {
             this.modal.orderid = Date.now()
+            this.payment.WMI_PAYMENT_NO = 'NA=' + this.modal.email
         }
     },
     mounted() {
