@@ -28,7 +28,8 @@ export default {
                 orderid: '',
                 campaign_token: this.campaign_token
             },
-            error: ''
+            error: '',
+            isLoading: false
         }
     },
     methods: {
