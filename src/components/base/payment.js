@@ -38,13 +38,17 @@ export default {
                 ...this.payment,
                 ...this.modal
             }
-            console.log(payload)
             axios.get('https://iteam.ru/grform/payment', {
                 params: {
                     ...payload
                 }
             }).then(function (response) {
-                console.log(response)
+                console.log(response.data)
+                if (response.data.status === 'ok') {
+                    console.log('OK')
+                } else if (response.data.status === 'error') {
+                    console.log('ERROR')
+                }
             }).catch(function (error) {
                 console.log(error)
             })
