@@ -1,15 +1,15 @@
 <template>
   <div>
     <form accept-charset="UTF-8" method="POST" id="paymentForm" action="https://wl.walletone.com/checkout/checkout/Index">
-      <input type="hidden" name="WMI_MERCHANT_ID" value="132360589069"/>
-      <input type="hidden" name="WMI_PAYMENT_AMOUNT" value="990"/>
-      <input type="hidden" name="WMI_CURRENCY_ID" value="643"/>
-      <input type="hidden" name="WMI_PAYMENT_NO" value=""/>
-      <input type="hidden" name="WMI_DESCRIPTION" value="iTeam"/>
-      <input type="hidden" name="WMI_AUTO_LOCATION" value="1"/>
-      <input type="hidden" name="WMI_SUCCESS_URL" value="https://iteam.ru/promo/2018/01_thank_you.php"/>
-      <input type="hidden" name="WMI_FAIL_URL" value="https://iteam.ru/promo/2018/"/>
-      <input type="hidden" name="WMI_SIGNATURE" value=""/>
+      <input type="hidden" name="WMI_MERCHANT_ID" v-model="payment.WMI_MERCHANT_ID"/>
+      <input type="hidden" name="WMI_PAYMENT_AMOUNT" v-model="payment.WMI_PAYMENT_AMOUNT"/>
+      <input type="hidden" name="WMI_CURRENCY_ID" v-model="payment.WMI_CURRENCY_ID"/>
+      <input type="hidden" name="WMI_PAYMENT_NO" v-model="payment.WMI_PAYMENT_NO"/>
+      <input type="hidden" name="WMI_DESCRIPTION" v-model="payment.WMI_DESCRIPTION"/>
+      <input type="hidden" name="WMI_AUTO_LOCATION" v-model="payment.WMI_AUTO_LOCATION"/>
+      <input type="hidden" name="WMI_SUCCESS_URL" v-model="payment.WMI_SUCCESS_URL"/>
+      <input type="hidden" name="WMI_FAIL_URL" v-model="payment.WMI_FAIL_URL"/>
+      <input type="hidden" name="WMI_SIGNATURE" v-model="payment.WMI_SIGNATURE"/>
     </form>
     <button type="button" class="btn btn-danger btn-lg" data-toggle="modal" data-target="#set1">КУПИТЬ</button>
                 
