@@ -2,15 +2,16 @@ export default {
     name: 'Payment',
     data() {
         return {
-            name: '',
-            email: '',
-            orderid: '',
+            modal: {
+                name: '',
+                email: '',
+                orderid: '',
+            }
         }
     },
     methods: {
-        buy () {
-            console.log('buy')
-            this.orderid = Date.now()
+        buy() {
+            this.modal.orderid = Date.now()
         }
     },
     mounted() {
