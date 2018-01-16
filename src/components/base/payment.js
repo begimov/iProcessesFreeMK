@@ -57,8 +57,9 @@ export default {
                 }
                 this.isLoading = false
             }).catch((error) => {
-                console.log(error)
-                if (error.status === 422) {
+                console.log(error.response)
+                if (error.response.status === 422) {
+                    console.log(error.response.data)
                     this.error = 'Все поля обязательны к заполнению'
                 } else {
                     this.error = 'Ошибка, пожалуйста проверьте правильность введенных данных и попробуйте еще раз'
