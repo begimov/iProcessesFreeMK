@@ -27,14 +27,20 @@ export default {
         buy() {
             this.modal.orderid = Date.now()
             this.payment.WMI_PAYMENT_NO = 'NA=' + this.modal.email
-            axios.get('https://iteam.ru/grform/payment', {
+            const payload = {
                 ...this.payment,
                 ...this.modal
+            }
+            console.log(payload)
+            axios.get('https://iteam.ru/grform/payment', {
+                params: {
+                    ...payload
+                }
             }).then(function (response) {
-                console.log(response);
+                console.log(response)
             }).catch(function (error) {
-                console.log(error);
-            });
+                console.log(error)
+            })
         }
     },
     mounted() {
