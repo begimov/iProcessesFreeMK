@@ -10,6 +10,7 @@ export default {
     methods: {
         buy () {
             console.log('buy')
+            this.orderid = Date.now()
         }
     },
     mounted() {
