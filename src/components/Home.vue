@@ -96,7 +96,13 @@
               <p class="card-text">
                 условия и тарифы
               </p>
-              <Payment/>
+              <Payment
+                WMI_PAYMENT_AMOUNT="1"
+                WMI_DESCRIPTION="iTeam"
+                WMI_SUCCESS_URL="https://iteam.ru/promo/marafon"
+                WMI_FAIL_URL="https://iteam.ru/promo/marafon"
+                campaign_token="nIGYh"
+              />
             </div>
           </div>
         </div>
