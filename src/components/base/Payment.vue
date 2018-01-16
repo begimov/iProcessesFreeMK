@@ -43,7 +43,8 @@
                           <input type="hidden" name="campaign_token" v-model="modal.campaign_token" />
                           <input type="hidden" name="orderid" v-model="modal.orderid" />
                       </div>
-                      <a href="#" class="btn btn-danger btn-lg" id="grFormBtn" @click.prevent="buy">КУПИТЬ</a>
+                      <a href="#" class="btn btn-danger btn-lg disabled" id="grFormBtn" v-if="isLoading">ОТПРАВКА...</a>
+                      <a href="#" class="btn btn-danger btn-lg" id="grFormBtn" v-else @click.prevent="buy">КУПИТЬ</a>
                   </form>
                   <p class="help-block alert-danger" id="grFormHelpBlock" v-if="error">{{ error }}</p>
               </div>

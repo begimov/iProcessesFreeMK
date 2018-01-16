@@ -41,6 +41,7 @@ export default {
                 ...this.modal
             }
             this.error = ''
+            this.isLoading = true
             axios.get('https://iteam.ru/grform/payment', {
                 params: {
                     ...payload
@@ -54,13 +55,15 @@ export default {
                 } else if (response.data.status === 'error') {
                     this.error = response.data.msg
                 }
-            }).catch(function (error) {
+                this.isLoading = false
+            }).catch((error) => {
                 console.log(error)
                 if (error.status === 422) {
                     this.error = 'Все поля обязательны к заполнению'
                 } else {
                     this.error = 'Ошибка, пожалуйста проверьте правильность введенных данных и попробуйте еще раз'
                 }
+                this.isLoading = false
             })
         }
     },
