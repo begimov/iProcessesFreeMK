@@ -57,4 +57,9 @@
 
 <script src="./payment.js"></script>
 
-<style scoped></style>
+<style scoped>
+.help-block {
+  margin-top: 20px;
+  padding: 5px;
+}
+</style>

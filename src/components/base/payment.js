@@ -39,6 +39,7 @@ export default {
                 ...this.payment,
                 ...this.modal
             }
+            this.error = ''
             axios.get('https://iteam.ru/grform/payment', {
                 params: {
                     ...payload
@@ -50,7 +51,7 @@ export default {
                         document.getElementById('paymentForm').submit()
                     })
                 } else if (response.data.status === 'error') {
-                    console.log('ERROR')
+                    this.error = response.data.msg
                 }
             }).catch(function (error) {
                 console.log(error)
