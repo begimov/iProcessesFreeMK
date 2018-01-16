@@ -41,7 +41,7 @@
                             </div>
                           </div>
                           <input type="hidden" name="campaign_token" value="nIGYh" />
-                          <input type="hidden" name="orderid" value="1" />
+                          <input type="hidden" name="orderid" v-model="orderid" />
                       </div>
                       <a href="#" class="btn btn-danger btn-lg" id="grFormBtn" @click.prevent="buy">КУПИТЬ</a>
                   </form>
