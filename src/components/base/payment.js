@@ -42,10 +42,10 @@ export default {
                 params: {
                     ...payload
                 }
-            }).then(function (response) {
+            }).then((response) => {
                 console.log(response.data)
                 if (response.data.status === 'ok') {
-                    console.log('OK')
+                    this.payment.WMI_SIGNATURE = response.data.WMI_SIGNATURE
                 } else if (response.data.status === 'error') {
                     console.log('ERROR')
                 }
