@@ -2,24 +2,31 @@ import axios from 'axios'
 
 export default {
     name: 'Payment',
+    props: [
+        'WMI_PAYMENT_AMOUNT',
+        'WMI_DESCRIPTION',
+        'WMI_SUCCESS_URL',
+        'WMI_FAIL_URL',
+        'campaign_token'
+    ],
     data() {
         return {
             payment: {
                 WMI_MERCHANT_ID: "132360589069",
-                WMI_PAYMENT_AMOUNT: "990",
+                WMI_PAYMENT_AMOUNT: this.WMI_PAYMENT_AMOUNT,
                 WMI_CURRENCY_ID: "643",
                 WMI_PAYMENT_NO: "",
-                WMI_DESCRIPTION: "iTeam",
+                WMI_DESCRIPTION: this.WMI_DESCRIPTION,
                 WMI_AUTO_LOCATION: "1",
-                WMI_SUCCESS_URL: "https://iteam.ru/promo/2018/01_thank_you.php",
-                WMI_FAIL_URL: "https://iteam.ru/promo/2018/",
+                WMI_SUCCESS_URL: this.WMI_SUCCESS_URL,
+                WMI_FAIL_URL: this.WMI_FAIL_URL,
                 WMI_SIGNATURE: ""
             },
             modal: {
                 name: '',
                 email: '',
                 orderid: '',
-                campaign_token: 'nIGYh'
+                campaign_token: this.campaign_token
             }
         }
     },
