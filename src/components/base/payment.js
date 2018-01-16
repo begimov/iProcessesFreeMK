@@ -2,7 +2,8 @@ export default {
     name: 'Payment',
     data() {
         return {
-            msg: 'Welcome to Your Vue.js App'
+            name: '',
+            email: '',
         }
     },
     mounted() {
