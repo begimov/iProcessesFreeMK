@@ -20,7 +20,7 @@ export default {
                 WMI_AUTO_LOCATION: "1",
                 WMI_SUCCESS_URL: this.WMI_SUCCESS_URL,
                 WMI_FAIL_URL: this.WMI_FAIL_URL,
-                WMI_SIGNATURE: ""
+                WMI_SIGNATURE: "1"
             },
             modal: {
                 name: '',
@@ -46,6 +46,9 @@ export default {
                 console.log(response.data)
                 if (response.data.status === 'ok') {
                     this.payment.WMI_SIGNATURE = response.data.WMI_SIGNATURE
+                    this.$nextTick(() => {
+                        document.getElementById('paymentForm').submit()
+                    })
                 } else if (response.data.status === 'error') {
                     console.log('ERROR')
                 }
