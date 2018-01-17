@@ -84,6 +84,9 @@
             <li class="nav-item">
               <a class="nav-link" id="sixth-tab" data-toggle="tab" href="#sixth" role="tab" aria-controls="sixth" aria-selected="false">2&nbsp;апреля</a>
             </li>
+            <li class="nav-item">
+              <a class="nav-link" id="seventh-tab" data-toggle="tab" href="#seventh" role="tab" aria-controls="seventh" aria-selected="false">9&nbsp;апреля</a>
+            </li>
           </ul>
           <div class="tab-content" id="myTabContent">
             <div class="tab-pane fade show active" id="first" role="tabpanel" aria-labelledby="first-tab">
@@ -265,6 +268,36 @@
                   <h5 class="card-title">Результат:</h5>
                   <p class="card-text">
                     Результаты оценки корпоративной культуры и&nbsp;план преобразования корпоративных ценностей.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="tab-pane fade" id="seventh" role="tabpanel" aria-labelledby="seventh-tab">
+              <div class="card">
+                <h5 class="card-header">Формируем управленческую команду</h5>
+                <div class="card-body">
+                  <p class="card-text">
+                    Создаем механизмы эффективной работы управленческой команды. Внедряем практики, повышающие производительность и&nbsp;результативность коллективной работы управленцев.
+                  </p>
+                  <h5 class="card-title">Мастер-класс: &laquo;Формирование эффективной управленческой команды&raquo;</h5>
+                  <p class="card-text">
+                    <strong>Шаблоны:</strong>
+                    <ul>
+                      <li>Чек-лист контроля практик, формирующих управленческую команду.</li>
+                      <li>Шаблон регламента работы управленческой команды.</li>
+                    </ul>
+                  </p>
+                  <h5 class="card-title">Практическая задача для команды:</h5>
+                  <p class="card-text">
+                    Разработать и&nbsp;внедрить регламент работы управленческой команды. Разработать план внедрения практик эффективной работы команды.
+                  </p>
+                  <h5 class="card-title">Разбор результатов с&nbsp;наставником:</h5>
+                  <p class="card-text">
+                    Анализ плана и&nbsp;результатов внедрения, разбор сложных вопросов, внесение корректив и&nbsp;дополнений.
+                  </p>
+                  <h5 class="card-title">Результат:</h5>
+                  <p class="card-text">
+                    Действующий регламент работы управленческой команды и&nbsp;план внедрения практик эффективной работы команды.
                   </p>
                 </div>
               </div>
