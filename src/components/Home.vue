@@ -73,7 +73,7 @@
               <a class="nav-link" id="second-tab" data-toggle="tab" href="#second" role="tab" aria-controls="second" aria-selected="false">26&nbsp;февраля</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" id="third-tab" data-toggle="tab" href="#third" role="tab" aria-controls="conthirdtact" aria-selected="false">5 марта</a>
+              <a class="nav-link" id="third-tab" data-toggle="tab" href="#third" role="tab" aria-controls="conthirdtact" aria-selected="false">5&nbsp;марта</a>
             </li>
           </ul>
           <div class="tab-content" id="myTabContent">
@@ -138,7 +138,36 @@
                 </div>
               </div>
             </div>
-            <div class="tab-pane fade" id="third" role="tabpanel" aria-labelledby="third-tab">3</div>
+            <div class="tab-pane fade" id="third" role="tabpanel" aria-labelledby="third-tab">
+              <div class="card">
+                <h5 class="card-header">Реформируем бизнес-процессы</h5>
+                <div class="card-body">
+                  <p class="card-text">
+                    Находим и&nbsp;укрепляем &laquo;слабое звено&raquo; в&nbsp;цепи бизнес-процессов компании. Слабым звеном могут быть продажи, доставка товаров, разработка новых продуктов или другие процессы компании. Мы&nbsp;находим такие процессы и&nbsp;делаем их&nbsp;более результативными и&nbsp;эффективными.
+                  </p>
+                  <h5 class="card-title">Мастер-класс: &laquo;Практикум по&nbsp;проектированию и&nbsp;внедрению бизнес-процессов&raquo;</h5>
+                  <p class="card-text">
+                    <strong>Шаблоны:</strong>
+                    <ul>
+                      <li>Стандарт описания модели бизнес-процесса.</li>
+                      <li>Шаблон плана проекта по&nbsp;совершенствованию бизнес-процесса</li>
+                    </ul>
+                  </p>
+                  <h5 class="card-title">Практическая задача для команды:</h5>
+                  <p class="card-text">
+                    Провести анализ бизнес-процесса, являющегося слабым звеном, разработать усовершенствованную модель и&nbsp;организовать внедрение новой модели процесса.
+                  </p>
+                  <h5 class="card-title">Разбор результатов с&nbsp;наставником:</h5>
+                  <p class="card-text">
+                    Анализ модели процесса, корректировка и&nbsp;уточнение описания бизнес-процесса. Разбор плана внедрения новой модели процесса и&nbsp;внесение изменений.
+                  </p>
+                  <h5 class="card-title">Результат:</h5>
+                  <p class="card-text">
+                    Усовершенствования модель бизнес-процесса и&nbsp;план ее&nbsp;внедрения.
+                  </p>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
       </div>
