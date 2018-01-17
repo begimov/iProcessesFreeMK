@@ -73,7 +73,10 @@
               <a class="nav-link" id="second-tab" data-toggle="tab" href="#second" role="tab" aria-controls="second" aria-selected="false">26&nbsp;февраля</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" id="third-tab" data-toggle="tab" href="#third" role="tab" aria-controls="conthirdtact" aria-selected="false">5&nbsp;марта</a>
+              <a class="nav-link" id="third-tab" data-toggle="tab" href="#third" role="tab" aria-controls="third" aria-selected="false">5&nbsp;марта</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" id="fourth-tab" data-toggle="tab" href="#fourth" role="tab" aria-controls="fourth" aria-selected="false">12&nbsp;марта</a>
             </li>
           </ul>
           <div class="tab-content" id="myTabContent">
@@ -150,7 +153,7 @@
                     <strong>Шаблоны:</strong>
                     <ul>
                       <li>Стандарт описания модели бизнес-процесса.</li>
-                      <li>Шаблон плана проекта по&nbsp;совершенствованию бизнес-процесса</li>
+                      <li>Шаблон плана проекта по&nbsp;совершенствованию бизнес-процесса.</li>
                     </ul>
                   </p>
                   <h5 class="card-title">Практическая задача для команды:</h5>
@@ -164,6 +167,38 @@
                   <h5 class="card-title">Результат:</h5>
                   <p class="card-text">
                     Усовершенствования модель бизнес-процесса и&nbsp;план ее&nbsp;внедрения.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="tab-pane fade" id="fourth" role="tabpanel" aria-labelledby="fourth-tab">
+              <div class="card">
+                <h5 class="card-header">Корректируем организационную структуру</h5>
+                <div class="card-body">
+                  <p class="card-text">
+                    Проводим анализ действующей организационной структуры, выявляем слабые места и&nbsp;разрабатываем усовершенствованную структуру управления компанией.
+                  </p>
+                  <h5 class="card-title">Мастер-класс: &laquo;Совершенствование организационной структуры компании&raquo;</h5>
+                  <p class="card-text">
+                    <strong>Шаблоны:</strong>
+                    <ul>
+                      <li>Шаблон матрицы ответственности.</li>
+                      <li>Набор типовых схем организационных структур.</li>
+                    </ul>
+                  </p>
+                  <h5 class="card-title">Практическая задача для команды:</h5>
+                  <p class="card-text">
+                    Разработать матрицу ответственности, определяющую области ответственности структурных элементов компании в&nbsp;бизнес-процессах.<br>
+                    Внести коррективы в&nbsp;организационную структуру по&nbsp;результатам анализа матрицы ответственности.
+                  </p>
+                  <h5 class="card-title">Разбор результатов с&nbsp;наставником:</h5>
+                  <p class="card-text">
+                    Анализ матрицы ответственности, разбор сложных вопросов, внесение корректировок. Обсуждение вариантов усовершенствования организационной структуры.
+                  </p>
+                  <h5 class="card-title">Результат:</h5>
+                  <p class="card-text">
+                    Матрица ответственности, четко определяющая области ответственности руководителей подразделений и&nbsp;ключевых специалистов в&nbsp;бизнес-процессах компании.<br>
+                    План проведения изменений в&nbsp;организационной структуре компании.
                   </p>
                 </div>
               </div>
