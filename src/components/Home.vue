@@ -87,6 +87,9 @@
             <li class="nav-item">
               <a class="nav-link" id="seventh-tab" data-toggle="tab" href="#seventh" role="tab" aria-controls="seventh" aria-selected="false">9&nbsp;апреля</a>
             </li>
+            <li class="nav-item">
+              <a class="nav-link" id="eighth-tab" data-toggle="tab" href="#eighth" role="tab" aria-controls="eighth" aria-selected="false">16&nbsp;апреля</a>
+            </li>
           </ul>
           <div class="tab-content" id="myTabContent">
             <div class="tab-pane fade show active" id="first" role="tabpanel" aria-labelledby="first-tab">
@@ -298,6 +301,37 @@
                   <h5 class="card-title">Результат:</h5>
                   <p class="card-text">
                     Действующий регламент работы управленческой команды и&nbsp;план внедрения практик эффективной работы команды.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="tab-pane fade" id="eighth" role="tabpanel" aria-labelledby="eighth-tab">
+              <div class="card">
+                <h5 class="card-header">Вырабатываем план проведения изменений</h5>
+                <div class="card-body">
+                  <p class="card-text">
+                    Подводим итоги работы, проделанной в&nbsp;ходе Марафона и&nbsp;формируем комплексный план проведения изменений, направленных на&nbsp;улучшение управляемости и&nbsp;повышение эффективности компании.
+                  </p>
+                  <h5 class="card-title">Мастер-класс: &laquo;Планирование организационных изменений&raquo;</h5>
+                  <p class="card-text">
+                    <strong>Шаблоны:</strong>
+                    <ul>
+                      <li>Матрица развертывания изменений.</li>
+                      <li>Шаблон тактического плана.</li>
+                    </ul>
+                  </p>
+                  <h5 class="card-title">Практическая задача для команды:</h5>
+                  <p class="card-text">
+                    Разработать матрицу развертывания организационных изменений по&nbsp;методике iTeam и&nbsp;определить приоритетные направления преобразований.<br>
+                    Разработать план проведения организационных изменений. 
+                  </p>
+                  <h5 class="card-title">Разбор результатов с&nbsp;наставником:</h5>
+                  <p class="card-text">
+                    Доработка, уточнение и&nbsp;дополнение тактического плана организационных изменений.
+                  </p>
+                  <h5 class="card-title">Результат:</h5>
+                  <p class="card-text">
+                    Комплексный план проведения изменений, направленных на&nbsp;улучшение управляемости и&nbsp;повышение эффективности компании.
                   </p>
                 </div>
               </div>
