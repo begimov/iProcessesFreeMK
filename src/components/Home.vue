@@ -67,7 +67,7 @@
         <div class="col">
           <ul class="nav nav-tabs" id="myTab" role="tablist">
             <li class="nav-item">
-              <a class="nav-link active" id="first-tab" data-toggle="tab" href="#first" role="tab" aria-controls="first" aria-selected="true">12 февраля</a>
+              <a class="nav-link active" id="first-tab" data-toggle="tab" href="#first" role="tab" aria-controls="first" aria-selected="true">12&nbsp;февраля</a>
             </li>
             <li class="nav-item">
               <a class="nav-link" id="second-tab" data-toggle="tab" href="#second" role="tab" aria-controls="second" aria-selected="false">24 февраля</a>
@@ -77,7 +77,37 @@
             </li>
           </ul>
           <div class="tab-content" id="myTabContent">
-            <div class="tab-pane fade show active" id="first" role="tabpanel" aria-labelledby="first-tab">1</div>
+            <div class="tab-pane fade show active" id="first" role="tabpanel" aria-labelledby="first-tab">
+              <div class="card">
+                <h5 class="card-header">Выявляем ограничения, препятствующие развитию компании</h5>
+                <div class="card-body">
+                  <p class="card-text">
+                    Овладеваем методикой исследования проблем, с&nbsp;которыми сталкивается компания. Осваиваем практику проведения мозговых штурмов, &laquo;включаем коллективный разум&raquo;.
+                  </p>
+                  <h5 class="card-title">Мастер-класс &laquo;Анализ ограничений, определение ключевых проблем&raquo;.</h5>
+                  <p class="card-text">
+                    <strong>Шаблоны:</strong>
+                    <ul>
+                      <li>Методика проведения мозгового штурма.</li>
+                      <li>Чек-лист по&nbsp;проблемам компании.</li>
+                      <li>Методика построения карты проблемной области.</li>
+                    </ul>
+                  </p>
+                  <h5 class="card-title">Практическая задача для команды:</h5>
+                  <p class="card-text">
+                    Провести мозговой штурм и&nbsp;разработать карту проблемной области компании.
+                  </p>
+                  <h5 class="card-title">Разбор результатов с&nbsp;наставником:</h5>
+                  <p class="card-text">
+                    Исправление ошибок, дополнение карты проблем, внесение уточнений.
+                  </p>
+                  <h5 class="card-title">Результат:</h5>
+                  <p class="card-text">
+                    Наглядное описание проблемной области, в&nbsp;которой находится компания, ясное понимание ключевых проблем и&nbsp;последовательности их&nbsp;решения.
+                  </p>
+                </div>
+              </div>
+            </div>
             <div class="tab-pane fade" id="second" role="tabpanel" aria-labelledby="second-tab">2</div>
             <div class="tab-pane fade" id="third" role="tabpanel" aria-labelledby="third-tab">3</div>
           </div>
