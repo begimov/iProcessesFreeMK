@@ -78,6 +78,9 @@
             <li class="nav-item">
               <a class="nav-link" id="fourth-tab" data-toggle="tab" href="#fourth" role="tab" aria-controls="fourth" aria-selected="false">12&nbsp;марта</a>
             </li>
+            <li class="nav-item">
+              <a class="nav-link" id="fifth-tab" data-toggle="tab" href="#fifth" role="tab" aria-controls="fifth" aria-selected="false">19&nbsp;марта</a>
+            </li>
           </ul>
           <div class="tab-content" id="myTabContent">
             <div class="tab-pane fade show active" id="first" role="tabpanel" aria-labelledby="first-tab">
@@ -199,6 +202,36 @@
                   <p class="card-text">
                     Матрица ответственности, четко определяющая области ответственности руководителей подразделений и&nbsp;ключевых специалистов в&nbsp;бизнес-процессах компании.<br>
                     План проведения изменений в&nbsp;организационной структуре компании.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="tab-pane fade" id="fifth" role="tabpanel" aria-labelledby="fifth-tab">
+              <div class="card">
+                <h5 class="card-header">Организуем целевое управление</h5>
+                <div class="card-body">
+                  <p class="card-text">
+                    Разрабатываем систему целевых показателей, направляющих действия сотрудников на&nbsp;достижение целей компании.
+                  </p>
+                  <h5 class="card-title">Мастер-класс: &laquo;Разработка и&nbsp;внедрение системы показателей KPI&raquo;</h5>
+                  <p class="card-text">
+                    <strong>Шаблоны:</strong>
+                    <ul>
+                      <li>Шаблон спецификации бизнес-процесса, включающей цели и&nbsp;показатели процессов.</li>
+                      <li>Шаблон должностных обязанностей и&nbsp;KPI сотрудников.</li>
+                    </ul>
+                  </p>
+                  <h5 class="card-title">Практическая задача для команды:</h5>
+                  <p class="card-text">
+                    Разработать по&nbsp;методике iTeam систему показателей KPI.
+                  </p>
+                  <h5 class="card-title">Разбор результатов с&nbsp;наставником:</h5>
+                  <p class="card-text">
+                    Анализ системы KPI, разбор сложных вопросов, внесение корректировок и&nbsp;дополнений.
+                  </p>
+                  <h5 class="card-title">Результат:</h5>
+                  <p class="card-text">
+                    Система показателей KPI для определенной должностной позиции.
                   </p>
                 </div>
               </div>
