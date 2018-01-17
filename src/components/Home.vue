@@ -183,4 +183,7 @@
 .last-row {
   margin-bottom: 50px;
 }
+h2 {
+  margin-bottom: 20px;
+}
 </style>
