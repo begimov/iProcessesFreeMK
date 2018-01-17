@@ -426,7 +426,7 @@
       </div>
       <div class="row last-row text-center">
         <div class="col">
-          <p><a href="№" class="btn btn-danger">ПОДРОБНЕЕ</a></p>
+          <p><a href="#" class="btn btn-danger">ПОДРОБНЕЕ</a></p>
         </div>
       </div>
 
