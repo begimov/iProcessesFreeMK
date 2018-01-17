@@ -343,16 +343,17 @@
       <div class="row last-row">
         <div class="col">
           <div class="card">
-            <h3 class="card-header">Видимые улучшения в управляемости компанией за два месяца</h3>
+            <h3 class="card-header">Видимые улучшения в&nbsp;управляемости компанией за&nbsp;два месяца</h3>
             <div class="card-body">
               <div class="row">
                 <div class="col-md-3"></div>
                 <div class="col-md-9">
                   <p class="card-text">
                     <ul>
-                      <li>Слабые места компании найдены</li>
-                      <li>...</li>
-                      <li>...</li>
+                      <li>Слабые места компании <span class="text-danger">найдены</span></li>
+                      <li>Рычаги для внедрения изменений <span class="text-danger">определены</span></li>
+                      <li>Дорожная карта изменения <span class="text-danger">создана</span></li>
+                      <li>Ваша управленческая команда <span class="text-danger">эффективна</span></li>
                     </ul>
                   </p>
                 </div>
