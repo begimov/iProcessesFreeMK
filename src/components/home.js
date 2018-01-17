@@ -1,16 +1,18 @@
 import Payment from '@/components/base/Payment.vue'
+import VueWordCloud from 'vuewordcloud'
 
 export default {
     name: 'Home',
     components: {
-        Payment
+        Payment,
+        [VueWordCloud.name]: VueWordCloud
     },
     data() {
         return {
-            msg: 'Welcome to Your Vue.js App'
+            //
         }
     },
     mounted() {
-        console.log('Home mounted 2')
+        //
     }
 }
