@@ -25,6 +25,11 @@ export default {
             ],
         }
     },
+    methods: {
+        onWordMouseOver(word) {
+            console.log(word)
+        }
+    },
     mounted() {
         //
     }

@@ -21,13 +21,18 @@
         </div>
       </div>
       <div class="row last-row">
-        <div class="col" style="height: 200px;">
+        <div class="col" style="height: 150px;">
           <vue-word-cloud 
             :words="words"
             :rotation="0"
             :font-size-ratio="5"
             :color="([, weight]) => weight > 500 ? '#333' : '#333'"
           >
+            <template slot-scope="{text, weight, originalWord}">
+              <div style="" @mouseover="onWordMouseOver(originalWord)">
+                {{ text }}
+              </div>
+            </template>
           </vue-word-cloud>
         </div>
       </div>
