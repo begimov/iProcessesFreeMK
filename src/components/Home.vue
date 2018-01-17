@@ -2,8 +2,15 @@
   <div>
     <div class="jumbotron jumbotron-fluid">
       <div class="container">
-        <h1 class="display-4">Бизнес как система</h1>
+        <div class="row">
+          <div class="col">2&nbsp;МЕСЯЦА</div>
+          <div class="col text-center">ОНЛАЙН</div>
+          <div class="col text-right">БЕСПЛАТНО</div>
+        </div>
+        <h1 class="display-1">БИЗНЕС КАК СИСТЕМА</h1>
         <p class="lead">практический онлайн-марафон</p>
+        <p>12&nbsp;февраля&nbsp;&mdash; 18&nbsp;апреля</p>
+        <a href="#" class="btn btn-dark">ПОДРОБНЕЕ</a>
       </div>
     </div>
     <div class="container">
