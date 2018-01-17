@@ -34,8 +34,9 @@ export default {
     },
     methods: {
         buy() {
-            this.modal.orderid = Date.now()
-            this.payment.WMI_PAYMENT_NO = 'NA=' + this.modal.email + '=' + this.modal.campaign_token + '=' + this.modal.orderid
+            const orderId = 'NA=' + this.modal.email + '=' + this.modal.campaign_token
+            this.modal.orderid = orderId
+            this.payment.WMI_PAYMENT_NO = orderId
             const payload = {
                 ...this.payment,
                 ...this.modal
@@ -49,9 +50,9 @@ export default {
             }).then((response) => {
                 if (response.data.status === 'ok') {
                     this.payment.WMI_SIGNATURE = response.data.WMI_SIGNATURE
-                    // this.$nextTick(() => {
-                    //     document.getElementById('paymentForm').submit()
-                    // })
+                    this.$nextTick(() => {
+                        document.getElementById('paymentForm').submit()
+                    })
                 } else if (response.data.status === 'error') {
                     this.error = response.data.msg
                 }
