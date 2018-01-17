@@ -81,6 +81,9 @@
             <li class="nav-item">
               <a class="nav-link" id="fifth-tab" data-toggle="tab" href="#fifth" role="tab" aria-controls="fifth" aria-selected="false">19&nbsp;марта</a>
             </li>
+            <li class="nav-item">
+              <a class="nav-link" id="sixth-tab" data-toggle="tab" href="#sixth" role="tab" aria-controls="sixth" aria-selected="false">2&nbsp;апреля</a>
+            </li>
           </ul>
           <div class="tab-content" id="myTabContent">
             <div class="tab-pane fade show active" id="first" role="tabpanel" aria-labelledby="first-tab">
@@ -232,6 +235,36 @@
                   <h5 class="card-title">Результат:</h5>
                   <p class="card-text">
                     Система показателей KPI для определенной должностной позиции.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="tab-pane fade" id="sixth" role="tabpanel" aria-labelledby="sixth-tab">
+              <div class="card">
+                <h5 class="card-header">Преобразуем корпоративную культуру</h5>
+                <div class="card-body">
+                  <p class="card-text">
+                    Определяем, какие негативные ценности ограничивают результативность и&nbsp;эффективность компании. Разрабатываем меры культивирования позитивных ценностей.
+                  </p>
+                  <h5 class="card-title">Мастер-класс: &laquo;Трансформация корпоративной культуры&raquo;</h5>
+                  <p class="card-text">
+                    <strong>Шаблоны:</strong>
+                    <ul>
+                      <li>Чек-лист корпоративных ценностей.</li>
+                      <li>Шаблон оценки корпоративных ценностей.</li>
+                    </ul>
+                  </p>
+                  <h5 class="card-title">Практическая задача для команды:</h5>
+                  <p class="card-text">
+                    Провести исследование корпоративных ценностей, определить негативные ценности, разработать план преобразования корпоративных ценностей.
+                  </p>
+                  <h5 class="card-title">Разбор результатов с&nbsp;наставником:</h5>
+                  <p class="card-text">
+                    Анализ корпоративных ценностей, разбор сложных вопросов, внесение корректировок и&nbsp;дополнений в&nbsp;план мероприятий.
+                  </p>
+                  <h5 class="card-title">Результат:</h5>
+                  <p class="card-text">
+                    Результаты оценки корпоративной культуры и&nbsp;план преобразования корпоративных ценностей.
                   </p>
                 </div>
               </div>
