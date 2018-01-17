@@ -70,7 +70,7 @@
               <a class="nav-link active" id="first-tab" data-toggle="tab" href="#first" role="tab" aria-controls="first" aria-selected="true">12&nbsp;февраля</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" id="second-tab" data-toggle="tab" href="#second" role="tab" aria-controls="second" aria-selected="false">24 февраля</a>
+              <a class="nav-link" id="second-tab" data-toggle="tab" href="#second" role="tab" aria-controls="second" aria-selected="false">26&nbsp;февраля</a>
             </li>
             <li class="nav-item">
               <a class="nav-link" id="third-tab" data-toggle="tab" href="#third" role="tab" aria-controls="conthirdtact" aria-selected="false">5 марта</a>
@@ -84,7 +84,7 @@
                   <p class="card-text">
                     Овладеваем методикой исследования проблем, с&nbsp;которыми сталкивается компания. Осваиваем практику проведения мозговых штурмов, &laquo;включаем коллективный разум&raquo;.
                   </p>
-                  <h5 class="card-title">Мастер-класс &laquo;Анализ ограничений, определение ключевых проблем&raquo;.</h5>
+                  <h5 class="card-title">Мастер-класс: &laquo;Анализ ограничений, определение ключевых проблем&raquo;.</h5>
                   <p class="card-text">
                     <strong>Шаблоны:</strong>
                     <ul>
@@ -108,7 +108,36 @@
                 </div>
               </div>
             </div>
-            <div class="tab-pane fade" id="second" role="tabpanel" aria-labelledby="second-tab">2</div>
+            <div class="tab-pane fade" id="second" role="tabpanel" aria-labelledby="second-tab">
+              <div class="card">
+                <h5 class="card-header">Определяем стратегию компании</h5>
+                <div class="card-body">
+                  <p class="card-text">
+                    Находим ответ на&nbsp;главный вопрос стратегии: &laquo;Что необходимо предпринять для построения устойчивых конкурентных преимуществ&raquo;?
+                  </p>
+                  <h5 class="card-title">Мастер-класс: &laquo;Разработка стратегии развития конкурентных преимуществ компании&raquo;</h5>
+                  <p class="card-text">
+                    <strong>Шаблоны:</strong>
+                    <ul>
+                      <li>Чек-лист определения главной стратегической проблемы компании.</li>
+                      <li>Шаблон плана развития конкурентных преимуществ.</li>
+                    </ul>
+                  </p>
+                  <h5 class="card-title">Практическая задача для команды:</h5>
+                  <p class="card-text">
+                    Определить главную стратегическую проблему компании и&nbsp;разработать план ее&nbsp;преодоления, обеспечивающий достижение принципиально нового уровня конкурентоспособности компании.
+                  </p>
+                  <h5 class="card-title">Разбор результатов с&nbsp;наставником:</h5>
+                  <p class="card-text">
+                    Анализ стратегических решений, разработанных управленческой командой, разбор сложных вопросов, внесение корректировок и&nbsp;уточнений в&nbsp;план компании.
+                  </p>
+                  <h5 class="card-title">Результат:</h5>
+                  <p class="card-text">
+                    Стратегический план развития компании, обеспечивающий ей&nbsp;превосходство над конкурентами на&nbsp;целевых рынках.
+                  </p>
+                </div>
+              </div>
+            </div>
             <div class="tab-pane fade" id="third" role="tabpanel" aria-labelledby="third-tab">3</div>
           </div>
         </div>
