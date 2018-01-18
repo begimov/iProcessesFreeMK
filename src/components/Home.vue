@@ -452,7 +452,12 @@
       </div>
       <div class="row last-row text-center">
         <div class="col">
-          <p><a href="#" class="btn btn-danger">ПОДРОБНЕЕ</a></p>
+          <p><a class="btn btn-danger" data-toggle="collapse" href="#collapseExample" role="button" aria-expanded="false" aria-controls="collapseExample">ПОДРОБНЕЕ</a></p>
+          <div class="collapse" id="collapseExample">
+            <div class="card card-body">
+              Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident.
+            </div>
+          </div>
         </div>
       </div>
 
