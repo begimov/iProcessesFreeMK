@@ -102,7 +102,9 @@
               <div class="card">
                 <h5 class="card-header bg-dark text-light">Выявляем ограничения, препятствующие развитию компании</h5>
                 <div class="card-body">
-                  <Ytplayer/>
+                  <Ytplayer
+                    video-id="UCX_HvBLPU8"
+                  />
                   <p class="card-text">
                     Овладеваем методикой исследования проблем, с&nbsp;которыми сталкивается компания. Осваиваем практику проведения мозговых штурмов, &laquo;включаем коллективный разум&raquo;.
                   </p>

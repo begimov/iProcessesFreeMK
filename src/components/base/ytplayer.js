@@ -5,11 +5,16 @@ export default {
     ],
     data() {
         return {
-            videoUrl: 'https://www.youtube.com/embed/UCX_HvBLPU8'
+            videoUrl: ''
         }
     },
     methods: {
-        //
+        onPlay() {
+            this.videoUrl = 'https://www.youtube.com/embed/' + this.videoId
+        },
+        onClose() {
+            this.videoUrl = ''
+        }
     },
     mounted() {
         //
