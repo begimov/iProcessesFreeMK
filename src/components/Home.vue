@@ -1,5 +1,6 @@
 <template>
   <div>
+
     <div class="jumbotron jumbotron-fluid text-white">
       <div class="container">
         <div class="row">
@@ -13,10 +14,10 @@
         <!-- <a href="#" class="btn btn-primary">ПОДРОБНЕЕ</a> -->
       </div>
     </div>
-    <div class="container">
 
+    <div class="container">
       <div class="row">
-        <div class="col">
+        <div class="col text-center">
           <h2>Вам знакомы эти проблемы?</h2>
         </div>
       </div>
@@ -36,31 +37,37 @@
           </vue-word-cloud>
         </div>
       </div>
+    </div>
 
-      <div class="row">
-        <div class="col text-center">
-          <h2>Изменения начинаются здесь</h2>
+    <div class="container-fluid bg-dark text-light">
+      <div class="container">
+        <div class="row">
+          <div class="col text-center">
+            <h2>Изменения начинаются здесь</h2>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-sm-6">
+            <p>
+              <ul>
+              <li>2&nbsp;месяца, 8&nbsp;мастер-классов</li>
+              <li>обучающие материалы в&nbsp;комплекте</li>
+              </ul>
+            </p>
+          </div>
+          <div class="col-sm-6">
+            <p>
+              <ul>
+                <li>сопровождение консультанта-наставника</li>
+                <li>проекты документов и&nbsp;регламентов</li>
+              </ul>
+            </p>
+          </div>
         </div>
       </div>
-      <div class="row last-row">
-        <div class="col-sm-6">
-          <p>
-            <ul>
-            <li>2&nbsp;месяца, 8&nbsp;мастер-классов</li>
-            <li>обучающие материалы в&nbsp;комплекте</li>
-            </ul>
-          </p>
-        </div>
-        <div class="col-sm-6">
-          <p>
-            <ul>
-              <li>сопровождение консультанта-наставника</li>
-              <li>проекты документов и&nbsp;регламентов</li>
-            </ul>
-          </p>
-        </div>
-      </div>
+    </div>
 
+    <div class="container">
       <div class="row last-row">
         <div class="col">
           <ul class="nav nav-tabs" id="myTab" role="tablist">
@@ -444,5 +451,9 @@ h2 {
 .jumbotron {
   background-image: url("../assets/bg.jpg");
   background-size: cover;
+}
+.container-fluid {
+  padding: 20px 10px;
+  margin-bottom: 50px;
 }
 </style>
