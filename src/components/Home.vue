@@ -374,7 +374,26 @@
         </div>
       </div>
       <div class="row last-row text-center">
-        <div class="col">
+        <div class="col-sm-6">
+          <div class="card">
+            <div class="card-header">
+              Featured
+            </div>
+            <div class="card-body">
+              <p class="card-text">
+                условия и тарифы
+              </p>
+              <Payment
+                WMI_PAYMENT_AMOUNT="1"
+                WMI_DESCRIPTION="iTeam"
+                WMI_SUCCESS_URL="https://iteam.ru/promo/marafon"
+                WMI_FAIL_URL="https://iteam.ru/promo/marafon"
+                campaign_token="nIGYh"
+              />
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-6">
           <div class="card">
             <div class="card-body">
               <p class="card-text">
