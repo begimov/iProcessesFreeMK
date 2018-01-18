@@ -368,7 +368,7 @@
         </div>
       </div>
       <div class="row last-row text-center">
-        <div class="col-sm-6">
+        <div class="col-md-6">
           <div class="card">
             <div class="card-header bg-dark text-light">
               <span class="lead">Название продукта</span>
@@ -384,7 +384,7 @@
             </div>
           </div>
         </div>
-        <div class="col-sm-6">
+        <div class="col-md-6">
           <div class="card">
             <div class="card-header bg-danger text-light">
               <span class="lead">Название продукта</span>
