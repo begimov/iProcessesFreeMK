@@ -99,7 +99,7 @@
           <div class="tab-content" id="myTabContent">
             <div class="tab-pane fade show active" id="first" role="tabpanel" aria-labelledby="first-tab">
               <div class="card">
-                <h5 class="card-header">Выявляем ограничения, препятствующие развитию компании</h5>
+                <h5 class="card-header bg-dark text-light">Выявляем ограничения, препятствующие развитию компании</h5>
                 <div class="card-body">
                   <p class="card-text">
                     Овладеваем методикой исследования проблем, с&nbsp;которыми сталкивается компания. Осваиваем практику проведения мозговых штурмов, &laquo;включаем коллективный разум&raquo;.
@@ -130,7 +130,7 @@
             </div>
             <div class="tab-pane fade" id="second" role="tabpanel" aria-labelledby="second-tab">
               <div class="card">
-                <h5 class="card-header">Определяем стратегию компании</h5>
+                <h5 class="card-header bg-dark text-light">Определяем стратегию компании</h5>
                 <div class="card-body">
                   <p class="card-text">
                     Находим ответ на&nbsp;главный вопрос стратегии: &laquo;Что необходимо предпринять для построения устойчивых конкурентных преимуществ&raquo;?
@@ -160,7 +160,7 @@
             </div>
             <div class="tab-pane fade" id="third" role="tabpanel" aria-labelledby="third-tab">
               <div class="card">
-                <h5 class="card-header">Реформируем бизнес-процессы</h5>
+                <h5 class="card-header bg-dark text-light">Реформируем бизнес-процессы</h5>
                 <div class="card-body">
                   <p class="card-text">
                     Находим и&nbsp;укрепляем &laquo;слабое звено&raquo; в&nbsp;цепи бизнес-процессов компании. Слабым звеном могут быть продажи, доставка товаров, разработка новых продуктов или другие процессы компании. Мы&nbsp;находим такие процессы и&nbsp;делаем их&nbsp;более результативными и&nbsp;эффективными.
@@ -190,7 +190,7 @@
             </div>
             <div class="tab-pane fade" id="fourth" role="tabpanel" aria-labelledby="fourth-tab">
               <div class="card">
-                <h5 class="card-header">Корректируем организационную структуру</h5>
+                <h5 class="card-header bg-dark text-light">Корректируем организационную структуру</h5>
                 <div class="card-body">
                   <p class="card-text">
                     Проводим анализ действующей организационной структуры, выявляем слабые места и&nbsp;разрабатываем усовершенствованную структуру управления компанией.
@@ -222,7 +222,7 @@
             </div>
             <div class="tab-pane fade" id="fifth" role="tabpanel" aria-labelledby="fifth-tab">
               <div class="card">
-                <h5 class="card-header">Организуем целевое управление</h5>
+                <h5 class="card-header bg-dark text-light">Организуем целевое управление</h5>
                 <div class="card-body">
                   <p class="card-text">
                     Разрабатываем систему целевых показателей, направляющих действия сотрудников на&nbsp;достижение целей компании.
@@ -252,7 +252,7 @@
             </div>
             <div class="tab-pane fade" id="sixth" role="tabpanel" aria-labelledby="sixth-tab">
               <div class="card">
-                <h5 class="card-header">Преобразуем корпоративную культуру</h5>
+                <h5 class="card-header bg-dark text-light">Преобразуем корпоративную культуру</h5>
                 <div class="card-body">
                   <p class="card-text">
                     Определяем, какие негативные ценности ограничивают результативность и&nbsp;эффективность компании. Разрабатываем меры культивирования позитивных ценностей.
@@ -282,7 +282,7 @@
             </div>
             <div class="tab-pane fade" id="seventh" role="tabpanel" aria-labelledby="seventh-tab">
               <div class="card">
-                <h5 class="card-header">Формируем управленческую команду</h5>
+                <h5 class="card-header bg-dark text-light">Формируем управленческую команду</h5>
                 <div class="card-body">
                   <p class="card-text">
                     Создаем механизмы эффективной работы управленческой команды. Внедряем практики, повышающие производительность и&nbsp;результативность коллективной работы управленцев.
@@ -312,7 +312,7 @@
             </div>
             <div class="tab-pane fade" id="eighth" role="tabpanel" aria-labelledby="eighth-tab">
               <div class="card">
-                <h5 class="card-header">Вырабатываем план проведения изменений</h5>
+                <h5 class="card-header bg-dark text-light">Вырабатываем план проведения изменений</h5>
                 <div class="card-body">
                   <p class="card-text">
                     Подводим итоги работы, проделанной в&nbsp;ходе Марафона и&nbsp;формируем комплексный план проведения изменений, направленных на&nbsp;улучшение управляемости и&nbsp;повышение эффективности компании.
