@@ -1,13 +1,13 @@
 <template>
   <div>
-    <div class="jumbotron jumbotron-fluid">
+    <div class="jumbotron jumbotron-fluid text-white">
       <div class="container">
         <div class="row">
-          <div class="col">2&nbsp;МЕСЯЦА</div>
-          <div class="col text-center">ОНЛАЙН</div>
-          <div class="col text-right">БЕСПЛАТНО</div>
+          <div class="col"><span class="badge badge-primary">2&nbsp;МЕСЯЦА</span></div>
+          <div class="col text-center"><span class="badge badge-primary">ОНЛАЙН</span></div>
+          <div class="col text-right"><span class="badge badge-primary">БЕСПЛАТНО</span></div>
         </div>
-        <h1 class="display-3">БИЗНЕС КАК СИСТЕМА</h1>
+        <h1 class="display-3"><strong>БИЗНЕС КАК СИСТЕМА</strong></h1>
         <p class="lead">практический онлайн-марафон</p>
         <p>12&nbsp;февраля&nbsp;&mdash; 18&nbsp;апреля</p>
         <a href="#" class="btn btn-dark">ПОДРОБНЕЕ</a>
@@ -440,5 +440,9 @@
 }
 h2 {
   margin-bottom: 20px;
+}
+.jumbotron {
+  background-image: url("../assets/bg.jpg");
+  background-size: cover;
 }
 </style>
