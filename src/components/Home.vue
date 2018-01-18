@@ -450,12 +450,22 @@
           <h2>Дополнительно&nbsp;&mdash; конференция в&nbsp;Анапе для участников!</h2>
         </div>
       </div>
-      <div class="row last-row text-center">
+      <div class="row last-row">
         <div class="col">
-          <p><a class="btn btn-danger" data-toggle="collapse" href="#collapseExample" role="button" aria-expanded="false" aria-controls="collapseExample">ПОДРОБНЕЕ</a></p>
+          <p class="text-center"><a class="btn btn-danger" data-toggle="collapse" href="#collapseExample" role="button" aria-expanded="false" aria-controls="collapseExample">ПОДРОБНЕЕ</a></p>
           <div class="collapse" id="collapseExample">
             <div class="card card-body">
-              Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident.
+              <h5 class="card-title">Для участников онлайн Марафона проводится Мастерская управления Русский Менеджмент 26-29 апреля в&nbsp;г. Анапа.</h5>
+              <h6>В&nbsp;программе Мастерской управления:</h6>
+              <ul>
+                <li>Жесткие разборы управленческих команд, выявление слабых мест в&nbsp;ведении дел и&nbsp;выработка решений по&nbsp;совершенствованию.</li>
+                <li>Анализ стратегий участников. Выработка сильных стратегических решений.</li>
+                <li>Изучение практики совершенствования бизнес-процессов, анализ ошибок. Отработка эффективных методов управления процессами.</li>
+                <li>Опыт преобразования корпоративной культуры, изучение успешных подходов к культивированию позитивных ценностей.</li>
+                <li>Практика построения эффективных управленческих команд. Отработка методов коллективной работы.</li>
+              </ul>
+              <p>Участники Мастерской в&nbsp;ходе интенсивной 4-дневной работы закрепят навыки системного управления, полученные в&nbsp;ходе Марафона.</p>
+              <p>Мастерская запустит необратимый процесс изменений, ведущих к&nbsp;улучшению управляемости и&nbsp;повышению эффективности компаний.</p>
             </div>
           </div>
         </div>
