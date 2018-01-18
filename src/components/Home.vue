@@ -136,6 +136,9 @@
               <div class="card">
                 <h5 class="card-header bg-dark text-light">Определяем стратегию компании</h5>
                 <div class="card-body">
+                  <Ytplayer
+                    video-id="maVTzY3FOFA"
+                  />
                   <p class="card-text">
                     Находим ответ на&nbsp;главный вопрос стратегии: &laquo;Что необходимо предпринять для построения устойчивых конкурентных преимуществ&raquo;?
                   </p>
