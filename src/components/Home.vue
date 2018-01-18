@@ -40,7 +40,7 @@
       </div>
     </div>
 
-    <div class="container-fluid bg-dark text-light">
+    <div class="container-fluid bg-dark text-light changes-block">
       <div class="container">
         <div class="row">
           <div class="col text-center">
@@ -506,5 +506,9 @@ h2 {
 .container-fluid {
   padding: 20px 10px;
   margin-bottom: 50px;
+}
+.changes-block {
+  background-image: url("../assets/bg_block_01.jpg");
+  background-size: cover;
 }
 </style>
