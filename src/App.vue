@@ -1,11 +1,11 @@
 <template>
   <div id="app">
     <router-view/>
-    <div class="container-fluid border border-right-0 border-left-0 border-bottom-0 border-light">
+    <div class="container-fluid bg-dark text-light">
       <div class="row ifooter">
         <div class="col-md-4">
           <a href="https://iteam.ru/" target="_blank">
-            <img src="https://iteam.ru/landing/template/img/logo.png">
+            <img src="./assets/logo.png" width="100">
           </a><br><br>
           <p>&copy;&nbsp;2002&nbsp;&mdash; 2017 iTeam<br>Москва, Пресненская наб.&nbsp;12</p>
         </div>
