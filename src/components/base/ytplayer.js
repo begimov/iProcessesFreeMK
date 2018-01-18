@@ -5,8 +5,7 @@ export default {
     ],
     data() {
         return {
-            error: '',
-            isLoading: false
+            videoUrl: 'https://www.youtube.com/embed/UCX_HvBLPU8'
         }
     },
     methods: {

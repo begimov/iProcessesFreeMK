@@ -14,7 +14,7 @@
           <div class="modal-body">
             <div class="row">
               <div class="col">
-                  <iframe width="100%" height="315" src="https://www.youtube.com/embed/UCX_HvBLPU8" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+                  <iframe width="100%" height="315" :src="videoUrl" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
               </div>
             </div>
           </div>

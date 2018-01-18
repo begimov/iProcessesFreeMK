@@ -1,10 +1,12 @@
 import Payment from '@/components/base/Payment.vue'
+import Ytplayer from '@/components/base/Ytplayer.vue'
 import VueWordCloud from 'vuewordcloud'
 
 export default {
     name: 'Home',
     components: {
         Payment,
+        Ytplayer,
         [VueWordCloud.name]: VueWordCloud
     },
     data() {
