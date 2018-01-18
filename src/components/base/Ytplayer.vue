@@ -1,6 +1,6 @@
 <template>
   <div>
-    <button type="button" class="btn btn-danger btn-lg" data-toggle="modal" data-backdrop="static" data-target="#set1" @click.prevent="onPlay">КУПИТЬ</button>        
+    <button type="button" class="btn btn-dark btn-lg play-video-btn" data-toggle="modal" data-backdrop="static" data-target="#set1" @click.prevent="onOpen">Посмотреть видео</button>        
     <!-- Modal -->
     <div class="modal fade" id="set1" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
       <div class="modal-dialog" role="document">
@@ -15,7 +15,7 @@
             </div>
             <div class="row">
               <div class="col">
-                  <iframe width="100%" height="315" :src="videoUrl" frameborder="0" allow="encrypted-media" allowfullscreen></iframe>
+                  <iframe width="100%" height="300" :src="videoUrl" frameborder="0" allow="encrypted-media" allowfullscreen></iframe>
               </div>
             </div>
           </div>
@@ -28,4 +28,10 @@
 <script src="./ytplayer.js"></script>
 
 <style scoped>
+.close {
+  margin-bottom: 20px;
+}
+.play-video-btn {
+  margin-bottom: 20px;
+}
 </style>

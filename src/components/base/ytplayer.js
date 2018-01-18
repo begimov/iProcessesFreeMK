@@ -9,7 +9,7 @@ export default {
         }
     },
     methods: {
-        onPlay() {
+        onOpen() {
             this.videoUrl = 'https://www.youtube.com/embed/' + this.videoId
         },
         onClose() {
