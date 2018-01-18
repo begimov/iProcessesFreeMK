@@ -354,10 +354,10 @@
       <div class="row last-row">
         <div class="col-md-8 offset-md-2">
           <ul class="list-group">
-            <li class="list-group-item">Слабые места компании <span class="text-danger">найдены</span></li>
-            <li class="list-group-item">Рычаги для внедрения изменений <span class="text-danger">определены</span></li>
-            <li class="list-group-item">Дорожная карта изменения <span class="text-danger">создана</span></li>
-            <li class="list-group-item">Ваша управленческая команда <span class="text-danger">эффективна</span></li>
+            <li class="list-group-item"><img src="../assets/check.svg">&nbsp;Слабые места компании <span class="text-danger">найдены</span></li>
+            <li class="list-group-item"><img src="../assets/check.svg">&nbsp;Рычаги для внедрения изменений <span class="text-danger">определены</span></li>
+            <li class="list-group-item"><img src="../assets/check.svg">&nbsp;Дорожная карта изменения <span class="text-danger">создана</span></li>
+            <li class="list-group-item"><img src="../assets/check.svg">&nbsp;Ваша управленческая команда <span class="text-danger">эффективна</span></li>
           </ul>
         </div>
       </div>
