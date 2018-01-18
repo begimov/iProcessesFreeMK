@@ -345,26 +345,19 @@
         </div>
       </div>
 
-      <div class="row last-row">
+      <div class="row text-center">
         <div class="col">
-          <div class="card">
-            <h3 class="card-header">Видимые улучшения в&nbsp;управляемости компанией за&nbsp;два месяца</h3>
-            <div class="card-body">
-              <div class="row">
-                <div class="col-md-3"></div>
-                <div class="col-md-9">
-                  <p class="card-text">
-                    <ul>
-                      <li>Слабые места компании <span class="text-danger">найдены</span></li>
-                      <li>Рычаги для внедрения изменений <span class="text-danger">определены</span></li>
-                      <li>Дорожная карта изменения <span class="text-danger">создана</span></li>
-                      <li>Ваша управленческая команда <span class="text-danger">эффективна</span></li>
-                    </ul>
-                  </p>
-                </div>
-              </div>
-            </div>
-          </div>
+          <h2>Видимые улучшения в&nbsp;управляемости компанией за&nbsp;два месяца</h2>
+        </div>
+      </div>
+      <div class="row last-row">
+        <div class="col-md-8 offset-md-2">
+          <ul class="list-group">
+            <li class="list-group-item">Слабые места компании <span class="text-danger">найдены</span></li>
+            <li class="list-group-item">Рычаги для внедрения изменений <span class="text-danger">определены</span></li>
+            <li class="list-group-item">Дорожная карта изменения <span class="text-danger">создана</span></li>
+            <li class="list-group-item">Ваша управленческая команда <span class="text-danger">эффективна</span></li>
+          </ul>
         </div>
       </div>
 
