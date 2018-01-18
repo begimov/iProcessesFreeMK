@@ -3,6 +3,7 @@
 
     <div class="jumbotron jumbotron-fluid text-white">
       <div class="container">
+        <p><img src="../assets/logo.png" width="100"></p>
         <div class="row">
           <div class="col"><span class="badge badge-primary">2&nbsp;МЕСЯЦА</span></div>
           <div class="col text-center"><span class="badge badge-primary">ОНЛАЙН</span></div>
