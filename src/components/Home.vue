@@ -102,9 +102,6 @@
               <div class="card">
                 <h5 class="card-header bg-dark text-light">Выявляем ограничения, препятствующие развитию компании</h5>
                 <div class="card-body">
-                  <Ytplayer
-                    video-id="UCX_HvBLPU8"
-                  />
                   <p class="card-text">
                     Овладеваем методикой исследования проблем, с&nbsp;которыми сталкивается компания. Осваиваем практику проведения мозговых штурмов, &laquo;включаем коллективный разум&raquo;.
                   </p>
@@ -136,9 +133,6 @@
               <div class="card">
                 <h5 class="card-header bg-dark text-light">Определяем стратегию компании</h5>
                 <div class="card-body">
-                  <Ytplayer
-                    video-id="maVTzY3FOFA"
-                  />
                   <p class="card-text">
                     Находим ответ на&nbsp;главный вопрос стратегии: &laquo;Что необходимо предпринять для построения устойчивых конкурентных преимуществ&raquo;?
                   </p>
@@ -169,6 +163,9 @@
               <div class="card">
                 <h5 class="card-header bg-dark text-light">Реформируем бизнес-процессы</h5>
                 <div class="card-body">
+                  <Ytplayer
+                    video-id="6FMFXxJfqmA"
+                  />
                   <p class="card-text">
                     Находим и&nbsp;укрепляем &laquo;слабое звено&raquo; в&nbsp;цепи бизнес-процессов компании. Слабым звеном могут быть продажи, доставка товаров, разработка новых продуктов или другие процессы компании. Мы&nbsp;находим такие процессы и&nbsp;делаем их&nbsp;более результативными и&nbsp;эффективными.
                   </p>
@@ -199,6 +196,9 @@
               <div class="card">
                 <h5 class="card-header bg-dark text-light">Корректируем организационную структуру</h5>
                 <div class="card-body">
+                  <Ytplayer
+                    video-id="QSfnavYnR-4"
+                  />
                   <p class="card-text">
                     Проводим анализ действующей организационной структуры, выявляем слабые места и&nbsp;разрабатываем усовершенствованную структуру управления компанией.
                   </p>
@@ -231,6 +231,9 @@
               <div class="card">
                 <h5 class="card-header bg-dark text-light">Организуем целевое управление</h5>
                 <div class="card-body">
+                  <Ytplayer
+                    video-id="poE8W-rLdnA"
+                  />
                   <p class="card-text">
                     Разрабатываем систему целевых показателей, направляющих действия сотрудников на&nbsp;достижение целей компании.
                   </p>
@@ -261,6 +264,9 @@
               <div class="card">
                 <h5 class="card-header bg-dark text-light">Преобразуем корпоративную культуру</h5>
                 <div class="card-body">
+                  <Ytplayer
+                    video-id="yH3Cagbp7Ko"
+                  />
                   <p class="card-text">
                     Определяем, какие негативные ценности ограничивают результативность и&nbsp;эффективность компании. Разрабатываем меры культивирования позитивных ценностей.
                   </p>
@@ -291,6 +297,9 @@
               <div class="card">
                 <h5 class="card-header bg-dark text-light">Формируем управленческую команду</h5>
                 <div class="card-body">
+                  <Ytplayer
+                    video-id="0mtr2Sl_bmc"
+                  />
                   <p class="card-text">
                     Создаем механизмы эффективной работы управленческой команды. Внедряем практики, повышающие производительность и&nbsp;результативность коллективной работы управленцев.
                   </p>
