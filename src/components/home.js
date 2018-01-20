@@ -1,5 +1,6 @@
 import Payment from '@/components/base/Payment.vue'
 import Ytplayer from '@/components/base/Ytplayer.vue'
+import Grform from '@/components/base/Grform.vue'
 import VueWordCloud from 'vuewordcloud'
 
 export default {
@@ -7,6 +8,7 @@ export default {
     components: {
         Payment,
         Ytplayer,
+        Grform,
         [VueWordCloud.name]: VueWordCloud
     },
     data() {

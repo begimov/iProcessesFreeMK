@@ -1,7 +1,7 @@
 import axios from 'axios'
 
 export default {
-    name: 'Payment',
+    name: 'Grform',
     props: [
         'campaign_token'
     ],

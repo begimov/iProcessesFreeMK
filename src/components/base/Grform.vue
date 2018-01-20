@@ -1,6 +1,6 @@
 <template>
   <div>
-    <button type="button" class="btn btn-danger btn-lg" data-toggle="modal" data-target="#set1">КУПИТЬ</button>
+    <button type="button" class="btn btn-danger btn-lg" data-toggle="modal" data-target="#set1">ЗАРЕГИСТРИРОВАТЬСЯ</button>
                 
     <!-- Modal -->
     <div class="modal fade" id="set1" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">

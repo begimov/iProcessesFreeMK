@@ -395,7 +395,7 @@
             </ul>
             <div class="card-body">
               <h2><span class="badge badge-dark">Бесплатно</span></h2>
-              <a href="#" class="btn btn-danger btn-lg">ЗАРЕГИСТРИРОВАТЬСЯ</a>
+              <Grform />
             </div>
           </div>
         </div>
