@@ -1,68 +1,74 @@
 <template>
   <div>
-    <div class="jumbotron jumbotron-fluid">
+
+    <div class="jumbotron jumbotron-fluid text-white">
       <div class="container">
+        <p><img src="../assets/logo.png" width="100"></p>
         <div class="row">
-          <div class="col">2&nbsp;МЕСЯЦА</div>
-          <div class="col text-center">ОНЛАЙН</div>
-          <div class="col text-right">БЕСПЛАТНО</div>
+          <div class="col"><span class="badge badge-primary">2&nbsp;МЕСЯЦА</span></div>
+          <div class="col text-center"><span class="badge badge-primary">ОНЛАЙН</span></div>
+          <div class="col text-right"><span class="badge badge-primary">БЕСПЛАТНО</span></div>
         </div>
-        <h1 class="display-3">БИЗНЕС КАК СИСТЕМА</h1>
+        <h1 class="display-3"><strong>БИЗНЕС КАК СИСТЕМА</strong></h1>
         <p class="lead">практический онлайн-марафон</p>
-        <p>12&nbsp;февраля&nbsp;&mdash; 18&nbsp;апреля</p>
-        <a href="#" class="btn btn-dark">ПОДРОБНЕЕ</a>
+        <p><span class="badge badge-light">12&nbsp;февраля&nbsp;&mdash; 18&nbsp;апреля</span></p>
+        <!-- <a href="#" class="btn btn-primary">ПОДРОБНЕЕ</a> -->
       </div>
     </div>
-    <div class="container">
 
+    <div class="container">
       <div class="row">
-        <div class="col">
+        <div class="col text-center">
           <h2>Вам знакомы эти проблемы?</h2>
         </div>
       </div>
       <div class="row last-row">
-        <div class="col">
-          <p>
-            Компания малоуправляема
-            Нечетко определены области ответственности
-            Много совещаний, низкая результативность
-            Решения не доводятся до результатов
-            Планы не выполняются
-            Рабочие процессы плохо организованы
-            Сотрудники не мотивированы работать на результат
-            Исполнители безответственны
-            Ухудшается качество продукции, услуг 
-            Утрачивается лояльность клиентов
-            Снижается прибыль
-            Развитие компании замедлено
-          </p>
+        <div class="col" style="height: 150px;">
+          <vue-word-cloud 
+            :words="words"
+            :rotation="0"
+            :font-size-ratio="5"
+            :color="([, weight]) => weight > 500 ? '#333' : '#333'"
+          >
+            <template slot-scope="{text, weight, originalWord}">
+              <div style="" @mouseover="onWordMouseOver(originalWord)">
+                {{ text }}
+              </div>
+            </template>
+          </vue-word-cloud>
         </div>
       </div>
+    </div>
 
-      <div class="row">
-        <div class="col text-center">
-          <h2>Изменения начинаются здесь</h2>
+    <div class="container-fluid bg-dark text-light changes-block">
+      <div class="container">
+        <div class="row">
+          <div class="col text-center">
+            <h2>Изменения начинаются здесь</h2>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-sm-6">
+            <p>
+              <ul>
+              <li>2&nbsp;месяца, 8&nbsp;мастер-классов</li>
+              <li>обучающие материалы в&nbsp;комплекте</li>
+              </ul>
+            </p>
+          </div>
+          <div class="col-sm-6">
+            <p>
+              <ul>
+                <li>сопровождение консультанта-наставника</li>
+                <li>проекты документов и&nbsp;регламентов</li>
+              </ul>
+            </p>
+          </div>
         </div>
       </div>
-      <div class="row last-row">
-        <div class="col-sm-6">
-          <p>
-            <ul>
-            <li>2&nbsp;месяца, 8&nbsp;мастер-классов</li>
-            <li>обучающие материалы в&nbsp;комплекте</li>
-            </ul>
-          </p>
-        </div>
-        <div class="col-sm-6">
-          <p>
-            <ul>
-              <li>сопровождение консультанта-наставника</li>
-              <li>проекты документов и&nbsp;регламентов</li>
-            </ul>
-          </p>
-        </div>
-      </div>
+    </div>
 
+    <div class="container">
       <div class="row last-row">
         <div class="col">
           <ul class="nav nav-tabs" id="myTab" role="tablist">
@@ -94,7 +100,7 @@
           <div class="tab-content" id="myTabContent">
             <div class="tab-pane fade show active" id="first" role="tabpanel" aria-labelledby="first-tab">
               <div class="card">
-                <h5 class="card-header">Выявляем ограничения, препятствующие развитию компании</h5>
+                <h5 class="card-header bg-dark text-light">Выявляем ограничения, препятствующие развитию компании</h5>
                 <div class="card-body">
                   <p class="card-text">
                     Овладеваем методикой исследования проблем, с&nbsp;которыми сталкивается компания. Осваиваем практику проведения мозговых штурмов, &laquo;включаем коллективный разум&raquo;.
@@ -125,7 +131,7 @@
             </div>
             <div class="tab-pane fade" id="second" role="tabpanel" aria-labelledby="second-tab">
               <div class="card">
-                <h5 class="card-header">Определяем стратегию компании</h5>
+                <h5 class="card-header bg-dark text-light">Определяем стратегию компании</h5>
                 <div class="card-body">
                   <p class="card-text">
                     Находим ответ на&nbsp;главный вопрос стратегии: &laquo;Что необходимо предпринять для построения устойчивых конкурентных преимуществ&raquo;?
@@ -155,8 +161,11 @@
             </div>
             <div class="tab-pane fade" id="third" role="tabpanel" aria-labelledby="third-tab">
               <div class="card">
-                <h5 class="card-header">Реформируем бизнес-процессы</h5>
+                <h5 class="card-header bg-dark text-light">Реформируем бизнес-процессы</h5>
                 <div class="card-body">
+                  <Ytplayer
+                    video-id="6FMFXxJfqmA"
+                  />
                   <p class="card-text">
                     Находим и&nbsp;укрепляем &laquo;слабое звено&raquo; в&nbsp;цепи бизнес-процессов компании. Слабым звеном могут быть продажи, доставка товаров, разработка новых продуктов или другие процессы компании. Мы&nbsp;находим такие процессы и&nbsp;делаем их&nbsp;более результативными и&nbsp;эффективными.
                   </p>
@@ -185,8 +194,11 @@
             </div>
             <div class="tab-pane fade" id="fourth" role="tabpanel" aria-labelledby="fourth-tab">
               <div class="card">
-                <h5 class="card-header">Корректируем организационную структуру</h5>
+                <h5 class="card-header bg-dark text-light">Корректируем организационную структуру</h5>
                 <div class="card-body">
+                  <Ytplayer
+                    video-id="QSfnavYnR-4"
+                  />
                   <p class="card-text">
                     Проводим анализ действующей организационной структуры, выявляем слабые места и&nbsp;разрабатываем усовершенствованную структуру управления компанией.
                   </p>
@@ -217,8 +229,11 @@
             </div>
             <div class="tab-pane fade" id="fifth" role="tabpanel" aria-labelledby="fifth-tab">
               <div class="card">
-                <h5 class="card-header">Организуем целевое управление</h5>
+                <h5 class="card-header bg-dark text-light">Организуем целевое управление</h5>
                 <div class="card-body">
+                  <Ytplayer
+                    video-id="poE8W-rLdnA"
+                  />
                   <p class="card-text">
                     Разрабатываем систему целевых показателей, направляющих действия сотрудников на&nbsp;достижение целей компании.
                   </p>
@@ -247,8 +262,11 @@
             </div>
             <div class="tab-pane fade" id="sixth" role="tabpanel" aria-labelledby="sixth-tab">
               <div class="card">
-                <h5 class="card-header">Преобразуем корпоративную культуру</h5>
+                <h5 class="card-header bg-dark text-light">Преобразуем корпоративную культуру</h5>
                 <div class="card-body">
+                  <Ytplayer
+                    video-id="yH3Cagbp7Ko"
+                  />
                   <p class="card-text">
                     Определяем, какие негативные ценности ограничивают результативность и&nbsp;эффективность компании. Разрабатываем меры культивирования позитивных ценностей.
                   </p>
@@ -277,8 +295,11 @@
             </div>
             <div class="tab-pane fade" id="seventh" role="tabpanel" aria-labelledby="seventh-tab">
               <div class="card">
-                <h5 class="card-header">Формируем управленческую команду</h5>
+                <h5 class="card-header bg-dark text-light">Формируем управленческую команду</h5>
                 <div class="card-body">
+                  <Ytplayer
+                    video-id="0mtr2Sl_bmc"
+                  />
                   <p class="card-text">
                     Создаем механизмы эффективной работы управленческой команды. Внедряем практики, повышающие производительность и&nbsp;результативность коллективной работы управленцев.
                   </p>
@@ -307,7 +328,7 @@
             </div>
             <div class="tab-pane fade" id="eighth" role="tabpanel" aria-labelledby="eighth-tab">
               <div class="card">
-                <h5 class="card-header">Вырабатываем план проведения изменений</h5>
+                <h5 class="card-header bg-dark text-light">Вырабатываем план проведения изменений</h5>
                 <div class="card-body">
                   <p class="card-text">
                     Подводим итоги работы, проделанной в&nbsp;ходе Марафона и&nbsp;формируем комплексный план проведения изменений, направленных на&nbsp;улучшение управляемости и&nbsp;повышение эффективности компании.
@@ -340,26 +361,19 @@
         </div>
       </div>
 
-      <div class="row last-row">
+      <div class="row text-center">
         <div class="col">
-          <div class="card">
-            <h3 class="card-header">Видимые улучшения в&nbsp;управляемости компанией за&nbsp;два месяца</h3>
-            <div class="card-body">
-              <div class="row">
-                <div class="col-md-3"></div>
-                <div class="col-md-9">
-                  <p class="card-text">
-                    <ul>
-                      <li>Слабые места компании <span class="text-danger">найдены</span></li>
-                      <li>Рычаги для внедрения изменений <span class="text-danger">определены</span></li>
-                      <li>Дорожная карта изменения <span class="text-danger">создана</span></li>
-                      <li>Ваша управленческая команда <span class="text-danger">эффективна</span></li>
-                    </ul>
-                  </p>
-                </div>
-              </div>
-            </div>
-          </div>
+          <h2>Видимые улучшения в&nbsp;управляемости компанией за&nbsp;два месяца</h2>
+        </div>
+      </div>
+      <div class="row last-row">
+        <div class="col-md-8 offset-md-2">
+          <ul class="list-group">
+            <li class="list-group-item"><img src="../assets/check.svg">&nbsp;Слабые места компании <span class="text-success">найдены</span></li>
+            <li class="list-group-item"><img src="../assets/check.svg">&nbsp;Рычаги для внедрения изменений <span class="text-success">определены</span></li>
+            <li class="list-group-item"><img src="../assets/check.svg">&nbsp;Дорожная карта изменения <span class="text-success">создана</span></li>
+            <li class="list-group-item"><img src="../assets/check.svg">&nbsp;Ваша управленческая команда <span class="text-success">эффективна</span></li>
+          </ul>
         </div>
       </div>
 
@@ -369,12 +383,36 @@
         </div>
       </div>
       <div class="row last-row text-center">
-        <div class="col">
+        <div class="col-md-6">
           <div class="card">
+            <div class="card-header bg-dark text-light">
+              <span class="lead">Название продукта</span>
+            </div>
+            <ul class="list-group list-group-flush">
+              <li class="list-group-item">описание</li>
+              <li class="list-group-item">описание</li>
+              <li class="list-group-item">описание</li>
+            </ul>
             <div class="card-body">
-              <p class="card-text">
-                условия и тарифы
-              </p>
+              <h2><span class="badge badge-dark">Бесплатно</span></h2>
+              <Grform 
+                campaign_token="nIGYh"
+              />
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6">
+          <div class="card">
+            <div class="card-header bg-danger text-light">
+              <span class="lead">Название продукта</span>
+            </div>
+            <ul class="list-group list-group-flush">
+              <li class="list-group-item">описание</li>
+              <li class="list-group-item">описание</li>
+              <li class="list-group-item">описание</li>
+            </ul>
+            <div class="card-body">
+              <h2><span class="badge badge-primary">6&thinsp;400&nbsp;&#8381;</span></h2>
               <Payment
                 WMI_PAYMENT_AMOUNT="1"
                 WMI_DESCRIPTION="iTeam"
@@ -397,20 +435,25 @@
           <div class="card">
             <div class="card-body">
               <div class="row">
-                <div class="col-sm-3">
+                <div class="col-sm-4">
                   <div class="nav flex-column nav-pills" id="v-pills-tab" role="tablist" aria-orientation="vertical">
-                    <a class="nav-link active" id="v-pills-home-tab" data-toggle="pill" href="#v-pills-home" role="tab" aria-controls="v-pills-home" aria-selected="true">Вопрос 1</a>
-                    <a class="nav-link" id="v-pills-profile-tab" data-toggle="pill" href="#v-pills-profile" role="tab" aria-controls="v-pills-profile" aria-selected="false">Вопрос 2</a>
-                    <a class="nav-link" id="v-pills-messages-tab" data-toggle="pill" href="#v-pills-messages" role="tab" aria-controls="v-pills-messages" aria-selected="false">Вопрос 3</a>
-                    <a class="nav-link" id="v-pills-settings-tab" data-toggle="pill" href="#v-pills-settings" role="tab" aria-controls="v-pills-settings" aria-selected="false">Вопрос 4</a>
+                    <a class="nav-link active" id="v-pills-home-tab" data-toggle="pill" href="#v-pills-home" role="tab" aria-controls="v-pills-home" aria-selected="true">Какие методы оплаты доступны?</a>
+                    <a class="nav-link" id="v-pills-profile-tab" data-toggle="pill" href="#v-pills-profile" role="tab" aria-controls="v-pills-profile" aria-selected="false">Оплата на&nbsp;вашем сайте безопасна?</a>
+                    <a class="nav-link" id="v-pills-messages-tab" data-toggle="pill" href="#v-pills-messages" role="tab" aria-controls="v-pills-messages" aria-selected="false">Вы&nbsp;принимаете карты стран СНГ?</a>
                   </div>
                 </div>
-                <div class="col-sm-9">
+                <div class="col-sm-8">
                   <div class="tab-content" id="v-pills-tabContent">
-                    <div class="tab-pane fade show active" id="v-pills-home" role="tabpanel" aria-labelledby="v-pills-home-tab">1</div>
-                    <div class="tab-pane fade" id="v-pills-profile" role="tabpanel" aria-labelledby="v-pills-profile-tab">2</div>
-                    <div class="tab-pane fade" id="v-pills-messages" role="tabpanel" aria-labelledby="v-pills-messages-tab">3</div>
-                    <div class="tab-pane fade" id="v-pills-settings" role="tabpanel" aria-labelledby="v-pills-settings-tab">4</div>
+                    <div class="tab-pane fade show active" id="v-pills-home" role="tabpanel" aria-labelledby="v-pills-home-tab">
+                      <p>Мы&nbsp;осуществляем оплату с&nbsp;помощью платежного сервиса WalletOne. Вы&nbsp;можете оплатить продукт практически любым доступным сегодня способом. Все способы вы&nbsp;можете <a href="https://www.walletone.com/ru/merchant/payments/#country=RU&amp;section=cash" target="_blank">увидеть здесь.</a></p>
+                    </div>
+                    <div class="tab-pane fade" id="v-pills-profile" role="tabpanel" aria-labelledby="v-pills-profile-tab">
+                      <p>Wallet One использует стандарт безопасности PCI&nbsp;DSS, SSL-протокол, системы безопасности Verified by&nbsp;Visa и&nbsp;MasterCard SecureCode.</p>
+                      <p><a href="https://www.walletone.com/ru/merchant/security/" target="_blank">Подробнее здесь</a></p>
+                    </div>
+                    <div class="tab-pane fade" id="v-pills-messages" role="tabpanel" aria-labelledby="v-pills-messages-tab">
+                      <p>Да, мы&nbsp;принимаем карты, выпущенные на&nbsp;территории Украины, Беларуси, Казахстана и&nbsp;ряда других стран. Список всех стран и&nbsp;вариантов оплаты можно <a href="https://www.walletone.com/ru/merchant/payments/#country=RU&amp;section=cash" target="_blank">увидеть по&nbsp;ссылке</a></p>
+                    </div>
                   </div>
                 </div>
               </div>
@@ -421,12 +464,32 @@
 
       <div class="row text-center">
         <div class="col">
-          <h2>Дополнительно - конференция в Анапе для участников!</h2>
+          <h2>Дополнительно&nbsp;&mdash; конференция в&nbsp;Анапе для участников!</h2>
         </div>
       </div>
-      <div class="row last-row text-center">
+      <div class="row last-row">
         <div class="col">
-          <p><a href="#" class="btn btn-danger">ПОДРОБНЕЕ</a></p>
+          <p class="text-center"><a class="btn btn-danger" data-toggle="collapse" href="#collapseExample" role="button" aria-expanded="false" aria-controls="collapseExample">ПОДРОБНЕЕ</a></p>
+          <div class="collapse" id="collapseExample">
+            <div class="card">
+              <div class="card-header-anapa text-light">
+                <h4>Для участников онлайн Марафона проводится Мастерская управления Русский Менеджмент 26-29 апреля в&nbsp;г. Анапа.</h4>
+              </div>
+              <div class="card-body">
+                <!-- <h5 class="card-title">Для участников онлайн Марафона проводится Мастерская управления Русский Менеджмент 26-29 апреля в&nbsp;г. Анапа.</h5> -->
+                <h6>В&nbsp;программе Мастерской управления:</h6>
+                <ul>
+                  <li>Жесткие разборы управленческих команд, выявление слабых мест в&nbsp;ведении дел и&nbsp;выработка решений по&nbsp;совершенствованию.</li>
+                  <li>Анализ стратегий участников. Выработка сильных стратегических решений.</li>
+                  <li>Изучение практики совершенствования бизнес-процессов, анализ ошибок. Отработка эффективных методов управления процессами.</li>
+                  <li>Опыт преобразования корпоративной культуры, изучение успешных подходов к культивированию позитивных ценностей.</li>
+                  <li>Практика построения эффективных управленческих команд. Отработка методов коллективной работы.</li>
+                </ul>
+                <p>Участники Мастерской в&nbsp;ходе интенсивной 4-дневной работы закрепят навыки системного управления, полученные в&nbsp;ходе Марафона.</p>
+                <p>Мастерская запустит необратимый процесс изменений, ведущих к&nbsp;улучшению управляемости и&nbsp;повышению эффективности компаний.</p>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
 
@@ -442,5 +505,23 @@
 }
 h2 {
   margin-bottom: 20px;
+}
+.jumbotron {
+  background-image: url("../assets/bg.jpg");
+  background-size: cover;
+}
+.container-fluid {
+  padding: 20px 10px;
+  margin-bottom: 50px;
+}
+.changes-block {
+  background-image: url("../assets/bg_block_01.jpg");
+  background-size: cover;
+}
+.card-header-anapa {
+  background-image: url("../assets/bg_block_anapa.jpg");
+  background-size: cover;
+  height: 200px;
+  padding: 20px;
 }
 </style>
