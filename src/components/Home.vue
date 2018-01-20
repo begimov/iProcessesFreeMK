@@ -395,7 +395,9 @@
             </ul>
             <div class="card-body">
               <h2><span class="badge badge-dark">Бесплатно</span></h2>
-              <Grform />
+              <Grform 
+                campaign_token="nIGYh"
+              />
             </div>
           </div>
         </div>

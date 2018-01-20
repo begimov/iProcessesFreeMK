@@ -7,7 +7,7 @@
       <div class="modal-dialog" role="document">
         <div class="modal-content">
           <div class="modal-header">
-            <h5 class="modal-title">Название продукта</h5>
+            <h5 class="modal-title">Бесплатная регистрация</h5>
             <button type="button" class="close" data-dismiss="modal" aria-label="Close">
               <span aria-hidden="true">&times;</span>
             </button>
@@ -45,7 +45,7 @@
   </div>
 </template>
 
-<script src="./payment.js"></script>
+<script src="./grform.js"></script>
 
 <style scoped>
 .help-block {
