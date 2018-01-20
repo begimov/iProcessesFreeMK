@@ -10,6 +10,7 @@ export default {
             modal: {
                 name: '',
                 email: '',
+                phone: '',
                 campaign_token: this.campaign_token
             },
             msg: '',
@@ -23,6 +24,7 @@ export default {
                 ...this.modal
             }
             this.error = ''
+            this.msg = ''
             this.isLoading = true
             axios.get('https://iteam.ru/grform', {
                 params: {

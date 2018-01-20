@@ -31,6 +31,13 @@
                           </div>
                           <input type="hidden" name="campaign_token" v-model="modal.campaign_token" />
                       </div>
+                      <div class="row">
+                          <div class="col">
+                            <div class="form-group form-group-lg">
+                              <input type="text" class="form-control" name="phone" placeholder="Телефон" v-model="modal.phone">
+                            </div>
+                          </div>
+                      </div>
                       <a href="#" class="btn btn-danger btn-lg disabled" id="grFormBtn" v-if="isLoading">ОТПРАВКА...</a>
                       <a href="#" class="btn btn-danger btn-lg" id="grFormBtn" v-else @click.prevent="register">ЗАРЕГИСТРИРОВАТЬСЯ</a>
                   </form>
