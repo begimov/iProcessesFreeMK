@@ -12,12 +12,13 @@ export default {
                 email: '',
                 campaign_token: this.campaign_token
             },
+            msg: '',
             error: '',
             isLoading: false
         }
     },
     methods: {
-        buy() {
+        register() {
             const payload = {
                 ...this.modal
             }
@@ -29,7 +30,7 @@ export default {
                 }
             }).then((response) => {
                 if (response.data.status === 'ok') {
-                    //
+                    this.msg = response.data.msg
                 } else if (response.data.status === 'error') {
                     this.error = response.data.msg
                 }
