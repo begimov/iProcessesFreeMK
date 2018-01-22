@@ -1,7 +1,7 @@
 import Vue from 'vue'
 import Router from 'vue-router'
 import Home from '@/components/Home.vue'
-import About from '@/components/about/About'
+import Purchase from '@/components/purchase/Purchase.vue'
 
 Vue.use(Router)
 
@@ -13,9 +13,9 @@ export default new Router({
       component: Home
     },
     {
-      path: '/about',
-      name: 'About',
-      component: About
+      path: '/purchase',
+      name: 'Purchase',
+      component: Purchase
     }
   ]
 })

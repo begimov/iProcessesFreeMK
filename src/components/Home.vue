@@ -3,39 +3,27 @@
 
     <div class="jumbotron jumbotron-fluid text-white">
       <div class="container">
-        <p><img src="../assets/logo.png" width="100"></p>
-        <div class="row">
-          <div class="col"><span class="badge badge-primary">2&nbsp;МЕСЯЦА</span></div>
-          <div class="col text-center"><span class="badge badge-primary">ОНЛАЙН</span></div>
-          <div class="col text-right"><span class="badge badge-primary">БЕСПЛАТНО</span></div>
+        <div class="row header-top">
+          <div class="col-md"><img src="../assets/logo.png" width="90"></div>
+          <div class="col-md"><span class="badge badge-primary">2&nbsp;МЕСЯЦА</span></div>
+          <div class="col-md text-center"><span class="badge badge-primary">ОНЛАЙН</span></div>
+          <div class="col-md text-right"><span class="badge badge-primary">БЕСПЛАТНО</span></div>
         </div>
-        <h1 class="display-3"><strong>БИЗНЕС КАК СИСТЕМА</strong></h1>
+        <h1 class="display-3 header-title"><strong>БИЗНЕС КАК СИСТЕМА</strong></h1>
+        <p class="lead header-date"><span class="badge badge-light">12&nbsp;февраля&nbsp;&mdash; 18&nbsp;апреля</span></p>
         <p class="lead">практический онлайн-марафон</p>
-        <p><span class="badge badge-light">12&nbsp;февраля&nbsp;&mdash; 18&nbsp;апреля</span></p>
-        <!-- <a href="#" class="btn btn-primary">ПОДРОБНЕЕ</a> -->
       </div>
     </div>
 
-    <div class="container">
+    <div class="container-fluid">
       <div class="row">
         <div class="col text-center">
           <h2>Вам знакомы эти проблемы?</h2>
         </div>
       </div>
-      <div class="row last-row">
-        <div class="col" style="height: 150px;">
-          <vue-word-cloud 
-            :words="words"
-            :rotation="0"
-            :font-size-ratio="5"
-            :color="([, weight]) => weight > 500 ? '#333' : '#333'"
-          >
-            <template slot-scope="{text, weight, originalWord}">
-              <div style="" @mouseover="onWordMouseOver(originalWord)">
-                {{ text }}
-              </div>
-            </template>
-          </vue-word-cloud>
+      <div class="row">
+        <div class="col">
+          <img src="../assets/cloud.jpg" class="img-fluid">
         </div>
       </div>
     </div>
@@ -366,14 +354,15 @@
           <h2>Видимые улучшения в&nbsp;управляемости компанией за&nbsp;два месяца</h2>
         </div>
       </div>
-      <div class="row last-row">
-        <div class="col-md-8 offset-md-2">
-          <ul class="list-group">
-            <li class="list-group-item"><img src="../assets/check.svg">&nbsp;Слабые места компании <span class="text-success">найдены</span></li>
-            <li class="list-group-item"><img src="../assets/check.svg">&nbsp;Рычаги для внедрения изменений <span class="text-success">определены</span></li>
-            <li class="list-group-item"><img src="../assets/check.svg">&nbsp;Дорожная карта изменения <span class="text-success">создана</span></li>
-            <li class="list-group-item"><img src="../assets/check.svg">&nbsp;Ваша управленческая команда <span class="text-success">эффективна</span></li>
-          </ul>
+      <div class="row last-row align-items-center bg-light">
+        <div class="col-md-5">
+          <img src="../assets/achievements.jpg" class="img-fluid">
+        </div>
+        <div class="col-md-7 achievements">
+          <p><img src="../assets/check.svg">&nbsp;Слабые места компании <span class="text-success">найдены</span></p>
+          <p><img src="../assets/check.svg">&nbsp;Рычаги для внедрения изменений <span class="text-success">определены</span></p>
+          <p><img src="../assets/check.svg">&nbsp;Дорожная карта изменения <span class="text-success">создана</span></p>
+          <p><img src="../assets/check.svg">&nbsp;Ваша управленческая команда <span class="text-success">эффективна</span></p>
         </div>
       </div>
 
@@ -383,7 +372,7 @@
         </div>
       </div>
       <div class="row last-row text-center">
-        <div class="col-md-6">
+        <div class="col-md-6 offset-md-3">
           <div class="card">
             <div class="card-header bg-dark text-light">
               <span class="lead">Название продукта</span>
@@ -396,28 +385,6 @@
             <div class="card-body">
               <h2><span class="badge badge-dark">Бесплатно</span></h2>
               <Grform 
-                campaign_token="nIGYh"
-              />
-            </div>
-          </div>
-        </div>
-        <div class="col-md-6">
-          <div class="card">
-            <div class="card-header bg-danger text-light">
-              <span class="lead">Название продукта</span>
-            </div>
-            <ul class="list-group list-group-flush">
-              <li class="list-group-item">описание</li>
-              <li class="list-group-item">описание</li>
-              <li class="list-group-item">описание</li>
-            </ul>
-            <div class="card-body">
-              <h2><span class="badge badge-primary">6&thinsp;400&nbsp;&#8381;</span></h2>
-              <Payment
-                WMI_PAYMENT_AMOUNT="1"
-                WMI_DESCRIPTION="iTeam"
-                WMI_SUCCESS_URL="https://iteam.ru/promo/marafon"
-                WMI_FAIL_URL="https://iteam.ru/promo/marafon"
                 campaign_token="nIGYh"
               />
             </div>
@@ -500,6 +467,16 @@
 <script src="./home.js"></script>
 
 <style scoped>
+.header-title {
+  margin-top: 150px;
+}
+.header-date {
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+.badge {
+  font-size: 1.1em;
+}
 .last-row {
   margin-bottom: 50px;
 }
@@ -507,6 +484,7 @@ h2 {
   margin-bottom: 20px;
 }
 .jumbotron {
+  padding-top: 20px;
   background-image: url("../assets/bg.jpg");
   background-size: cover;
 }
@@ -523,5 +501,8 @@ h2 {
   background-size: cover;
   height: 200px;
   padding: 20px;
+}
+.achievements {
+  padding: 20px 20px
 }
 </style>
