@@ -16,15 +16,15 @@
       </div>
     </div>
 
-    <div class="container">
+    <div class="container-fluid">
       <div class="row">
         <div class="col text-center">
           <h2>Вам знакомы эти проблемы?</h2>
         </div>
       </div>
-      <div class="row last-row">
-        <div class="col" style="height: 150px;">
-          //
+      <div class="row">
+        <div class="col">
+          <img src="../assets/cloud.png" class="img-fluid">
         </div>
       </div>
     </div>
