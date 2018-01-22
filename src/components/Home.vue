@@ -355,14 +355,15 @@
           <h2>Видимые улучшения в&nbsp;управляемости компанией за&nbsp;два месяца</h2>
         </div>
       </div>
-      <div class="row last-row">
-        <div class="col-md-8 offset-md-2">
-          <ul class="list-group">
-            <li class="list-group-item"><img src="../assets/check.svg">&nbsp;Слабые места компании <span class="text-success">найдены</span></li>
-            <li class="list-group-item"><img src="../assets/check.svg">&nbsp;Рычаги для внедрения изменений <span class="text-success">определены</span></li>
-            <li class="list-group-item"><img src="../assets/check.svg">&nbsp;Дорожная карта изменения <span class="text-success">создана</span></li>
-            <li class="list-group-item"><img src="../assets/check.svg">&nbsp;Ваша управленческая команда <span class="text-success">эффективна</span></li>
-          </ul>
+      <div class="row last-row align-items-center bg-light">
+        <div class="col-md-5">
+          <img src="../assets/achievements.jpg" class="img-fluid">
+        </div>
+        <div class="col-md-7 achievements">
+          <p><img src="../assets/check.svg">&nbsp;Слабые места компании <span class="text-success">найдены</span></p>
+          <p><img src="../assets/check.svg">&nbsp;Рычаги для внедрения изменений <span class="text-success">определены</span></p>
+          <p><img src="../assets/check.svg">&nbsp;Дорожная карта изменения <span class="text-success">создана</span></p>
+          <p><img src="../assets/check.svg">&nbsp;Ваша управленческая команда <span class="text-success">эффективна</span></p>
         </div>
       </div>
 
@@ -501,5 +502,8 @@ h2 {
   background-size: cover;
   height: 200px;
   padding: 20px;
+}
+.achievements {
+  padding: 20px 20px
 }
 </style>
