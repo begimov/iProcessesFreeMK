@@ -12,7 +12,6 @@
         <h1 class="display-3"><strong>БИЗНЕС КАК СИСТЕМА</strong></h1>
         <p class="lead">практический онлайн-марафон</p>
         <p><span class="badge badge-light">12&nbsp;февраля&nbsp;&mdash; 18&nbsp;апреля</span></p>
-        <!-- <a href="#" class="btn btn-primary">ПОДРОБНЕЕ</a> -->
       </div>
     </div>
 
