@@ -3,15 +3,15 @@
 
     <div class="jumbotron jumbotron-fluid text-white">
       <div class="container">
-        <p><img src="../assets/logo.png" width="100"></p>
-        <div class="row">
-          <div class="col"><span class="badge badge-primary">2&nbsp;МЕСЯЦА</span></div>
-          <div class="col text-center"><span class="badge badge-primary">ОНЛАЙН</span></div>
-          <div class="col text-right"><span class="badge badge-primary">БЕСПЛАТНО</span></div>
+        <div class="row header-top">
+          <div class="col-md"><img src="../assets/logo.png" width="90"></div>
+          <div class="col-md"><span class="badge badge-primary">2&nbsp;МЕСЯЦА</span></div>
+          <div class="col-md text-center"><span class="badge badge-primary">ОНЛАЙН</span></div>
+          <div class="col-md text-right"><span class="badge badge-primary">БЕСПЛАТНО</span></div>
         </div>
-        <h1 class="display-3"><strong>БИЗНЕС КАК СИСТЕМА</strong></h1>
+        <h1 class="display-3 header-title"><strong>БИЗНЕС КАК СИСТЕМА</strong></h1>
+        <p class="lead header-date"><span class="badge badge-light">12&nbsp;февраля&nbsp;&mdash; 18&nbsp;апреля</span></p>
         <p class="lead">практический онлайн-марафон</p>
-        <p><span class="badge badge-light">12&nbsp;февраля&nbsp;&mdash; 18&nbsp;апреля</span></p>
         <!-- <a href="#" class="btn btn-primary">ПОДРОБНЕЕ</a> -->
       </div>
     </div>
@@ -467,6 +467,16 @@
 <script src="./home.js"></script>
 
 <style scoped>
+.header-title {
+  margin-top: 50px;
+}
+.header-date {
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+.badge {
+  font-size: 1.1em;
+}
 .last-row {
   margin-bottom: 50px;
 }
@@ -474,6 +484,7 @@ h2 {
   margin-bottom: 20px;
 }
 .jumbotron {
+  padding-top: 20px;
   background-image: url("../assets/bg.jpg");
   background-size: cover;
 }
