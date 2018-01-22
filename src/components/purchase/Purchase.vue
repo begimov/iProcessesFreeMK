@@ -1,17 +1,20 @@
 <template>
   <div>
 
-    <div class="jumbotron jumbotron-fluid text-white">
-      <div class="container">
-        <p><img src="@/assets/logo.png" width="100"></p>
+    <div class="container-fluid bg-dark text-light changes-block">
+      <div class="container text-center">
         <div class="row">
-          <div class="col"><span class="badge badge-primary">2&nbsp;МЕСЯЦА</span></div>
-          <div class="col text-center"><span class="badge badge-primary">ОНЛАЙН</span></div>
-          <div class="col text-right"><span class="badge badge-primary">БЕСПЛАТНО</span></div>
+          <div class="col">
+            <h2>Заголовок</h2>
+          </div>
         </div>
-        <h1 class="display-3"><strong>БИЗНЕС КАК СИСТЕМА</strong></h1>
-        <p class="lead">практический онлайн-марафон</p>
-        <p><span class="badge badge-light">12&nbsp;февраля&nbsp;&mdash; 18&nbsp;апреля</span></p>
+        <div class="row">
+          <div class="col">
+            <p>
+              Подзаголовок
+            </p>
+          </div>
+        </div>
       </div>
     </div>
 
@@ -22,36 +25,8 @@
         </div>
       </div>
       <div class="row last-row">
-        <div class="col" style="height: 150px;">
-          //
-        </div>
-      </div>
-    </div>
-
-    <div class="container-fluid bg-dark text-light changes-block">
-      <div class="container">
-        <div class="row">
-          <div class="col text-center">
-            <h2>Заголовок</h2>
-          </div>
-        </div>
-        <div class="row">
-          <div class="col-sm-6">
-            <p>
-              <!-- <ul>
-              <li>2&nbsp;месяца, 8&nbsp;мастер-классов</li>
-              <li>обучающие материалы в&nbsp;комплекте</li>
-              </ul> -->
-            </p>
-          </div>
-          <div class="col-sm-6">
-            <p>
-              <!-- <ul>
-                <li>сопровождение консультанта-наставника</li>
-                <li>проекты документов и&nbsp;регламентов</li>
-              </ul> -->
-            </p>
-          </div>
+        <div class="col">
+          Описание
         </div>
       </div>
     </div>
@@ -153,16 +128,12 @@
 h2 {
   margin-bottom: 20px;
 }
-.jumbotron {
-  background-image: url("../../assets/bg.jpg");
-  background-size: cover;
-}
 .container-fluid {
   padding: 20px 10px;
   margin-bottom: 50px;
 }
 .changes-block {
-  background-image: url("../../assets/bg_block_01.jpg");
+  background-image: url("../../assets/bg.jpg");
   background-size: cover;
 }
 </style>
