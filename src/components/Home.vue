@@ -12,7 +12,6 @@
         <h1 class="display-3 header-title"><strong>БИЗНЕС КАК СИСТЕМА</strong></h1>
         <p class="lead header-date"><span class="badge badge-light">12&nbsp;февраля&nbsp;&mdash; 18&nbsp;апреля</span></p>
         <p class="lead">практический онлайн-марафон</p>
-        <!-- <a href="#" class="btn btn-primary">ПОДРОБНЕЕ</a> -->
       </div>
     </div>
 
@@ -24,7 +23,7 @@
       </div>
       <div class="row">
         <div class="col">
-          <img src="../assets/cloud.png" class="img-fluid">
+          <img src="../assets/cloud.jpg" class="img-fluid">
         </div>
       </div>
     </div>
