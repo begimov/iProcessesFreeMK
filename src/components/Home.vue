@@ -468,7 +468,7 @@
 
 <style scoped>
 .header-title {
-  margin-top: 50px;
+  margin-top: 150px;
 }
 .header-date {
   margin-top: 20px;
