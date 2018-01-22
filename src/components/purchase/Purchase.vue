@@ -5,7 +5,7 @@
       <div class="container text-center">
         <div class="row">
           <div class="col">
-            <h2>Заголовок</h2>
+            <h2>Регистрация прошла успешно</h2>
           </div>
         </div>
         <div class="row">
@@ -41,7 +41,7 @@
       <div class="row last-row text-center">
         <div class="col-md-6">
           <div class="card">
-            <div class="card-header bg-dark text-light">
+            <div class="card-header bg-danger text-light">
               <span class="lead">Название продукта</span>
             </div>
             <ul class="list-group list-group-flush">
@@ -50,7 +50,14 @@
               <li class="list-group-item">описание</li>
             </ul>
             <div class="card-body">
-              <h2><span class="badge badge-dark">Бесплатно</span></h2>
+              <h2><span class="badge badge-primary">128&thinsp;400&nbsp;&#8381;</span></h2>
+              <Payment
+                WMI_PAYMENT_AMOUNT="1"
+                WMI_DESCRIPTION="iTeam"
+                WMI_SUCCESS_URL="https://iteam.ru/promo/marafon"
+                WMI_FAIL_URL="https://iteam.ru/promo/marafon"
+                campaign_token="nIGYh"
+              />
             </div>
           </div>
         </div>

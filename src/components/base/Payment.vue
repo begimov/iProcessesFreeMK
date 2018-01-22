@@ -28,6 +28,11 @@
               <div class="col">
                   <form action="/grform/payment" method="get" id="grForm">
                       <div class="row">
+                          <div class="col text-left">
+                            <p>Описание</p>
+                          </div>
+                      </div>
+                      <div class="row">
                           <div class="col">
                             <div class="form-group form-group-lg">
                               <input type="text" class="form-control" name="name" placeholder="Имя" v-model="modal.name">
