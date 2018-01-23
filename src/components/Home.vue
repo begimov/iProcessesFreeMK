@@ -16,11 +16,6 @@
 
     <div class="container-fluid">
       <div class="row">
-        <div class="col text-center">
-          <h2>Вам знакомы эти проблемы?</h2>
-        </div>
-      </div>
-      <div class="row">
         <div class="col">
           <img src="../assets/cloud.jpg" class="img-fluid">
         </div>
@@ -31,7 +26,7 @@
       <div class="container text-light">
         <div class="row">
           <div class="col text-center">
-            <h2>Изменения начинаются здесь</h2>
+            <h2>Знакомо? Изменения начинаются здесь</h2>
           </div>
         </div>
         <div class="row last-row">
@@ -443,43 +438,6 @@
           <Grform 
             campaign_token="ngWDi"
           />
-        </div>
-      </div>
-
-      <div class="row text-center">
-        <div class="col">
-          <h2>FAQ</h2>
-        </div>
-      </div>
-      <div class="row last-row">
-        <div class="col">
-          <div class="card">
-            <div class="card-body">
-              <div class="row">
-                <div class="col-sm-4">
-                  <div class="nav flex-column nav-pills" id="v-pills-tab" role="tablist" aria-orientation="vertical">
-                    <a class="nav-link active" id="v-pills-home-tab" data-toggle="pill" href="#v-pills-home" role="tab" aria-controls="v-pills-home" aria-selected="true">Какие методы оплаты доступны?</a>
-                    <a class="nav-link" id="v-pills-profile-tab" data-toggle="pill" href="#v-pills-profile" role="tab" aria-controls="v-pills-profile" aria-selected="false">Оплата на&nbsp;вашем сайте безопасна?</a>
-                    <a class="nav-link" id="v-pills-messages-tab" data-toggle="pill" href="#v-pills-messages" role="tab" aria-controls="v-pills-messages" aria-selected="false">Вы&nbsp;принимаете карты стран СНГ?</a>
-                  </div>
-                </div>
-                <div class="col-sm-8">
-                  <div class="tab-content" id="v-pills-tabContent">
-                    <div class="tab-pane fade show active" id="v-pills-home" role="tabpanel" aria-labelledby="v-pills-home-tab">
-                      <p>Мы&nbsp;осуществляем оплату с&nbsp;помощью платежного сервиса WalletOne. Вы&nbsp;можете оплатить продукт практически любым доступным сегодня способом. Все способы вы&nbsp;можете <a href="https://www.walletone.com/ru/merchant/payments/#country=RU&amp;section=cash" target="_blank">увидеть здесь.</a></p>
-                    </div>
-                    <div class="tab-pane fade" id="v-pills-profile" role="tabpanel" aria-labelledby="v-pills-profile-tab">
-                      <p>Wallet One использует стандарт безопасности PCI&nbsp;DSS, SSL-протокол, системы безопасности Verified by&nbsp;Visa и&nbsp;MasterCard SecureCode.</p>
-                      <p><a href="https://www.walletone.com/ru/merchant/security/" target="_blank">Подробнее здесь</a></p>
-                    </div>
-                    <div class="tab-pane fade" id="v-pills-messages" role="tabpanel" aria-labelledby="v-pills-messages-tab">
-                      <p>Да, мы&nbsp;принимаем карты, выпущенные на&nbsp;территории Украины, Беларуси, Казахстана и&nbsp;ряда других стран. Список всех стран и&nbsp;вариантов оплаты можно <a href="https://www.walletone.com/ru/merchant/payments/#country=RU&amp;section=cash" target="_blank">увидеть по&nbsp;ссылке</a></p>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
         </div>
       </div>
 
