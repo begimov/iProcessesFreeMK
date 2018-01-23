@@ -368,7 +368,7 @@
 
       <div class="row text-center">
         <div class="col">
-          <h2>Я учавствую!</h2>
+          <h2>Я участвую!</h2>
         </div>
       </div>
       <div class="row last-row text-center">
@@ -429,8 +429,8 @@
         </div>
       </div>
 
-      <div class="row bg-white">
-        <div class="col-sm-3 anapa-block-bg">&nbsp;</div>
+      <div class="row anapa-block-bg">
+        <div class="col-sm-3">&nbsp;</div>
         <div class="col-sm-9 anapa-block">
           <h2>Дополнительно&nbsp;&mdash; конференция в&nbsp;Анапе для участников!</h2>
           <p><a class="btn btn-danger" data-toggle="collapse" href="#collapseExample" role="button" aria-expanded="false" aria-controls="collapseExample">ПОДРОБНЕЕ</a></p>
@@ -501,7 +501,7 @@ h2 {
   background-image: url("../assets/boni.png");
   background-repeat: no-repeat;
   background-size: contain;
-  height: 200px;
+  height: 300px;
 }
 .anapa-block {
   padding: 20px;
