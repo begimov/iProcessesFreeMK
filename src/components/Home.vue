@@ -416,7 +416,7 @@
           <h2>Видимые улучшения в&nbsp;управляемости компанией за&nbsp;два месяца</h2>
         </div>
       </div>
-      <div class="row last-row align-items-center bg-light">
+      <div class="row last-row align-items-center bg-light achievements-container">
         <div class="col-md-5">
           <img src="../assets/achievements.jpg" class="img-fluid">
         </div>
@@ -531,6 +531,10 @@ h2 {
 }
 .achievements {
   padding: 20px 20px;
+}
+.achievements-container {
+  background-image: url("../assets/achievements_bg.jpg");
+  background-size: cover;
 }
 .nav-tabs-links a {
   color: #fff;
