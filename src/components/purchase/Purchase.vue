@@ -45,6 +45,7 @@
                 WMI_SUCCESS_URL="https://iteam.ru/promo/marafon"
                 WMI_FAIL_URL="https://iteam.ru/promo/marafon"
                 campaign_token="nIGYh"
+                product_name="ПАКЕТ «МАТЕРИАЛЫ»"
               />
             </div>
           </div>
@@ -66,7 +67,8 @@
                 WMI_DESCRIPTION="iTeam"
                 WMI_SUCCESS_URL="https://iteam.ru/promo/marafon"
                 WMI_FAIL_URL="https://iteam.ru/promo/marafon"
-                campaign_token="nIGYh"
+                campaign_token="NONE"
+                product_name="ПАКЕТ «КОНСУЛЬТАНТ»"
               />
             </div>
           </div>

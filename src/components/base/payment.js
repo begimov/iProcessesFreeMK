@@ -7,7 +7,8 @@ export default {
         'WMI_DESCRIPTION',
         'WMI_SUCCESS_URL',
         'WMI_FAIL_URL',
-        'campaign_token'
+        'campaign_token',
+        'product_name'
     ],
     data() {
         return {

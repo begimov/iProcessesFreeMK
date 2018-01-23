@@ -18,7 +18,7 @@
       <div class="modal-dialog" role="document">
         <div class="modal-content">
           <div class="modal-header">
-            <h5 class="modal-title">Название продукта</h5>
+            <h5 class="modal-title">{{ product_name }}</h5>
             <button type="button" class="close" data-dismiss="modal" aria-label="Close">
               <span aria-hidden="true">&times;</span>
             </button>
@@ -27,11 +27,11 @@
             <div class="row">
               <div class="col">
                   <form action="/grform/payment" method="get" id="grForm">
-                      <div class="row">
+                      <!-- <div class="row">
                           <div class="col text-left">
                             <p>Описание</p>
                           </div>
-                      </div>
+                      </div> -->
                       <div class="row">
                           <div class="col">
                             <div class="form-group form-group-lg">
