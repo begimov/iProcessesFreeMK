@@ -19,38 +19,26 @@
     </div>
 
     <div class="container">
-      <div class="row">
-        <div class="col text-center">
-          <h2>Заголовок</h2>
-        </div>
-      </div>
-      <div class="row last-row">
-        <div class="col">
-          Описание
-        </div>
-      </div>
-    </div>
-
-    <div class="container">
 
       <div class="row text-center">
         <div class="col">
-          <h2>Я учавствую!</h2>
+          <h2>Наши дополнительные предложения:</h2>
         </div>
       </div>
       <div class="row last-row text-center">
         <div class="col-md-6">
           <div class="card">
             <div class="card-header bg-danger text-light">
-              <span class="lead">Название продукта</span>
+              <span class="lead"><strong>ПАКЕТ &laquo;МАТЕРИАЛЫ&raquo;</strong></span>
             </div>
             <ul class="list-group list-group-flush">
-              <li class="list-group-item">описание</li>
-              <li class="list-group-item">описание</li>
-              <li class="list-group-item">описание</li>
+              <li class="list-group-item">Участие в&nbsp;мастер-классах бесплатное!</li>
+              <li class="list-group-item">Вы&nbsp;можете купить записи и&nbsp;дополнительные материалы (презентация, шаблоны и&nbsp;проекты документов).</li>
+              <li class="list-group-item">Материалы будут приходить на&nbsp;указанную вами почту еженедельно, по&nbsp;мере прохождения мастер-классов.</li>
             </ul>
             <div class="card-body">
-              <h2><span class="badge badge-primary">128&thinsp;400&nbsp;&#8381;</span></h2>
+              <p>8 комплектов материалов</p>
+              <h2><span class="badge badge-primary">6&thinsp;400&nbsp;&#8381;</span></h2>
               <Payment
                 WMI_PAYMENT_AMOUNT="1"
                 WMI_DESCRIPTION="iTeam"
@@ -64,15 +52,15 @@
         <div class="col-md-6">
           <div class="card">
             <div class="card-header bg-danger text-light">
-              <span class="lead">Название продукта</span>
+              <span class="lead"><strong>ПАКЕТ &laquo;КОНСУЛЬТАНТ&raquo;</strong></span>
             </div>
             <ul class="list-group list-group-flush">
-              <li class="list-group-item">описание</li>
-              <li class="list-group-item">описание</li>
-              <li class="list-group-item">описание</li>
+              <li class="list-group-item">Пакет &laquo;Консультант&raquo;&nbsp;&mdash; это индивидуальное сопровождение управляющего партнера iTeam Александра Кочнева.</li>
+              <li class="list-group-item">8&nbsp;консультаций в&nbsp;удобное для вас и&nbsp;вашей команды время после каждого мастер-класса.</li>
+              <li class="list-group-item">Результат&nbsp;&mdash; готовый эффективный план проведения изменений. Управляемая и&nbsp;эффективная компания. Шаблоны и&nbsp;проекты документов входят в&nbsp;стоимость.</li>
             </ul>
             <div class="card-body">
-              <h2><span class="badge badge-primary">6&thinsp;400&nbsp;&#8381;</span></h2>
+              <h2><span class="badge badge-primary">128&thinsp;000&nbsp;&#8381;</span></h2>
               <Payment
                 WMI_PAYMENT_AMOUNT="1"
                 WMI_DESCRIPTION="iTeam"
