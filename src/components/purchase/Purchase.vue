@@ -44,7 +44,7 @@
                 WMI_DESCRIPTION="iTeam"
                 WMI_SUCCESS_URL="https://iteam.ru/promo/marafon"
                 WMI_FAIL_URL="https://iteam.ru/promo/marafon"
-                campaign_token="nIGYh"
+                campaign_token="ngWNB"
                 product_name="ПАКЕТ «МАТЕРИАЛЫ»"
               />
             </div>
@@ -63,11 +63,11 @@
             <div class="card-body">
               <h2><span class="badge badge-primary">128&thinsp;000&nbsp;&#8381;</span></h2>
               <Payment
-                WMI_PAYMENT_AMOUNT="1"
+                WMI_PAYMENT_AMOUNT="2"
                 WMI_DESCRIPTION="iTeam"
                 WMI_SUCCESS_URL="https://iteam.ru/promo/marafon"
                 WMI_FAIL_URL="https://iteam.ru/promo/marafon"
-                campaign_token="NONE"
+                campaign_token="ngWUU"
                 product_name="ПАКЕТ «КОНСУЛЬТАНТ»"
               />
             </div>

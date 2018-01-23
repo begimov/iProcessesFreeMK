@@ -1,6 +1,6 @@
 <template>
   <div>
-    <form accept-charset="UTF-8" method="POST" id="paymentForm" action="https://wl.walletone.com/checkout/checkout/Index">
+    <form accept-charset="UTF-8" method="POST" :id="'paymentForm' + campaign_token" action="https://wl.walletone.com/checkout/checkout/Index">
       <input type="hidden" name="WMI_MERCHANT_ID" v-model="payment.WMI_MERCHANT_ID"/>
       <input type="hidden" name="WMI_PAYMENT_AMOUNT" v-model="payment.WMI_PAYMENT_AMOUNT"/>
       <input type="hidden" name="WMI_CURRENCY_ID" v-model="payment.WMI_CURRENCY_ID"/>

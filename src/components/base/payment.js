@@ -52,7 +52,7 @@ export default {
                 if (response.data.status === 'ok') {
                     this.payment.WMI_SIGNATURE = response.data.WMI_SIGNATURE
                     this.$nextTick(() => {
-                        document.getElementById('paymentForm').submit()
+                        document.getElementById('paymentForm' + this.campaign_token).submit()
                     })
                 } else if (response.data.status === 'error') {
                     this.error = response.data.msg
