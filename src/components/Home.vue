@@ -85,11 +85,11 @@
                   <div class="card-body">
                     <div class="row">
                       <div class="col-md-8">
+                        <h5 class="card-title">Мастер-класс: &laquo;Анализ ограничений, определение ключевых проблем&raquo;.</h5>
                         <p><span class="badge badge-dark">Участие бесплатно</span></p>
                         <p class="card-text">
                           Овладеваем методикой исследования проблем, с&nbsp;которыми сталкивается компания. Осваиваем практику проведения мозговых штурмов, &laquo;включаем коллективный разум&raquo;.
                         </p>
-                        <h5 class="card-title">Мастер-класс: &laquo;Анализ ограничений, определение ключевых проблем&raquo;.</h5>
                         <p class="card-text">
                           <strong>Шаблоны:</strong>
                           <ul>
@@ -126,11 +126,11 @@
                   <div class="card-body">
                     <div class="row">
                       <div class="col-md-8">
+                        <h5 class="card-title">Мастер-класс: &laquo;Разработка стратегии развития конкурентных преимуществ компании&raquo;</h5>
                         <p><span class="badge badge-dark">Участие бесплатно</span></p>
                         <p class="card-text">
                           Находим ответ на&nbsp;главный вопрос стратегии: &laquo;Что необходимо предпринять для построения устойчивых конкурентных преимуществ&raquo;?
                         </p>
-                        <h5 class="card-title">Мастер-класс: &laquo;Разработка стратегии развития конкурентных преимуществ компании&raquo;</h5>
                         <p class="card-text">
                           <strong>Шаблоны:</strong>
                           <ul>
@@ -166,11 +166,11 @@
                   <div class="card-body">
                     <div class="row">
                       <div class="col-md-8">
+                        <h5 class="card-title">Мастер-класс: &laquo;Практикум по&nbsp;проектированию и&nbsp;внедрению бизнес-процессов&raquo;</h5>
                         <p><span class="badge badge-dark">Участие бесплатно</span></p>
                         <p class="card-text">
                           Находим и&nbsp;укрепляем &laquo;слабое звено&raquo; в&nbsp;цепи бизнес-процессов компании. Слабым звеном могут быть продажи, доставка товаров, разработка новых продуктов или другие процессы компании. Мы&nbsp;находим такие процессы и&nbsp;делаем их&nbsp;более результативными и&nbsp;эффективными.
                         </p>
-                        <h5 class="card-title">Мастер-класс: &laquo;Практикум по&nbsp;проектированию и&nbsp;внедрению бизнес-процессов&raquo;</h5>
                         <p class="card-text">
                           <strong>Шаблоны:</strong>
                           <ul>
@@ -206,11 +206,11 @@
                   <div class="card-body">
                     <div class="row">
                       <div class="col-md-8">
+                        <h5 class="card-title">Мастер-класс: &laquo;Совершенствование организационной структуры компании&raquo;</h5>
                         <p><span class="badge badge-dark">Участие бесплатно</span></p>
                         <p class="card-text">
                           Проводим анализ действующей организационной структуры, выявляем слабые места и&nbsp;разрабатываем усовершенствованную структуру управления компанией.
                         </p>
-                        <h5 class="card-title">Мастер-класс: &laquo;Совершенствование организационной структуры компании&raquo;</h5>
                         <p class="card-text">
                           <strong>Шаблоны:</strong>
                           <ul>
@@ -248,11 +248,11 @@
                   <div class="card-body">
                     <div class="row">
                       <div class="col-md-8">
+                        <h5 class="card-title">Мастер-класс: &laquo;Разработка и&nbsp;внедрение системы показателей KPI&raquo;</h5>
                         <p><span class="badge badge-dark">Участие бесплатно</span></p>
                         <p class="card-text">
                           Разрабатываем систему целевых показателей, направляющих действия сотрудников на&nbsp;достижение целей компании.
                         </p>
-                        <h5 class="card-title">Мастер-класс: &laquo;Разработка и&nbsp;внедрение системы показателей KPI&raquo;</h5>
                         <p class="card-text">
                           <strong>Шаблоны:</strong>
                           <ul>
@@ -288,11 +288,11 @@
                   <div class="card-body">
                     <div class="row">
                       <div class="col-md-8">
+                        <h5 class="card-title">Мастер-класс: &laquo;Трансформация корпоративной культуры&raquo;</h5>
                         <p><span class="badge badge-dark">Участие бесплатно</span></p>
                         <p class="card-text">
                           Определяем, какие негативные ценности ограничивают результативность и&nbsp;эффективность компании. Разрабатываем меры культивирования позитивных ценностей.
                         </p>
-                        <h5 class="card-title">Мастер-класс: &laquo;Трансформация корпоративной культуры&raquo;</h5>
                         <p class="card-text">
                           <strong>Шаблоны:</strong>
                           <ul>
@@ -328,11 +328,11 @@
                   <div class="card-body">
                     <div class="row">
                       <div class="col-md-8">
+                        <h5 class="card-title">Мастер-класс: &laquo;Формирование эффективной управленческой команды&raquo;</h5>
                         <p><span class="badge badge-dark">Участие бесплатно</span></p>
                         <p class="card-text">
                           Создаем механизмы эффективной работы управленческой команды. Внедряем практики, повышающие производительность и&nbsp;результативность коллективной работы управленцев.
                         </p>
-                        <h5 class="card-title">Мастер-класс: &laquo;Формирование эффективной управленческой команды&raquo;</h5>
                         <p class="card-text">
                           <strong>Шаблоны:</strong>
                           <ul>
@@ -368,11 +368,11 @@
                   <div class="card-body">
                     <div class="row">
                       <div class="col-md-8">
+                        <h5 class="card-title">Мастер-класс: &laquo;Планирование организационных изменений&raquo;</h5>
                         <p><span class="badge badge-dark">Участие бесплатно</span></p>
                         <p class="card-text">
                           Подводим итоги работы, проделанной в&nbsp;ходе Марафона и&nbsp;формируем комплексный план проведения изменений, направленных на&nbsp;улучшение управляемости и&nbsp;повышение эффективности компании.
                         </p>
-                        <h5 class="card-title">Мастер-класс: &laquo;Планирование организационных изменений&raquo;</h5>
                         <p class="card-text">
                           <strong>Шаблоны:</strong>
                           <ul>
