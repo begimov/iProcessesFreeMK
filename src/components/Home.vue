@@ -429,14 +429,15 @@
         </div>
       </div>
 
-      <div class="row text-center">
-        <div class="col">
+      <div class="row bg-white">
+        <div class="col-sm-3 anapa-block-bg">&nbsp;</div>
+        <div class="col-sm-9 anapa-block">
           <h2>Дополнительно&nbsp;&mdash; конференция в&nbsp;Анапе для участников!</h2>
+          <p><a class="btn btn-danger" data-toggle="collapse" href="#collapseExample" role="button" aria-expanded="false" aria-controls="collapseExample">ПОДРОБНЕЕ</a></p>
         </div>
       </div>
       <div class="row last-row">
         <div class="col">
-          <p class="text-center"><a class="btn btn-danger" data-toggle="collapse" href="#collapseExample" role="button" aria-expanded="false" aria-controls="collapseExample">ПОДРОБНЕЕ</a></p>
           <div class="collapse" id="collapseExample">
             <div class="card">
               <div class="card-header-anapa text-light">
@@ -495,6 +496,15 @@ h2 {
 .changes-block {
   background-image: url("../assets/bg_block_01.jpg");
   background-size: cover;
+}
+.anapa-block-bg {
+  background-image: url("../assets/boni.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  height: 200px;
+}
+.anapa-block {
+  padding: 20px;
 }
 .card-header-anapa {
   background-image: url("../assets/bg_block_anapa.jpg");
