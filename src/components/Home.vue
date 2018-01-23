@@ -373,14 +373,9 @@
       </div>
       <div class="row last-row text-center">
         <div class="col">
-          <div class="card">
-            <div class="card-body">
-              <h2><span class="badge badge-dark">Бесплатно</span></h2>
-              <Grform 
-                campaign_token="nIGYh"
-              />
-            </div>
-          </div>
+          <Grform 
+            campaign_token="nIGYh"
+          />
         </div>
       </div>
 
