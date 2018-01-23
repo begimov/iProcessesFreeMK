@@ -5,13 +5,13 @@
       <div class="container text-center">
         <div class="row">
           <div class="col">
-            <h2>Регистрация прошла успешно</h2>
+            <h2>Спасибо, вы&nbsp;зарегистрированы!</h2>
           </div>
         </div>
         <div class="row">
           <div class="col">
             <p>
-              Подзаголовок
+              В&nbsp;ближайшее время вам придет письмо с&nbsp;подтверждением. Если письма нет, пожалуйста, проверьте папку &laquo;спам&raquo; или напишите нам на&nbsp;info@iteam.ru
             </p>
           </div>
         </div>
