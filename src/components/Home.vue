@@ -372,16 +372,8 @@
         </div>
       </div>
       <div class="row last-row text-center">
-        <div class="col-md-6 offset-md-3">
+        <div class="col">
           <div class="card">
-            <div class="card-header bg-dark text-light">
-              <span class="lead">Название продукта</span>
-            </div>
-            <ul class="list-group list-group-flush">
-              <li class="list-group-item">описание</li>
-              <li class="list-group-item">описание</li>
-              <li class="list-group-item">описание</li>
-            </ul>
             <div class="card-body">
               <h2><span class="badge badge-dark">Бесплатно</span></h2>
               <Grform 
