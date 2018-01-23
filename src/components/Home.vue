@@ -429,7 +429,7 @@
       </div>
 
       <div class="row text-center">
-        <div class="col">
+        <div class="col" style="margin-top:30px">
           <h2>Я участвую!</h2>
         </div>
       </div>
