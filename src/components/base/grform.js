@@ -34,7 +34,7 @@ export default {
                 if (response.data.status === 'ok') {
                     this.msg = response.data.msg
                     this.$router.push({ path: 'purchase' })
-                    location.reload()
+                    // location.reload()
                 } else if (response.data.status === 'error') {
                     this.error = response.data.msg
                 }
