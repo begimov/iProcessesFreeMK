@@ -45,7 +45,7 @@
         </div>
       </div>
       <div class="row last-row text-center">
-        <div class="col-md-6">
+        <div class="col-md-5">
           <div class="card">
             <div class="card-header bg-danger text-light">
               <span class="lead"><strong>ПАКЕТ &laquo;МАТЕРИАЛЫ&raquo;</strong></span>
@@ -68,7 +68,7 @@
             </div>
           </div>
         </div>
-        <div class="col-md-6">
+        <div class="col-md-7">
           <div class="card">
             <div class="card-header bg-danger text-light">
               <span class="lead"><strong>ПАКЕТ &laquo;КОНСУЛЬТАНТ&raquo;</strong></span><br>
