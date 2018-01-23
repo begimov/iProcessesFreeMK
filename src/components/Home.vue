@@ -88,7 +88,7 @@
           <div class="tab-content" id="myTabContent">
             <div class="tab-pane fade show active" id="first" role="tabpanel" aria-labelledby="first-tab">
               <div class="card">
-                <h5 class="card-header bg-dark text-light">Выявляем ограничения, препятствующие развитию компании</h5>
+                <h5 class="card-header bg-white">Выявляем ограничения, препятствующие развитию компании</h5>
                 <div class="card-body">
                   <p class="card-text">
                     Овладеваем методикой исследования проблем, с&nbsp;которыми сталкивается компания. Осваиваем практику проведения мозговых штурмов, &laquo;включаем коллективный разум&raquo;.
@@ -119,7 +119,7 @@
             </div>
             <div class="tab-pane fade" id="second" role="tabpanel" aria-labelledby="second-tab">
               <div class="card">
-                <h5 class="card-header bg-dark text-light">Определяем стратегию компании</h5>
+                <h5 class="card-header bg-white">Определяем стратегию компании</h5>
                 <div class="card-body">
                   <p class="card-text">
                     Находим ответ на&nbsp;главный вопрос стратегии: &laquo;Что необходимо предпринять для построения устойчивых конкурентных преимуществ&raquo;?
@@ -149,7 +149,7 @@
             </div>
             <div class="tab-pane fade" id="third" role="tabpanel" aria-labelledby="third-tab">
               <div class="card">
-                <h5 class="card-header bg-dark text-light">Реформируем бизнес-процессы</h5>
+                <h5 class="card-header bg-white">Реформируем бизнес-процессы</h5>
                 <div class="card-body">
                   <Ytplayer
                     video-id="6FMFXxJfqmA"
@@ -182,7 +182,7 @@
             </div>
             <div class="tab-pane fade" id="fourth" role="tabpanel" aria-labelledby="fourth-tab">
               <div class="card">
-                <h5 class="card-header bg-dark text-light">Корректируем организационную структуру</h5>
+                <h5 class="card-header bg-white">Корректируем организационную структуру</h5>
                 <div class="card-body">
                   <Ytplayer
                     video-id="QSfnavYnR-4"
@@ -217,7 +217,7 @@
             </div>
             <div class="tab-pane fade" id="fifth" role="tabpanel" aria-labelledby="fifth-tab">
               <div class="card">
-                <h5 class="card-header bg-dark text-light">Организуем целевое управление</h5>
+                <h5 class="card-header bg-white">Организуем целевое управление</h5>
                 <div class="card-body">
                   <Ytplayer
                     video-id="poE8W-rLdnA"
@@ -250,7 +250,7 @@
             </div>
             <div class="tab-pane fade" id="sixth" role="tabpanel" aria-labelledby="sixth-tab">
               <div class="card">
-                <h5 class="card-header bg-dark text-light">Преобразуем корпоративную культуру</h5>
+                <h5 class="card-header bg-white">Преобразуем корпоративную культуру</h5>
                 <div class="card-body">
                   <Ytplayer
                     video-id="yH3Cagbp7Ko"
@@ -283,7 +283,7 @@
             </div>
             <div class="tab-pane fade" id="seventh" role="tabpanel" aria-labelledby="seventh-tab">
               <div class="card">
-                <h5 class="card-header bg-dark text-light">Формируем управленческую команду</h5>
+                <h5 class="card-header bg-white">Формируем управленческую команду</h5>
                 <div class="card-body">
                   <Ytplayer
                     video-id="0mtr2Sl_bmc"
@@ -316,7 +316,7 @@
             </div>
             <div class="tab-pane fade" id="eighth" role="tabpanel" aria-labelledby="eighth-tab">
               <div class="card">
-                <h5 class="card-header bg-dark text-light">Вырабатываем план проведения изменений</h5>
+                <h5 class="card-header bg-white">Вырабатываем план проведения изменений</h5>
                 <div class="card-body">
                   <p class="card-text">
                     Подводим итоги работы, проделанной в&nbsp;ходе Марафона и&nbsp;формируем комплексный план проведения изменений, направленных на&nbsp;улучшение управляемости и&nbsp;повышение эффективности компании.
