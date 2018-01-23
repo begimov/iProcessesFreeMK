@@ -57,7 +57,7 @@
       <div class="container">
         <div class="row last-row">
           <div class="col">
-            <ul class="nav nav-tabs" id="myTab" role="tablist">
+            <ul class="nav nav-tabs nav-tabs-links" id="myTab" role="tablist">
               <li class="nav-item">
                 <a class="nav-link active" id="first-tab" data-toggle="tab" href="#first" role="tab" aria-controls="first" aria-selected="true">12&nbsp;февраля</a>
               </li>
@@ -573,5 +573,9 @@ h2 {
 }
 .achievements {
   padding: 20px 20px;
+}
+.nav-tabs-links a {
+  color: #fff;
+  text-decoration: underline;
 }
 </style>
