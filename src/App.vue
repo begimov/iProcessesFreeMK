@@ -1,5 +1,5 @@
 <template>
-  <div id="app">
+  <div id="app" class="bg-light">
     <router-view/>
     <div class="container-fluid bg-dark text-light">
       <div class="row ifooter">
