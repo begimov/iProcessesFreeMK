@@ -514,7 +514,7 @@ h2 {
   background-image: url("../assets/bg_block_01.jpg");
   background-size: cover;
 }
-.anapa-block-bg {
+/* .anapa-block-bg {
   background-image: url("../assets/boni.png");
   background-repeat: no-repeat;
   background-size: contain;
@@ -522,7 +522,7 @@ h2 {
 }
 .anapa-block {
   padding: 20px;
-}
+} */
 .card-header-anapa {
   background-image: url("../assets/bg_block_anapa.jpg");
   background-size: cover;

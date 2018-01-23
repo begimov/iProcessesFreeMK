@@ -5,13 +5,20 @@
       <div class="container text-center">
         <div class="row">
           <div class="col">
-            <h2>Спасибо, вы&nbsp;зарегистрированы!</h2>
+            <h2>Поздравляем, вы&nbsp;зарегистрированы на&nbsp;марафон &laquo;Бизнес как система&raquo;!</h2>
           </div>
         </div>
         <div class="row">
           <div class="col">
-            <p>
-              В&nbsp;ближайшее время вам придет письмо с&nbsp;подтверждением. Если письма нет, пожалуйста, проверьте папку &laquo;спам&raquo; или напишите нам на&nbsp;info@iteam.ru
+            <p class="lead">
+              Следующие два месяца мы&nbsp;проведем вместе с&nbsp;вами. Вас ждут очные мастер-классы, общение в&nbsp;чате с&nbsp;марафонцами и&nbsp;наставниками, интересные практические задания на&nbsp;неделю.
+            </p>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col">
+            <p class="lead">
+              В&nbsp;ближайшее время вам на&nbsp;почту придет письмо с&nbsp;подтверждением регистрации. Если письма нет, пожалуйста, проверьте папку &laquo;спам&raquo; или напишите нам на&nbsp;info@iteam.ru.
             </p>
           </div>
         </div>
@@ -19,6 +26,18 @@
     </div>
 
     <div class="container">
+
+      <div class="row text-center">
+        <div class="col">
+          <h2>Участие в&nbsp;мастер-классах Марафона полностью бесплатное.</h2>
+        </div>
+      </div>
+      <div class="row text-center last-row">
+        <div class="col">
+          <p class="lead">Результат зависит только от&nbsp;вас и&nbsp;вашей команды.</p>
+          <p>Для тех, кто не&nbsp;сможет присутствовать очно, любит смотреть мастер-классы в&nbsp;записи, активно использует в&nbsp;работе наши презентации и&nbsp;готовые проекты документов, мы&nbsp;подготовили дополнительные предложения. Для тех, кто хочет получить максимум от&nbsp;Марафона.</p>
+        </div>
+      </div>
 
       <div class="row text-center">
         <div class="col">
@@ -32,8 +51,7 @@
               <span class="lead"><strong>ПАКЕТ &laquo;МАТЕРИАЛЫ&raquo;</strong></span>
             </div>
             <ul class="list-group list-group-flush">
-              <li class="list-group-item">Участие в&nbsp;мастер-классах бесплатное!</li>
-              <li class="list-group-item">Вы&nbsp;можете купить записи и&nbsp;дополнительные материалы (презентация, шаблоны и&nbsp;проекты документов).</li>
+              <li class="list-group-item">Записи мастер-классов и&nbsp;дополнительные материалы (презентация, шаблоны и&nbsp;проекты документов).</li>
               <li class="list-group-item">Материалы будут приходить на&nbsp;указанную вами почту еженедельно, по&nbsp;мере прохождения мастер-классов.</li>
             </ul>
             <div class="card-body">
@@ -53,12 +71,14 @@
         <div class="col-md-6">
           <div class="card">
             <div class="card-header bg-danger text-light">
-              <span class="lead"><strong>ПАКЕТ &laquo;КОНСУЛЬТАНТ&raquo;</strong></span>
+              <span class="lead"><strong>ПАКЕТ &laquo;КОНСУЛЬТАНТ&raquo;</strong></span><br>
+              <span class="badge badge-warning">Включает ПАКЕТ &laquo;МАТЕРИАЛЫ&raquo;</span><br>
+              <span class="lead"><strong>+</strong></span>
             </div>
             <ul class="list-group list-group-flush">
-              <li class="list-group-item">Пакет &laquo;Консультант&raquo;&nbsp;&mdash; это индивидуальное сопровождение управляющего партнера iTeam Александра Кочнева.</li>
-              <li class="list-group-item">8&nbsp;консультаций в&nbsp;удобное для вас и&nbsp;вашей команды время после каждого мастер-класса.</li>
-              <li class="list-group-item">Результат&nbsp;&mdash; готовый эффективный план проведения изменений. Управляемая и&nbsp;эффективная компания. Шаблоны и&nbsp;проекты документов входят в&nbsp;стоимость.</li>
+              <li class="list-group-item">Индивидуальное сопровождение управляющего партнера iTeam Александра Кочнева.</li>
+              <li class="list-group-item">8&nbsp;консультаций в&nbsp;удобное для вас и&nbsp;вашей команды время после каждого мастер-класса, работа под руководством Наставника.</li>
+              <li class="list-group-item">Результат&nbsp;&mdash; готовый эффективный план проведения изменений. Управляемая и&nbsp;эффективная компания.</li>
             </ul>
             <div class="card-body">
               <h2><span class="badge badge-primary">128&thinsp;000&nbsp;&#8381;</span></h2>
@@ -130,7 +150,7 @@ h2 {
   margin-bottom: 50px;
 }
 .changes-block {
-  background-image: url("../../assets/bg.jpg");
+  background-image: url("../../assets/bg_darker.jpg");
   background-size: cover;
 }
 </style>
