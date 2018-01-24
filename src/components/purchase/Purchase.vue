@@ -5,28 +5,22 @@
       <div class="container text-center">
         <div class="row">
           <div class="col">
-            <h2>Регистрация прошла успешно</h2>
+            <h2>Поздравляем, вы&nbsp;зарегистрированы на&nbsp;марафон &laquo;Бизнес как система&raquo;!</h2>
           </div>
         </div>
         <div class="row">
           <div class="col">
-            <p>
-              Подзаголовок
+            <p class="lead">
+              Следующие два месяца мы&nbsp;проведем вместе с&nbsp;вами. Вас ждут очные мастер-классы, общение в&nbsp;чате с&nbsp;марафонцами и&nbsp;наставниками, интересные практические задания на&nbsp;неделю.
             </p>
           </div>
         </div>
-      </div>
-    </div>
-
-    <div class="container">
-      <div class="row">
-        <div class="col text-center">
-          <h2>Заголовок</h2>
-        </div>
-      </div>
-      <div class="row last-row">
-        <div class="col">
-          Описание
+        <div class="row">
+          <div class="col">
+            <p class="lead">
+              В&nbsp;ближайшее время вам на&nbsp;почту придет письмо с&nbsp;подтверждением регистрации. Если письма нет, пожалуйста, проверьте папку &laquo;спам&raquo; или напишите нам на&nbsp;info@iteam.ru.
+            </p>
+          </div>
         </div>
       </div>
     </div>
@@ -35,50 +29,66 @@
 
       <div class="row text-center">
         <div class="col">
-          <h2>Я учавствую!</h2>
+          <h2>Участие в&nbsp;мастер-классах Марафона полностью бесплатное.</h2>
+        </div>
+      </div>
+      <div class="row text-center last-row">
+        <div class="col">
+          <p class="lead">Результат зависит только от&nbsp;вас и&nbsp;вашей команды.</p>
+          <p>Для тех, кто не&nbsp;сможет присутствовать очно, любит смотреть мастер-классы в&nbsp;записи, активно использует в&nbsp;работе наши презентации и&nbsp;готовые проекты документов, мы&nbsp;подготовили дополнительные предложения. Для тех, кто хочет получить максимум от&nbsp;Марафона.</p>
+        </div>
+      </div>
+
+      <div class="row text-center">
+        <div class="col">
+          <h2>Наши дополнительные предложения:</h2>
         </div>
       </div>
       <div class="row last-row text-center">
-        <div class="col-md-6">
+        <div class="col-md-5">
           <div class="card">
             <div class="card-header bg-danger text-light">
-              <span class="lead">Название продукта</span>
+              <span class="lead"><strong>ПАКЕТ &laquo;МАТЕРИАЛЫ&raquo;</strong></span>
             </div>
             <ul class="list-group list-group-flush">
-              <li class="list-group-item">описание</li>
-              <li class="list-group-item">описание</li>
-              <li class="list-group-item">описание</li>
+              <li class="list-group-item">Записи мастер-классов и&nbsp;дополнительные материалы (презентация, шаблоны и&nbsp;проекты документов).</li>
+              <li class="list-group-item">Материалы будут приходить на&nbsp;указанную вами почту еженедельно, по&nbsp;мере прохождения мастер-классов.</li>
             </ul>
             <div class="card-body">
-              <h2><span class="badge badge-primary">128&thinsp;400&nbsp;&#8381;</span></h2>
+              <p>8 комплектов материалов</p>
+              <h2><span class="badge badge-primary">6&thinsp;400&nbsp;&#8381;</span></h2>
               <Payment
-                WMI_PAYMENT_AMOUNT="1"
+                WMI_PAYMENT_AMOUNT="6400"
                 WMI_DESCRIPTION="iTeam"
                 WMI_SUCCESS_URL="https://iteam.ru/promo/marafon"
                 WMI_FAIL_URL="https://iteam.ru/promo/marafon"
-                campaign_token="nIGYh"
+                campaign_token="ngWNB"
+                product_name="ПАКЕТ «МАТЕРИАЛЫ»"
               />
             </div>
           </div>
         </div>
-        <div class="col-md-6">
+        <div class="col-md-7">
           <div class="card">
             <div class="card-header bg-danger text-light">
-              <span class="lead">Название продукта</span>
+              <span class="lead"><strong>ПАКЕТ &laquo;КОНСУЛЬТАНТ&raquo;</strong></span><br>
+              <span class="badge badge-warning">Включает ПАКЕТ &laquo;МАТЕРИАЛЫ&raquo;</span><br>
+              <span class="lead"><strong>+</strong></span>
             </div>
             <ul class="list-group list-group-flush">
-              <li class="list-group-item">описание</li>
-              <li class="list-group-item">описание</li>
-              <li class="list-group-item">описание</li>
+              <li class="list-group-item">Индивидуальное сопровождение управляющего партнера iTeam Александра Кочнева.</li>
+              <li class="list-group-item">8&nbsp;консультаций в&nbsp;удобное для вас и&nbsp;вашей команды время после каждого мастер-класса, работа под руководством Наставника.</li>
+              <li class="list-group-item">Результат&nbsp;&mdash; готовый эффективный план проведения изменений. Управляемая и&nbsp;эффективная компания.</li>
             </ul>
             <div class="card-body">
-              <h2><span class="badge badge-primary">6&thinsp;400&nbsp;&#8381;</span></h2>
+              <h2><span class="badge badge-primary">128&thinsp;000&nbsp;&#8381;</span></h2>
               <Payment
-                WMI_PAYMENT_AMOUNT="1"
+                WMI_PAYMENT_AMOUNT="128000"
                 WMI_DESCRIPTION="iTeam"
                 WMI_SUCCESS_URL="https://iteam.ru/promo/marafon"
                 WMI_FAIL_URL="https://iteam.ru/promo/marafon"
-                campaign_token="nIGYh"
+                campaign_token="ngWUU"
+                product_name="ПАКЕТ «КОНСУЛЬТАНТ»"
               />
             </div>
           </div>
@@ -140,7 +150,7 @@ h2 {
   margin-bottom: 50px;
 }
 .changes-block {
-  background-image: url("../../assets/bg.jpg");
+  background-image: url("../../assets/bg_darker.jpg");
   background-size: cover;
 }
 </style>
