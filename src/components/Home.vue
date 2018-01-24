@@ -3,7 +3,7 @@
     <div class="jumbotron jumbotron-fluid text-white">
       <div class="container">
         <div class="row header-top">
-          <div class="col-md"><img src="../assets/logo.png" width="90"></div>
+          <div class="col-md"><img src="../assets/logo.png" class="logo" width="90"></div>
           <div class="col-md"><span class="badge badge-primary">2&nbsp;МЕСЯЦА</span></div>
           <div class="col-md text-center"><span class="badge badge-primary">ОНЛАЙН</span></div>
           <div class="col-md text-right"><span class="badge badge-primary">БЕСПЛАТНО</span></div>
@@ -544,5 +544,8 @@ h2 {
 .nav-tabs-links a {
   color: #fff;
   text-decoration: underline;
+}
+.logo {
+  margin-bottom: 20px;
 }
 </style>
