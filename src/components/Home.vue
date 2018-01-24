@@ -442,6 +442,59 @@
         </div>
       </div>
       <div class="row last-row text-center">
+        
+        <div class="col-md-7">
+          <div class="card">
+            <div class="card-header bg-danger text-light">
+              <span class="lead"><strong>ПАКЕТ &laquo;КОНСУЛЬТАНТ&raquo;</strong></span><br>
+              <span class="badge badge-warning">Включает ПАКЕТ &laquo;МАТЕРИАЛЫ&raquo;</span><br>
+              <span class="lead"><strong>+</strong></span>
+            </div>
+            <ul class="list-group list-group-flush">
+              <li class="list-group-item">Индивидуальное сопровождение управляющего партнера iTeam Александра Кочнева.</li>
+              <li class="list-group-item">8&nbsp;консультаций в&nbsp;удобное для вас и&nbsp;вашей команды время после каждого мастер-класса, работа под руководством Наставника.</li>
+              <li class="list-group-item">Результат&nbsp;&mdash; готовый эффективный план проведения изменений. Управляемая и&nbsp;эффективная компания.</li>
+            </ul>
+            <div class="card-body">
+              <h2><span class="badge badge-primary">128&thinsp;000&nbsp;&#8381;</span></h2>
+              <Payment
+                WMI_PAYMENT_AMOUNT="128000"
+                WMI_DESCRIPTION="iTeam"
+                WMI_SUCCESS_URL="https://iteam.ru/promo/marafon"
+                WMI_FAIL_URL="https://iteam.ru/promo/marafon"
+                campaign_token="ngWUU"
+                product_name="ПАКЕТ «КОНСУЛЬТАНТ»"
+              />
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-5">
+          <div class="card">
+            <div class="card-header bg-danger text-light">
+              <span class="lead"><strong>ПАКЕТ &laquo;МАТЕРИАЛЫ&raquo;</strong></span>
+            </div>
+            <ul class="list-group list-group-flush">
+              <li class="list-group-item">Записи мастер-классов и&nbsp;дополнительные материалы (презентация, шаблоны и&nbsp;проекты документов).</li>
+              <li class="list-group-item">Материалы будут приходить на&nbsp;указанную вами почту еженедельно, по&nbsp;мере прохождения мастер-классов.</li>
+            </ul>
+            <div class="card-body">
+              <p>8 комплектов материалов</p>
+              <h2><span class="badge badge-primary">6&thinsp;400&nbsp;&#8381;</span></h2>
+              <Payment
+                WMI_PAYMENT_AMOUNT="6400"
+                WMI_DESCRIPTION="iTeam"
+                WMI_SUCCESS_URL="https://iteam.ru/promo/marafon"
+                WMI_FAIL_URL="https://iteam.ru/promo/marafon"
+                campaign_token="ngWNB"
+                product_name="ПАКЕТ «МАТЕРИАЛЫ»"
+              />
+            </div>
+          </div>
+        </div>
+        
+      </div>
+      <div class="row last-row text-center">
         <div class="col">
           <Grform 
             campaign_token="ngWDi"
