@@ -411,20 +411,28 @@
     </div>
 
     <div class="container">
-      <div class="row text-center">
-        <div class="col">
-          <h2>Видимые улучшения в&nbsp;управляемости компанией за&nbsp;два месяца</h2>
+      <div class="row last-row align-items-center">
+        <div class="col-md-4">
+          <img src="../assets/achievements.jpg" class="img-fluid" width="90%">
         </div>
-      </div>
-      <div class="row last-row align-items-center bg-light achievements-container">
-        <div class="col-md-5">
-          <img src="../assets/achievements.jpg" class="img-fluid">
-        </div>
-        <div class="col-md-7 achievements">
-          <p><img src="../assets/check.svg">&nbsp;Слабые места компании <span class="text-success">найдены</span></p>
-          <p><img src="../assets/check.svg">&nbsp;Рычаги для внедрения изменений <span class="text-success">определены</span></p>
-          <p><img src="../assets/check.svg">&nbsp;Дорожная карта изменения <span class="text-success">создана</span></p>
-          <p><img src="../assets/check.svg">&nbsp;Ваша управленческая команда <span class="text-success">эффективна</span></p>
+        <div class="col-md-8">
+          <div class="row">
+            <div class="col-9"><h4 class="text-danger" style="margin-bottom:0; margin-top:20px;">Видимые улучшения</h4></div>
+          </div>
+          <div class="row text-right">
+            <div class="col-9"><h5 style="margin-bottom:0;">в&nbsp;управляемости компанией</h5></div>
+          </div>
+          <div class="row text-center">
+            <div class="col-9"><h2>за&nbsp;два месяца</h2></div>
+          </div>
+          <div class="row">
+            <div class="col">
+              <p><img src="../assets/check.svg">&nbsp;Слабые места компании <span class="text-success">найдены</span></p>
+              <p><img src="../assets/check.svg">&nbsp;Рычаги для внедрения изменений <span class="text-success">определены</span></p>
+              <p><img src="../assets/check.svg">&nbsp;Дорожная карта изменения <span class="text-success">создана</span></p>
+              <p><img src="../assets/check.svg">&nbsp;Ваша управленческая команда <span class="text-success">эффективна</span></p>
+            </div>
+          </div>
         </div>
       </div>
 
@@ -529,13 +537,10 @@ h2 {
   height: 200px;
   padding: 20px;
 }
-.achievements {
-  padding: 20px 20px;
-}
-.achievements-container {
+/* .achievements-container {
   background-image: url("../assets/achievements_bg.jpg");
   background-size: cover;
-}
+} */
 .nav-tabs-links a {
   color: #fff;
   text-decoration: underline;
