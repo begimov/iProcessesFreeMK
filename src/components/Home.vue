@@ -443,11 +443,11 @@
       </div>
       <div class="row last-row text-center">
         
-        <div class="col-md-7">
+        <div class="col-md-5">
           <div class="card">
             <div class="card-header bg-danger text-light">
               <span class="lead"><strong>ПАКЕТ &laquo;КОНСУЛЬТАНТ&raquo;</strong></span><br>
-              <span class="badge badge-warning">Включает ПАКЕТ &laquo;МАТЕРИАЛЫ&raquo;</span><br>
+              <span class="badge badge-warning" style="font-size: 0.8em;">Включает ПАКЕТ &laquo;МАТЕРИАЛЫ&raquo;</span><br>
               <span class="lead"><strong>+</strong></span>
             </div>
             <ul class="list-group list-group-flush">
@@ -469,7 +469,7 @@
           </div>
         </div>
 
-        <div class="col-md-5">
+        <div class="col-md-4">
           <div class="card">
             <div class="card-header bg-danger text-light">
               <span class="lead"><strong>ПАКЕТ &laquo;МАТЕРИАЛЫ&raquo;</strong></span>
@@ -492,52 +492,25 @@
             </div>
           </div>
         </div>
-        
-      </div>
-      <div class="row last-row text-center">
-        <div class="col">
-          <Grform 
-            campaign_token="ngWDi"
-          />
-        </div>
-      </div>
 
-      <!-- <div class="row anapa-block-bg">
-        <div class="col-md-3 d-none d-md-block">&nbsp;</div>
-        <div class="col-md-9 anapa-block d-none d-md-block">
-          <h2>Дополнительно&nbsp;&mdash; конференция в&nbsp;Анапе для участников!</h2>
-          <p><a class="btn btn-danger" data-toggle="collapse" href="#collapseExample" role="button" aria-expanded="false" aria-controls="collapseExample">ПОДРОБНЕЕ</a></p>
-        </div>
-      </div>
-      <div class="row">
-        <div class="col anapa-block d-md-none">
-          <h2>Дополнительно&nbsp;&mdash; конференция в&nbsp;Анапе для участников!</h2>
-          <p><a class="btn btn-danger" data-toggle="collapse" href="#collapseExample" role="button" aria-expanded="false" aria-controls="collapseExample">ПОДРОБНЕЕ</a></p>
-        </div>
-      </div>
-      <div class="row last-row">
-        <div class="col">
-          <div class="collapse" id="collapseExample">
-            <div class="card">
-              <div class="card-header-anapa text-light">
-                <h4>Для участников онлайн Марафона проводится Мастерская управления Русский Менеджмент 26-29 апреля в&nbsp;г. Анапа.</h4>
-              </div>
-              <div class="card-body">
-                <h6>В&nbsp;программе Мастерской управления:</h6>
-                <ul>
-                  <li>Жесткие разборы управленческих команд, выявление слабых мест в&nbsp;ведении дел и&nbsp;выработка решений по&nbsp;совершенствованию.</li>
-                  <li>Анализ стратегий участников. Выработка сильных стратегических решений.</li>
-                  <li>Изучение практики совершенствования бизнес-процессов, анализ ошибок. Отработка эффективных методов управления процессами.</li>
-                  <li>Опыт преобразования корпоративной культуры, изучение успешных подходов к культивированию позитивных ценностей.</li>
-                  <li>Практика построения эффективных управленческих команд. Отработка методов коллективной работы.</li>
-                </ul>
-                <p>Участники Мастерской в&nbsp;ходе интенсивной 4-дневной работы закрепят навыки системного управления, полученные в&nbsp;ходе Марафона.</p>
-                <p>Мастерская запустит необратимый процесс изменений, ведущих к&nbsp;улучшению управляемости и&nbsp;повышению эффективности компаний.</p>
-              </div>
+        <div class="col-md-3">
+          <div class="card">
+            <div class="card-header bg-danger text-light">
+              <span class="lead"><strong>БЕСПЛАТНО</strong></span>
+            </div>
+            <!-- <ul class="list-group list-group-flush">
+              <li class="list-group-item">Записи мастер-классов и&nbsp;дополнительные материалы (презентация, шаблоны и&nbsp;проекты документов).</li>
+              <li class="list-group-item">Материалы будут приходить на&nbsp;указанную вами почту еженедельно, по&nbsp;мере прохождения мастер-классов.</li>
+            </ul> -->
+            <div class="card-body">
+              <Grform 
+                campaign_token="ngWDi"
+              />
             </div>
           </div>
         </div>
-      </div> -->
+        
+      </div>
 
     </div>
   </div>
