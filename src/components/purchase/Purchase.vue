@@ -58,7 +58,7 @@
               <p>8 комплектов материалов</p>
               <h2><span class="badge badge-primary">6&thinsp;400&nbsp;&#8381;</span></h2>
               <Payment
-                WMI_PAYMENT_AMOUNT="1"
+                WMI_PAYMENT_AMOUNT="6400"
                 WMI_DESCRIPTION="iTeam"
                 WMI_SUCCESS_URL="https://iteam.ru/promo/marafon"
                 WMI_FAIL_URL="https://iteam.ru/promo/marafon"
@@ -83,7 +83,7 @@
             <div class="card-body">
               <h2><span class="badge badge-primary">128&thinsp;000&nbsp;&#8381;</span></h2>
               <Payment
-                WMI_PAYMENT_AMOUNT="2"
+                WMI_PAYMENT_AMOUNT="128000"
                 WMI_DESCRIPTION="iTeam"
                 WMI_SUCCESS_URL="https://iteam.ru/promo/marafon"
                 WMI_FAIL_URL="https://iteam.ru/promo/marafon"
