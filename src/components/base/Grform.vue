@@ -4,25 +4,25 @@
       <div class="col">
           <form action="/grform/payment" method="get" id="grForm">
               <div class="row">
-                  <div class="col-sm">
+                  <div class="col-12">
                     <div class="form-group form-group-lg">
                       <input type="text" class="form-control" name="name" placeholder="Имя" v-model="modal.name">
                     </div>
                   </div>
-                <div class="col-sm">
-                  <div class="form-group form-group-lg">
-                    <input type="email" class="form-control" name="email" placeholder="Эл.адрес" v-model="modal.email">
+                  <div class="col-12">
+                    <div class="form-group form-group-lg">
+                      <input type="email" class="form-control" name="email" placeholder="Эл.адрес" v-model="modal.email">
+                    </div>
                   </div>
-                </div>
-                <input type="hidden" name="campaign_token" v-model="modal.campaign_token" />
-                  <div class="col-sm">
+                  <input type="hidden" name="campaign_token" v-model="modal.campaign_token" />
+                  <div class="col-12">
                     <div class="form-group form-group-lg">
                       <input type="text" class="form-control" name="phone" placeholder="Телефон" v-model="modal.phone">
                     </div>
                   </div>
               </div>
-              <a href="#" class="btn btn-danger btn-lg disabled" id="grFormBtn" v-if="isLoading">ОТПРАВКА...</a>
-              <a href="#" class="btn btn-danger btn-lg" id="grFormBtn" v-else @click.prevent="register">ЗАРЕГИСТРИРОВАТЬСЯ</a>
+              <a href="#" class="btn btn-dark btn-lg disabled" id="grFormBtn" v-if="isLoading">ОТПРАВКА...</a>
+              <a href="#" class="btn btn-dark" id="grFormBtn" v-else @click.prevent="register">ЗАРЕГИСТРИРОВАТЬСЯ</a>
           </form>
           <p class="help-block alert-danger" id="grFormHelpBlock" v-if="error">{{ error }}</p>
           <p class="help-block alert-success" id="grFormHelpBlock" v-if="msg">{{ msg }}</p>

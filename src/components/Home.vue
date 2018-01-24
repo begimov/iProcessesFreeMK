@@ -443,7 +443,7 @@
       </div>
       <div class="row last-row text-center">
         
-        <div class="col-md-5">
+        <div class="col-lg-4">
           <div class="card">
             <div class="card-header bg-danger text-light">
               <span class="lead"><strong>ПАКЕТ &laquo;КОНСУЛЬТАНТ&raquo;</strong></span><br>
@@ -469,7 +469,7 @@
           </div>
         </div>
 
-        <div class="col-md-4">
+        <div class="col-lg-4">
           <div class="card">
             <div class="card-header bg-danger text-light">
               <span class="lead"><strong>ПАКЕТ &laquo;МАТЕРИАЛЫ&raquo;</strong></span>
@@ -493,9 +493,9 @@
           </div>
         </div>
 
-        <div class="col-md-3">
+        <div class="col-lg-4">
           <div class="card">
-            <div class="card-header bg-danger text-light">
+            <div class="card-header bg-dark text-light">
               <span class="lead"><strong>БЕСПЛАТНО</strong></span>
             </div>
             <!-- <ul class="list-group list-group-flush">
