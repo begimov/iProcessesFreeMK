@@ -460,9 +460,9 @@
               <Payment
                 WMI_PAYMENT_AMOUNT="128000"
                 WMI_DESCRIPTION="iTeam"
-                WMI_SUCCESS_URL="https://iteam.ru/promo/marafon"
-                WMI_FAIL_URL="https://iteam.ru/promo/marafon"
-                campaign_token="ngWUU"
+                WMI_SUCCESS_URL="https://iteam.ru/promo/marafon/db"
+                WMI_FAIL_URL="https://iteam.ru/promo/marafon/db"
+                campaign_token="ng5PT"
                 product_name="ПАКЕТ «КОНСУЛЬТАНТ»"
               />
             </div>
@@ -486,9 +486,9 @@
               <Payment
                 WMI_PAYMENT_AMOUNT="6400"
                 WMI_DESCRIPTION="iTeam"
-                WMI_SUCCESS_URL="https://iteam.ru/promo/marafon"
-                WMI_FAIL_URL="https://iteam.ru/promo/marafon"
-                campaign_token="ngWNB"
+                WMI_SUCCESS_URL="https://iteam.ru/promo/marafon/db"
+                WMI_FAIL_URL="https://iteam.ru/promo/marafon/db"
+                campaign_token="ng5u2"
                 product_name="ПАКЕТ «МАТЕРИАЛЫ»"
               />
             </div>
@@ -507,7 +507,7 @@
             </ul>
             <div class="card-body">
               <Grform 
-                campaign_token="ngWDi"
+                campaign_token="ng5Lk"
               />
             </div>
           </div>
