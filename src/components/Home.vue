@@ -470,7 +470,7 @@
         </div>
 
         <div class="col-lg-4">
-          <div class="card">
+          <div class="card border-danger card-accent">
             <div class="card-header bg-danger text-light">
               <span class="lead"><strong>ПАКЕТ &laquo;МАТЕРИАЛЫ&raquo;</strong></span><br>
               <span class="badge badge-warning" style="font-size: 0.8em;">Включает ПАКЕТ &laquo;МАРАФОН&raquo;</span><br>
@@ -576,5 +576,9 @@ h2 {
 }
 .logo {
   margin-bottom: 20px;
+}
+.card-accent {
+  box-shadow: 0 0 20px rgba(0,0,0,0.3);
+  border-width: 2px;
 }
 </style>
