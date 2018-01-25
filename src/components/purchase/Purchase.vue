@@ -41,7 +41,7 @@
 
       <div class="row text-center">
         <div class="col">
-          <h2>Наши дополнительные предложения:</h2>
+          <h2>В&nbsp;любой момент вы&nbsp;сможете дополнить Марафон материалами и&nbsp;консультациями:</h2>
         </div>
       </div>
       <div class="row last-row text-center">
