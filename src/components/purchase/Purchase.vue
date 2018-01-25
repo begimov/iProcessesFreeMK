@@ -48,7 +48,7 @@
         <div class="col-md-5">
           <div class="card">
             <div class="card-header bg-danger text-light">
-              <span class="lead"><strong>ПАКЕТ &laquo;МАТЕРИАЛЫ&raquo;</strong></span>
+              <span class="lead"><strong>ПАКЕТ &laquo;МАРАФОН&raquo;</strong></span>
             </div>
             <ul class="list-group list-group-flush">
               <li class="list-group-item">Записи мастер-классов и&nbsp;дополнительные материалы (презентация, шаблоны и&nbsp;проекты документов).</li>
@@ -63,7 +63,7 @@
                 WMI_SUCCESS_URL="https://iteam.ru/promo/marafon/db"
                 WMI_FAIL_URL="https://iteam.ru/promo/marafon/db"
                 campaign_token="ng5u2"
-                product_name="ПАКЕТ «МАТЕРИАЛЫ»"
+                product_name="ПАКЕТ «МАРАФОН»"
               />
             </div>
           </div>
@@ -71,8 +71,8 @@
         <div class="col-md-7">
           <div class="card">
             <div class="card-header bg-danger text-light">
-              <span class="lead"><strong>ПАКЕТ &laquo;КОНСУЛЬТАНТ&raquo;</strong></span><br>
-              <span class="badge badge-warning">Включает ПАКЕТ &laquo;МАТЕРИАЛЫ&raquo;</span><br>
+              <span class="lead"><strong>ПАКЕТ &laquo;СУПЕРМАРАФОН&raquo;</strong></span><br>
+              <span class="badge badge-warning">Включает ПАКЕТ &laquo;МАРАФОН&raquo;</span><br>
               <span class="lead"><strong>+</strong></span>
             </div>
             <ul class="list-group list-group-flush">
@@ -88,7 +88,7 @@
                 WMI_SUCCESS_URL="https://iteam.ru/promo/marafon/db"
                 WMI_FAIL_URL="https://iteam.ru/promo/marafon/db"
                 campaign_token="ng5PT"
-                product_name="ПАКЕТ «КОНСУЛЬТАНТ»"
+                product_name="ПАКЕТ «СУПЕРМАРАФОН»"
               />
             </div>
           </div>
