@@ -21,6 +21,7 @@
                     </div>
                   </div>
               </div>
+              <h2><span class="badge badge-primary">БЕСПЛАТНО</span></h2>
               <a href="#" class="btn btn-dark btn-lg disabled" id="grFormBtn" v-if="isLoading">ОТПРАВКА...</a>
               <a href="#" class="btn btn-dark" id="grFormBtn" v-else @click.prevent="register">ЗАРЕГИСТРИРОВАТЬСЯ</a>
           </form>
