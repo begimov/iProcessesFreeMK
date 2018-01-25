@@ -8,7 +8,7 @@
           <div class="col-md text-center"><span class="badge badge-primary">ОНЛАЙН</span></div>
           <div class="col-md text-right"><span class="badge badge-primary">БЕСПЛАТНО</span></div>
         </div>
-        <h1 class="display-3 header-title"><strong>РУССКИЙ МЕНЕДЖМЕНТ. БИЗНЕС КАК СИСТЕМА</strong></h1>
+        <h1 class="display-3 header-title"><strong>РУССКИЙ МЕНЕДЖМЕНТ<br>БИЗНЕС КАК СИСТЕМА</strong></h1>
         <p class="lead header-date"><span class="badge badge-light">12&nbsp;февраля&nbsp;&mdash; 18&nbsp;апреля</span></p>
         <p class="lead">практический онлайн-марафон</p>
       </div>
@@ -472,7 +472,9 @@
         <div class="col-lg-4">
           <div class="card">
             <div class="card-header bg-danger text-light">
-              <span class="lead"><strong>ПАКЕТ &laquo;МАТЕРИАЛЫ&raquo;</strong></span>
+              <span class="lead"><strong>ПАКЕТ &laquo;МАТЕРИАЛЫ&raquo;</strong></span><br>
+              <span class="badge badge-warning" style="font-size: 0.8em;">Включает ПАКЕТ &laquo;МАРАФОН&raquo;</span><br>
+              <span class="lead"><strong>+</strong></span>
             </div>
             <ul class="list-group list-group-flush">
               <li class="list-group-item">Записи мастер-классов и&nbsp;дополнительные материалы (презентация, шаблоны и&nbsp;проекты документов).</li>
@@ -496,12 +498,13 @@
         <div class="col-lg-4">
           <div class="card">
             <div class="card-header bg-dark text-light">
-              <span class="lead"><strong>БЕСПЛАТНО</strong></span>
+              <span class="lead"><strong>ПАКЕТ &laquo;МАРАФОН&raquo;</strong></span>
             </div>
-            <!-- <ul class="list-group list-group-flush">
-              <li class="list-group-item">Записи мастер-классов и&nbsp;дополнительные материалы (презентация, шаблоны и&nbsp;проекты документов).</li>
-              <li class="list-group-item">Материалы будут приходить на&nbsp;указанную вами почту еженедельно, по&nbsp;мере прохождения мастер-классов.</li>
-            </ul> -->
+            <ul class="list-group list-group-flush">
+              <li class="list-group-item">Участие во&nbsp;всех мастер-классах Марафона очно.</li>
+              <li class="list-group-item">Самостоятельное выполнение заданий наставника.</li>
+              <li class="list-group-item">Обсуждение вопросов и&nbsp;проблем в&nbsp;общей группе в&nbsp;социальных сетях.</li>
+            </ul>
             <div class="card-body">
               <Grform 
                 campaign_token="ngWDi"
