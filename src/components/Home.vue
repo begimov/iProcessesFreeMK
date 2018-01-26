@@ -8,7 +8,8 @@
           <div class="col-md text-center"><span class="badge badge-primary">ОНЛАЙН</span></div>
           <div class="col-md text-right"><span class="badge badge-primary">БЕСПЛАТНО</span></div>
         </div>
-        <h1 class="display-3 header-title"><strong>РУССКИЙ МЕНЕДЖМЕНТ<br>БИЗНЕС КАК СИСТЕМА</strong></h1>
+        <div class=""><h1 class="display-3 header-title d-none d-sm-block"><strong>РУССКИЙ МЕНЕДЖМЕНТ<br>БИЗНЕС КАК СИСТЕМА</strong></h1></div>
+        <div class=""><h1 class="display-5 header-title d-sm-none"><strong>РУССКИЙ МЕНЕДЖМЕНТ<br>БИЗНЕС КАК СИСТЕМА</strong></h1></div>
         <p class="lead header-date"><span class="badge badge-light">12&nbsp;февраля&nbsp;&mdash; 18&nbsp;апреля</span></p>
         <p class="lead">практический онлайн-марафон</p>
       </div>
