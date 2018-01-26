@@ -28,7 +28,11 @@ export default {
         }
     },
     methods: {
-        //
+        scrollMeTo(refName) {
+            var element = this.$refs[refName];
+            var top = element.offsetTop;
+            window.scrollTo(0, top);
+        }
     },
     mounted() {
         //
