@@ -237,7 +237,7 @@
                       </div>
                       <div class="col-md-4">
                         <Ytplayer
-                          video-id="BuCa1Pm9Mi8"
+                          video-id="4w-RREnLs2Y"
                         />
                       </div>
                     </div>
@@ -277,7 +277,7 @@
                       </div>
                       <div class="col-md-4">
                         <Ytplayer
-                          video-id="4w-RREnLs2Y"
+                          video-id="39WaU9B8IGI"
                         />
                       </div>
                     </div>
@@ -317,7 +317,7 @@
                       </div>
                       <div class="col-md-4">
                         <Ytplayer
-                          video-id="39WaU9B8IGI"
+                          video-id="BuCa1Pm9Mi8"
                         />
                       </div>
                     </div>
