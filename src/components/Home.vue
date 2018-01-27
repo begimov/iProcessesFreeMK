@@ -3,10 +3,15 @@
     <div class="jumbotron jumbotron-fluid text-white">
       <div class="container">
         <div class="row header-top">
-          <div class="col-md"><img src="../assets/logo.png" class="logo" width="90"></div>
-          <div class="col-md"><span class="badge badge-primary">2&nbsp;МЕСЯЦА</span></div>
-          <div class="col-md text-center"><span class="badge badge-primary">ОНЛАЙН</span></div>
-          <div class="col-md text-right"><span class="badge badge-primary">БЕСПЛАТНО</span></div>
+          <div class="col"><img src="../assets/logo.png" class="logo" width="90"></div>
+          <div class="col d-none d-md-block"><span class="badge badge-primary">2&nbsp;МЕСЯЦА</span></div>
+          <div class="col d-none d-md-block text-center"><span class="badge badge-primary">ОНЛАЙН</span></div>
+          <div class="col d-none d-md-block text-right"><span class="badge badge-primary">БЕСПЛАТНО</span></div>
+          <div class="col d-md-none text-right">
+            <p><span class="badge badge-primary">2&nbsp;МЕСЯЦА</span></p>
+            <p><span class="badge badge-primary">ОНЛАЙН</span></p>
+            <p><span class="badge badge-primary">БЕСПЛАТНО</span></p>
+          </div>
         </div>
         <h1 class="display-3 header-title d-none d-sm-block"><strong>РУССКИЙ МЕНЕДЖМЕНТ<br>БИЗНЕС КАК СИСТЕМА</strong></h1>
         <h1 class="display-5 header-title d-sm-none"><strong>РУССКИЙ МЕНЕДЖМЕНТ<br>БИЗНЕС КАК СИСТЕМА</strong></h1>
