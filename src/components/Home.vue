@@ -457,7 +457,7 @@
         </div>
       </div>
 
-      <div class="row last-row" style="margin-top:80px">
+      <div class="row last-row" style="margin-top:80px; font-family: 'Playfair Display', serif;">
         <div class="col-md-3">
           <img class="img-fluid" src="../assets/kochnev.jpg">
         </div>
