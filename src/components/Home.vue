@@ -2,8 +2,8 @@
   <div>
     <div class="jumbotron jumbotron-fluid text-white">
       <div class="container">
-        <div class="row header-top">
-          <div class="col"><img src="../assets/logo.png" class="logo" width="90"></div>
+        <div class="row">
+          <div class="col"><img src="../assets/logo.png" class="logo" width="110"></div>
           <!-- <div class="col d-none d-md-block"><span class="badge badge-primary">2&nbsp;МЕСЯЦА</span></div>
           <div class="col d-none d-md-block text-center"><span class="badge badge-primary">ОНЛАЙН</span></div>
           <div class="col d-none d-md-block text-right"><span class="badge badge-primary">БЕСПЛАТНО</span></div>
@@ -581,7 +581,7 @@
 
 <style scoped>
 .header-title {
-  margin-top: 50px;
+  margin-top: 30px;
 }
 .header-date {
   margin-top: 20px;
@@ -643,12 +643,12 @@ h2 {
 
 @media (max-width: 767.98px) {
   .header-title {
-    margin-top: 30px;
+    margin-top: 20px;
   }
 }
 @media (max-width: 575.98px) {
   .header-title {
-    margin-top: 20px;
+    margin-top: 10px;
   }
 }
 </style>
