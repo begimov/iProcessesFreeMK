@@ -56,7 +56,7 @@
             </ul>
             <div class="card-body">
               <p>8 комплектов материалов</p>
-              <h2><span class="badge badge-primary">6&thinsp;400&nbsp;&#8381;</span></h2>
+              <h2><span class="badge badge-primary">6&thinsp;400&nbsp;&#8381;</span> <del class="small text-primary"><strong>12&thinsp;800&nbsp;&#8381;</strong></del></h2>
               <Payment
                 WMI_PAYMENT_AMOUNT="6400"
                 WMI_DESCRIPTION="iTeam"
@@ -81,7 +81,7 @@
               <li class="list-group-item">Результат&nbsp;&mdash; готовый эффективный план проведения изменений. Управляемая и&nbsp;эффективная компания.</li>
             </ul>
             <div class="card-body">
-              <h2><span class="badge badge-primary">128&thinsp;000&nbsp;&#8381;</span></h2>
+              <h2><span class="badge badge-primary">128&thinsp;000&nbsp;&#8381;</span> <del class="small text-primary"><strong>256&thinsp;000&nbsp;&#8381;</strong></del></h2>
               <Payment
                 WMI_PAYMENT_AMOUNT="128000"
                 WMI_DESCRIPTION="iTeam"
