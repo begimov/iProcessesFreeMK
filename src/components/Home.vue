@@ -458,12 +458,11 @@
       </div>
 
       <div class="row last-row" style="margin-top:80px; font-family: 'Playfair Display', serif;">
-        <div class="col-md-3">
+        <div class="col-md-3" style="margin-bottom:20px;">
           <img class="img-fluid" src="../assets/kochnev.jpg">
         </div>
         <div class="col-md-9">
-          <h2>Ведущий наставник проекта&nbsp;&mdash; управляющий партнер iTeam Александр Кочнев.</h2>
-          <h3>15&nbsp;лет помогает компаниям выйти на&nbsp;новый уровень.</h3><br>
+          <h3 style="margin-bottom:20px;">Ведущий наставник проекта&nbsp;&mdash; управляющий партнер iTeam Александр Кочнев. 15&nbsp;лет помогает компаниям выйти на&nbsp;новый уровень.</h3>
           <p><img class="img-fluid" src="../assets/client_logos.jpg"></p>
         </div>
       </div>
