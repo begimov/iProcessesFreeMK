@@ -536,7 +536,7 @@
         
       </div> -->
 
-      <div class="row text-center">
+      <!-- <div class="row text-center">
         <div class="col">
           <h2>FAQ</h2>
         </div>
@@ -571,7 +571,7 @@
             </div>
           </div>
         </div>
-      </div>
+      </div> -->
 
     </div>
   </div>
