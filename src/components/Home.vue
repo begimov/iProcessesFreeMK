@@ -473,6 +473,36 @@
           <h2>Отзывы наших участников:</h2>
         </div>
       </div>
+      <div class="row text-center last-row">
+        <div class="col-md-6">
+          <h5>Александр Красный, &laquo;ГаРус&raquo;</h5>
+            <p><a href="http://groupautorus.ru/" target="_blank"><img src="https://iteam.ru/landing/template/img/logo_garus.png" class="img-fluid rounded"></a></p>
+            <div class="embed-responsive embed-responsive-16by9" style="margin-bottom:30px;">
+              <iframe width="560" height="315" src="https://www.youtube.com/embed/Rp4Jh-DP7is" frameborder="0" allowfullscreen></iframe>
+            </div>
+        </div>
+        <div class="col-md-6">
+          <h5>Александр Соловьев, &laquo;FIS&raquo;</h5>
+          <p><a href="http://neofood.de/" target="_blank"><img src="https://iteam.ru/landing/template/img/logo_neofood.png" class="img-fluid rounded"></a></p>
+          <div class="embed-responsive embed-responsive-16by9" style="margin-bottom:30px;">
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/U4QFO0ILnmE" frameborder="0" allowfullscreen></iframe>
+          </div>
+        </div>
+        <div class="col-md-6">
+          <h5>Геннадий Черкасов, &laquo;Миг Плюс&raquo;</h5>
+          <p><a href="http://migplus.ru/" target="_blank"><img src="https://iteam.ru/landing/template/img/logo_migplus.png" class="img-fluid rounded"></a></p>
+          <div class="embed-responsive embed-responsive-16by9" style="margin-bottom:30px;">
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/C2MVqTRj40w" frameborder="0" allowfullscreen></iframe>
+          </div>
+        </div>
+        <div class="col-md-6">
+          <h5>Яна Ходак, &laquo;МК&nbsp;Практик&raquo;</h5>
+          <p><a href="http://practicmed.ru/" target="_blank"><img src="https://iteam.ru/landing/template/img/logo_mkpraktik.png" class="img-fluid rounded"></a></p>
+          <div class="embed-responsive embed-responsive-16by9" style="margin-bottom:30px;">
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/rlzpDK1my58" frameborder="0" allowfullscreen></iframe>
+          </div>
+        </div>
+      </div>
 
       <!-- <div class="row text-center" ref="join-block">
         <div class="col" style="margin-top:30px">
