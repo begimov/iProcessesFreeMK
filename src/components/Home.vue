@@ -4,20 +4,21 @@
       <div class="container">
         <div class="row header-top">
           <div class="col"><img src="../assets/logo.png" class="logo" width="90"></div>
-          <div class="col d-none d-md-block"><span class="badge badge-primary">2&nbsp;МЕСЯЦА</span></div>
+          <!-- <div class="col d-none d-md-block"><span class="badge badge-primary">2&nbsp;МЕСЯЦА</span></div>
           <div class="col d-none d-md-block text-center"><span class="badge badge-primary">ОНЛАЙН</span></div>
           <div class="col d-none d-md-block text-right"><span class="badge badge-primary">БЕСПЛАТНО</span></div>
           <div class="col d-md-none text-right">
             <p><span class="badge badge-primary">2&nbsp;МЕСЯЦА</span></p>
             <p><span class="badge badge-primary">ОНЛАЙН</span></p>
             <p><span class="badge badge-primary">БЕСПЛАТНО</span></p>
-          </div>
+          </div> -->
         </div>
-        <h1 class="display-3 header-title d-none d-sm-block"><strong>РУССКИЙ МЕНЕДЖМЕНТ<br>БИЗНЕС КАК СИСТЕМА</strong></h1>
-        <h1 class="display-5 header-title d-sm-none"><strong>РУССКИЙ МЕНЕДЖМЕНТ<br>БИЗНЕС КАК СИСТЕМА</strong></h1>
-        <p class="lead header-date"><span class="badge badge-light">12&nbsp;февраля&nbsp;&mdash; 18&nbsp;апреля</span></p>
-        <p class="lead">практический онлайн-марафон</p>
-        <a href="#" class="btn btn-primary text-uppercase" @click.prevent="scrollMeTo('join-block')">Участвовать</a>
+        <p class="header-title lead">Создайте систему управления компанией за&nbsp;8&nbsp;недель шаг за&nbsp;шагом</p>
+        <h1 class="display-3 d-none d-sm-block"><strong>РУССКИЙ МЕНЕДЖМЕНТ<br>БИЗНЕС КАК СИСТЕМА</strong></h1>
+        <h1 class="display-5 d-sm-none"><strong>РУССКИЙ МЕНЕДЖМЕНТ<br>БИЗНЕС КАК СИСТЕМА</strong></h1>
+        <p class="lead header-date">Онлайн марафон для руководителей и&nbsp;собственников бизнеса</p>
+        <p class="lead"><span class="badge badge-light">Старт 12&nbsp;февраля 2018 года</span></p>
+        <a href="#" class="btn btn-danger btn-lg text-uppercase" @click.prevent="scrollMeTo('join-block')">Участвовать</a>
       </div>
     </div>
 
@@ -580,7 +581,7 @@
 
 <style scoped>
 .header-title {
-  margin-top: 150px;
+  margin-top: 50px;
 }
 .header-date {
   margin-top: 20px;
@@ -642,12 +643,12 @@ h2 {
 
 @media (max-width: 767.98px) {
   .header-title {
-    margin-top: 75px;
+    margin-top: 30px;
   }
 }
 @media (max-width: 575.98px) {
   .header-title {
-    margin-top: 30px;
+    margin-top: 20px;
   }
 }
 </style>
