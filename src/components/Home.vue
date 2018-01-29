@@ -449,6 +449,19 @@
         </div>
       </div>
       <div class="row last-row text-center">
+        <div class="col">
+          <Grform 
+            campaign_token="ng5Lk"
+          />
+        </div>
+      </div>
+
+      <!-- <div class="row text-center" ref="join-block">
+        <div class="col" style="margin-top:30px">
+          <h2>Я участвую!</h2>
+        </div>
+      </div>
+      <div class="row last-row text-center">
         
         <div class="col-lg-4">
           <div class="card">
@@ -520,7 +533,7 @@
           </div>
         </div>
         
-      </div>
+      </div> -->
 
       <div class="row text-center">
         <div class="col">
