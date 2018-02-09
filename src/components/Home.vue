@@ -17,8 +17,8 @@
         <h1 class="display-3 d-none d-sm-block"><strong>РУССКИЙ МЕНЕДЖМЕНТ<br>БИЗНЕС КАК СИСТЕМА</strong></h1>
         <h1 class="display-5 d-sm-none"><strong>РУССКИЙ МЕНЕДЖМЕНТ<br>БИЗНЕС КАК СИСТЕМА</strong></h1>
         <p class="lead header-date">Онлайн марафон для руководителей и&nbsp;собственников бизнеса</p>
-        <p class="lead"><span class="badge badge-light">Старт 12&nbsp;февраля 2018 года</span></p>
-        <a href="#" class="btn btn-danger btn-lg text-uppercase" @click.prevent="scrollMeTo('join-block')">Участвовать</a>
+        <p class="lead"><span class="badge badge-light">Старт 1&nbsp;октября 2018 года</span></p>
+        <!-- <a href="#" class="btn btn-danger btn-lg text-uppercase" @click.prevent="scrollMeTo('join-block')">Участвовать</a> -->
       </div>
     </div>
 
@@ -62,28 +62,28 @@
           <div class="col">
             <ul class="nav nav-tabs nav-tabs-links" id="myTab" role="tablist">
               <li class="nav-item">
-                <a class="nav-link active" id="first-tab" data-toggle="tab" href="#first" role="tab" aria-controls="first" aria-selected="true">12&nbsp;февраля</a>
+                <a class="nav-link active" id="first-tab" data-toggle="tab" href="#first" role="tab" aria-controls="first" aria-selected="true">Этап&nbsp;№1</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" id="second-tab" data-toggle="tab" href="#second" role="tab" aria-controls="second" aria-selected="false">26&nbsp;февраля</a>
+                <a class="nav-link" id="second-tab" data-toggle="tab" href="#second" role="tab" aria-controls="second" aria-selected="false">Этап&nbsp;№2</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" id="third-tab" data-toggle="tab" href="#third" role="tab" aria-controls="third" aria-selected="false">5&nbsp;марта</a>
+                <a class="nav-link" id="third-tab" data-toggle="tab" href="#third" role="tab" aria-controls="third" aria-selected="false">Этап&nbsp;№3</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" id="fourth-tab" data-toggle="tab" href="#fourth" role="tab" aria-controls="fourth" aria-selected="false">12&nbsp;марта</a>
+                <a class="nav-link" id="fourth-tab" data-toggle="tab" href="#fourth" role="tab" aria-controls="fourth" aria-selected="false">Этап&nbsp;№4</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" id="fifth-tab" data-toggle="tab" href="#fifth" role="tab" aria-controls="fifth" aria-selected="false">19&nbsp;марта</a>
+                <a class="nav-link" id="fifth-tab" data-toggle="tab" href="#fifth" role="tab" aria-controls="fifth" aria-selected="false">Этап&nbsp;№5</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" id="sixth-tab" data-toggle="tab" href="#sixth" role="tab" aria-controls="sixth" aria-selected="false">2&nbsp;апреля</a>
+                <a class="nav-link" id="sixth-tab" data-toggle="tab" href="#sixth" role="tab" aria-controls="sixth" aria-selected="false">Этап&nbsp;№6</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" id="seventh-tab" data-toggle="tab" href="#seventh" role="tab" aria-controls="seventh" aria-selected="false">9&nbsp;апреля</a>
+                <a class="nav-link" id="seventh-tab" data-toggle="tab" href="#seventh" role="tab" aria-controls="seventh" aria-selected="false">Этап&nbsp;№7</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" id="eighth-tab" data-toggle="tab" href="#eighth" role="tab" aria-controls="eighth" aria-selected="false">16&nbsp;апреля</a>
+                <a class="nav-link" id="eighth-tab" data-toggle="tab" href="#eighth" role="tab" aria-controls="eighth" aria-selected="false">Этап&nbsp;№8</a>
               </li>
             </ul>
             <div class="tab-content" id="myTabContent">
@@ -444,7 +444,7 @@
         </div>
       </div>
 
-      <div class="row text-center" ref="join-block">
+      <!-- <div class="row text-center" ref="join-block">
         <div class="col" style="margin-top:30px">
           <h2>Я участвую!</h2>
         </div>
@@ -455,7 +455,7 @@
             campaign_token="ng5Lk"
           />
         </div>
-      </div>
+      </div> -->
 
       <div class="row last-row" style="margin-top:80px; font-family: 'Playfair Display', serif;">
         <div class="col-md-3" style="margin-bottom:20px;">

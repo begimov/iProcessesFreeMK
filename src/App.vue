@@ -37,7 +37,7 @@
             <div class="col-md-3 ">&nbsp;</div>
             <div class="col-md-9">
               <h3>Дополнительно&nbsp;&mdash; конференция в&nbsp;Анапе для участников!</h3>
-              <p class="lead"><span class="badge badge-light">Подробности в феврале</span></p>
+              <p class="lead"><span class="badge badge-light">Подробности в октябре</span></p>
             </div>
           </div>
         </div>
