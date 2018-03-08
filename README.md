@@ -1,6 +1,6 @@
 # imarathonDB
 
-> special project for lead iproduct
+> special project for bussiness processes product
 
 ## Build Setup
 
