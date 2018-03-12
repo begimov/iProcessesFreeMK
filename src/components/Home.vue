@@ -21,7 +21,8 @@
         </div>
       </div>
       <div class="row last-row">
-        <div class="col">
+        <div class="col-lg-4 mp-is-block">&nbsp;</div>
+        <div class="col-lg-8 mt-3 mt-lg-0">
           <ul>
             <li>Новая форма обучения и&nbsp;консультирования, в&nbsp;котором участвует вся управленческая команда.</li>
             <li>В&nbsp;течение 4&nbsp;месяцев шаг за&nbsp;шагом под руководством консультанта-наставника вы&nbsp;проходите все этапы внедрения процессного управления в&nbsp;вашей компании.</li>
@@ -38,7 +39,7 @@
         </div>
       </div>
       <div class="row last-row">
-        <div class="col">
+        <div class="col-lg-8">
           <ul>
             <li>Вы&nbsp;хотите выстроить прозрачную систему управления процессами в&nbsp;вашей компании.</li>
             <li>Вы&nbsp;хотите улучшить качество продукции и&nbsp;услуг, повысить уровень обслуживания клиентов, оптимизировать материальные и&nbsp;временные затраты.</li>
@@ -48,6 +49,7 @@
             <li>Вы&nbsp;хотите быстро и&nbsp;гарантированно получить систему налаженных бизнес-процессов, не&nbsp;переплачивая за&nbsp;услуги консультантов.</li>
           </ul>
         </div>
+        <div class="col-lg-4 mt-3 mt-lg-0 mp-is-usefull-block">&nbsp;</div>
       </div>
     </div>
 
@@ -57,34 +59,90 @@
           <h2>ВАШИ РЕЗУЛЬТАТЫ</h2>
         </div>
       </div>
-      <div class="row last-row">
+      <div class="row">
         <div class="col">
           <p><strong>после прохождения мастер-проекта и&nbsp;при успешном выполнении всех заданий:</strong></p>
-          <ol>
-            <li>
-              <p>Полностью <strong>описана архитектура процессов</strong> компании, включая:</p>
-              <ul>
-                <li><p>Определение стратегии компании.</p></li>
-                <li><p>Состав процессов верхнего уровня (целевое состояние).</p></li>
-                <li><p>Карта процессов с&nbsp;детализацией основных процессов до&nbsp;2-3 уровня (целевое состояние).</p></li>
-                <li><p>Центры ответственности и&nbsp;описание их&nbsp;функций (требования к&nbsp;организационной структуре).</p></li>
-              </ul>
-            </li>
-            <li><p><strong>Спецификации основных процессов</strong> первого уровня и&nbsp;части процессов 2&nbsp;и&nbsp;3&nbsp;уровней.</p></li>
-            <li><p><strong>Результаты анализа проблемных зон</strong> в&nbsp;цепи процессов и&nbsp;определение приоритетов их&nbsp;улучшения.</p></li>
-            <li><p><strong>Описание моделей процессов,</strong> выбранных в&nbsp;качестве критически важных для компании.</p></li>
-            <li><p><strong>Регламенты</strong> критически важных процессов.</p></li>
-            <li><p><strong>Инструкции</strong> исполнителей процессов.</p></li>
-            <li><p><strong>Должностные обязанности</strong> сотрудников для определенных должностных позиций.</p></li>
-            <li><p><strong>Профили должностных позиций</strong> для определенных должностей.</p></li>
-            <li><p><strong>Показатели KPI</strong> для определенных должностных позиций.</p></li>
-            <li><p><strong>Корпоративные стандарты</strong> регламентов процессов, должностных обязанностей, инструкций и&nbsp;других документов.</p></li>
-            <li><p><strong>Работающие</strong> в&nbsp;соответствии с&nbsp;разработанными регламентами <strong>процессы.</strong></p></li>
-            <li><p><strong>Работающие процедуры</strong> измерения показателей процессов и&nbsp;регулярная отчетность о&nbsp;показателях процессов, критически важных для компании.</p></li>
+          <ol class="p-0">
+            <div class="card">
+              <div class="card-body pl-5 pb-1">
+                <li>
+                  <p>Полностью <strong>описана архитектура процессов</strong> компании, включая:</p>
+                  <ul>
+                    <li><p>Определение стратегии компании.</p></li>
+                    <li><p>Состав процессов верхнего уровня (целевое состояние).</p></li>
+                    <li><p>Карта процессов с&nbsp;детализацией основных процессов до&nbsp;2-3 уровня (целевое состояние).</p></li>
+                    <li><p>Центры ответственности и&nbsp;описание их&nbsp;функций (требования к&nbsp;организационной структуре).</p></li>
+                  </ul>
+                </li>
+              </div>
+            </div>
+            <div class="card mt-2">
+              <div class="card-body pl-5 pb-1">
+                <li><p><strong>Спецификации основных процессов</strong> первого уровня и&nbsp;части процессов 2&nbsp;и&nbsp;3&nbsp;уровней.</p></li>
+              </div>
+            </div>
+            <div class="card mt-2">
+              <div class="card-body pl-5 pb-1">
+                <li><p><strong>Результаты анализа проблемных зон</strong> в&nbsp;цепи процессов и&nbsp;определение приоритетов их&nbsp;улучшения.</p></li>
+              </div>
+            </div>
+            <div class="card mt-2">
+              <div class="card-body pl-5 pb-1">
+                <li><p><strong>Описание моделей процессов,</strong> выбранных в&nbsp;качестве критически важных для компании.</p></li>
+              </div>
+            </div>
+            <div class="card mt-2">
+              <div class="card-body pl-5 pb-1">
+                <li><p><strong>Регламенты</strong> критически важных процессов.</p></li>
+              </div>
+            </div>
+            <div class="card mt-2">
+              <div class="card-body pl-5 pb-1">
+                <li><p><strong>Инструкции</strong> исполнителей процессов.</p></li>
+              </div>
+            </div>
+            <div class="card mt-2">
+              <div class="card-body pl-5 pb-1">
+                <li><p><strong>Должностные обязанности</strong> сотрудников для определенных должностных позиций.</p></li>
+              </div>
+            </div>
+            <div class="card mt-2">
+              <div class="card-body pl-5 pb-1">
+                <li><p><strong>Профили должностных позиций</strong> для определенных должностей.</p></li>
+              </div>
+            </div>
+            <div class="card mt-2">
+              <div class="card-body pl-5 pb-1">
+                <li><p><strong>Показатели KPI</strong> для определенных должностных позиций.</p></li>
+              </div>
+            </div>
+            <div class="card mt-2">
+              <div class="card-body pl-5 pb-1">
+                <li><p><strong>Корпоративные стандарты</strong> регламентов процессов, должностных обязанностей, инструкций и&nbsp;других документов.</p></li>
+              </div>
+            </div>
+            <div class="card mt-2">
+              <div class="card-body pl-5 pb-1">
+                <li><p><strong>Работающие</strong> в&nbsp;соответствии с&nbsp;разработанными регламентами <strong>процессы.</strong></p></li>
+              </div>
+            </div>
+            <div class="card mt-2">
+              <div class="card-body pl-5 pb-1">
+                <li><p><strong>Работающие процедуры</strong> измерения показателей процессов и&nbsp;регулярная отчетность о&nbsp;показателях процессов, критически важных для компании.</p></li>
+              </div>
+            </div>
           </ol>
-          <p>+ ТО, ЧТО НЕЛЬЗЯ ПРИОБРЕСТИ НИКАКИМ ДРУГИМ ПУТЕМ: <strong>ОПЫТ + КОМПЕТЕНЦИИ</strong></p>
-          <p>Самым важным результатом проекта для вашей управленческой КОМАНДЫ станут КОМПЕТЕНЦИИ и&nbsp;ОПЫТ внедрения процессного подхода.</p>
-          <p>Это значит, что в&nbsp;дальнейшем вам больше не&nbsp;понадобиться сторонний специалист, консультант или коуч&nbsp;&mdash; вы&nbsp;станете САМОСТОЯТЕЛЬНЫМИ и&nbsp;сможете развивать и&nbsp;совершенствовать систему управления процессами компании.</p>
+        </div>
+      </div>
+      <div class="row last-row">
+        <div class="col">
+          <div class="card bg-dark text-light">
+            <div class="card-body">
+              <p>+ ТО, ЧТО НЕЛЬЗЯ ПРИОБРЕСТИ НИКАКИМ ДРУГИМ ПУТЕМ: <strong>ОПЫТ + КОМПЕТЕНЦИИ</strong></p>
+              <p>Самым важным результатом проекта для вашей управленческой КОМАНДЫ станут КОМПЕТЕНЦИИ и&nbsp;ОПЫТ внедрения процессного подхода.</p>
+              <p>Это значит, что в&nbsp;дальнейшем вам больше не&nbsp;понадобиться сторонний специалист, консультант или коуч&nbsp;&mdash; вы&nbsp;станете САМОСТОЯТЕЛЬНЫМИ и&nbsp;сможете развивать и&nbsp;совершенствовать систему управления процессами компании.</p>
+            </div>
+          </div>
         </div>
       </div>
     </div>
@@ -277,7 +335,7 @@
                 WMI_DESCRIPTION="iTeam"
                 WMI_SUCCESS_URL="https://iteam.ru/promo/processes"
                 WMI_FAIL_URL="https://iteam.ru/promo/processes"
-                campaign_token=""
+                campaign_token="1"
                 product_name="ПАКЕТ «СЛУШАТЕЛЬ»"
               />
             </div>
@@ -302,7 +360,7 @@
                 WMI_DESCRIPTION="iTeam"
                 WMI_SUCCESS_URL="https://iteam.ru/promo/processes"
                 WMI_FAIL_URL="https://iteam.ru/promo/processes"
-                campaign_token=""
+                campaign_token="2"
                 product_name="ПАКЕТ «СЛУШАТЕЛЬ» + шаблоны документов"
               />
             </div>
@@ -328,7 +386,7 @@
                 WMI_DESCRIPTION="iTeam"
                 WMI_SUCCESS_URL="https://iteam.ru/promo/processes"
                 WMI_FAIL_URL="https://iteam.ru/promo/processes"
-                campaign_token=""
+                campaign_token="3"
                 product_name="ПАКЕТ «УЧАСТНИК»"
               />
             </div>
@@ -462,6 +520,14 @@ h2 {
 .card-accent {
   box-shadow: 0 0 20px rgba(0,0,0,0.3);
   border-width: 2px;
+}
+.mp-is-block {
+  background-image: url("../assets/bg.jpg");
+  background-size: cover;
+}
+.mp-is-usefull-block {
+  background-image: url("../assets/bg.jpg");
+  background-size: cover;
 }
 
 
