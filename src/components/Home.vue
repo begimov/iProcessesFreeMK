@@ -138,32 +138,7 @@
                 <div class="card">
                   <h5 class="card-header bg-white">Название этапа</h5>
                   <div class="card-body">
-                    <div class="row">
-                      <div class="col">
-                        <h5 class="card-title">Мастер-класс: &laquo;Название МК&raquo;.</h5>
-                        <p class="card-text">
-                          ...
-                        </p>
-                        <p class="card-text">
-                          <strong>Шаблоны:</strong>
-                          <ul>
-                            <li>...</li>
-                          </ul>
-                        </p>
-                        <h5 class="card-title">Практическая задача для команды:</h5>
-                        <p class="card-text">
-                          ...
-                        </p>
-                        <h5 class="card-title">Разбор результатов с&nbsp;наставником:</h5>
-                        <p class="card-text">
-                          ...
-                        </p>
-                        <h5 class="card-title">Результат:</h5>
-                        <p class="card-text">
-                          ...
-                        </p>
-                      </div>
-                    </div>
+                    //
                   </div>
                 </div>
               </div>
@@ -233,9 +208,38 @@
               </div>
               <div class="tab-pane fade" id="tenth" role="tabpanel" aria-labelledby="tenth-tab">
                 <div class="card">
-                  <h5 class="card-header bg-white">10</h5>
+                  <h5 class="card-header bg-white">ВНЕДРЕНИЕ ПРОЦЕССОВ</h5>
                   <div class="card-body">
-                    //
+                    <div class="row">
+                      <div class="col">
+                        <p class="card-text">
+                          <ul>
+                            <li>Методы организации работы сотрудников на&nbsp;основе регламентов и&nbsp;инструкций: обучение, введение в&nbsp;действие, контроль;</li>
+                            <li>Организация мониторинга исполнения процессов;</li>
+                            <li>Регистрация проблем, возникающих в&nbsp;процессов и&nbsp;осуществление корректирующих действий.</li>
+                          </ul>
+                        </p>
+                        <h5 class="card-title">На&nbsp;десятом этапе команды компаний, участвующих в&nbsp;проекте:</h5>
+                        <p class="card-text">
+                          <ul>
+                            <li>Проводят обучение сотрудников, организуют внедрение в&nbsp;деятельность компании разработанных регламентов и&nbsp;инструкций.</li>
+                            <li>Подводят итоги проекта, оценивают полученные результаты.</li>
+                          </ul>
+                        </p>
+                        <p class="card-text">
+                          Встреча с&nbsp;консультантом в&nbsp;режиме телеконференции; ответы на&nbsp;вопросы, анализ результатов, внесение изменений.
+                        </p>
+                        <p class="card-text">
+                          <strong>Шаблоны:</strong>
+                          <ul>
+                            <li>Рекомендации по&nbsp;проведению обучения сотрудников на&nbsp;основе регламентов и&nbsp;инструкций</li>
+                            <li>Рекомендации по&nbsp;организации мониторинга проблем, возникающих в&nbsp;процессах</li>
+                            <li>Шаблон листа регистрации проблем</li>
+                            <li>Типичные ошибки, допускаемые на этапе внедрения процессов</li>
+                          </ul>
+                        </p>
+                      </div>
+                    </div>
                   </div>
                 </div>
               </div>
@@ -256,7 +260,7 @@
         
         <div class="col-lg-4 mt-2">
           <div class="card h-100">
-            <div class="card-header bg-danger text-light">
+            <div class="card-header bg-dark text-light">
               <span class="lead"><strong>ПАКЕТ &laquo;СЛУШАТЕЛЬ&raquo;</strong></span><br>
               <!-- <span class="badge badge-warning" style="font-size: 0.8em;">Включает ПАКЕТ &laquo;СЛУШАТЕЛЬ&raquo;</span><br>
               <span class="lead"><strong>+</strong></span> -->
