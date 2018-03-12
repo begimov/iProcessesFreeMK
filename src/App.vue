@@ -11,6 +11,8 @@
             <img src="./assets/logo.png" width="100">
           </a><br><br>
           <p>&copy;&nbsp;2002&nbsp;&mdash; 2017 iTeam<br>Москва, Пресненская наб.&nbsp;12</p>
+        </div>
+        <div class="col-md-8">
           <ul class="list-inline">
             <li class="list-inline-item">
               <a href="https://www.facebook.com/ITeam-Management-1538687959484919/">
@@ -31,15 +33,6 @@
           <a href="https://iteam.ru/company/terms">Пользовательское соглашение</a>
           <br>
           <a href="https://iteam.ru/company/offer">Реквизиты</a>
-        </div>
-        <div class="col-md-8 d-none d-md-block">
-          <div class="row anapa-block-bg">
-            <div class="col-md-3 ">&nbsp;</div>
-            <div class="col-md-9">
-              <h3>Дополнительно&nbsp;&mdash; конференция в&nbsp;Анапе для участников!</h3>
-              <p class="lead"><span class="badge badge-light">Подробности в октябре</span></p>
-            </div>
-          </div>
         </div>
       </div>
     </div>
