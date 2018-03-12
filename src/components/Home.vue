@@ -89,7 +89,7 @@
       </div>
     </div>
 
-    <div class="container-fluid changes-block">
+    <div class="container-fluid bg-dark">
       <div class="container text-light">
         <div class="row">
           <div class="col text-center">
@@ -247,31 +247,6 @@
     </div>
 
     <div class="container">
-      <!-- <div class="row last-row align-items-center">
-        <div class="col-md-4">
-          <img src="../assets/achievements.jpg" class="img-fluid" width="90%">
-        </div>
-        <div class="col-md-8">
-          <div class="row">
-            <div class="col-9"><h4 class="text-danger" style="margin-bottom:0; margin-top:20px;">Видимые улучшения</h4></div>
-          </div>
-          <div class="row text-right">
-            <div class="col-9"><h5 style="margin-bottom:0;">в&nbsp;управляемости компанией</h5></div>
-          </div>
-          <div class="row text-center">
-            <div class="col-9"><h2>за&nbsp;два месяца</h2></div>
-          </div>
-          <div class="row">
-            <div class="col">
-              <p><img src="../assets/check.svg">&nbsp;Слабые места компании <span class="text-success">найдены</span></p>
-              <p><img src="../assets/check.svg">&nbsp;Рычаги для внедрения изменений <span class="text-success">определены</span></p>
-              <p><img src="../assets/check.svg">&nbsp;Дорожная карта изменения <span class="text-success">создана</span></p>
-              <p><img src="../assets/check.svg">&nbsp;Ваша управленческая команда <span class="text-success">эффективна</span></p>
-            </div>
-          </div>
-        </div>
-      </div> -->
-
       <div class="row text-center" ref="join-block">
         <div class="col" style="margin-top:30px">
           <h2>Я участвую!</h2>
@@ -473,29 +448,6 @@ h2 {
   padding: 20px 10px;
   margin-bottom: 50px;
 }
-.changes-block {
-  background-image: url("../assets/bg_block_01.jpg");
-  background-size: cover;
-}
-/* .anapa-block-bg {
-  background-image: url("../assets/boni.png");
-  background-repeat: no-repeat;
-  background-size: contain;
-  height: 300px;
-}
-.anapa-block {
-  padding: 20px;
-} */
-.card-header-anapa {
-  background-image: url("../assets/bg_block_anapa.jpg");
-  background-size: cover;
-  height: 200px;
-  padding: 20px;
-}
-/* .achievements-container {
-  background-image: url("../assets/achievements_bg.jpg");
-  background-size: cover;
-} */
 .nav-tabs-links a {
   color: #fff;
   text-decoration: underline;

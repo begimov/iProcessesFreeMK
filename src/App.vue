@@ -51,10 +51,4 @@ export default {
   padding: 20px;
   margin-top: 100px;
 }
-.anapa-block-bg {
-  background-image: url("./assets/boni.png");
-  background-repeat: no-repeat;
-  background-size: contain;
-  height: 200px;
-}
 </style>
