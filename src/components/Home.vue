@@ -61,9 +61,13 @@
       </div>
       <div class="row">
         <div class="col">
-          <p><strong>после прохождения мастер-проекта и&nbsp;при успешном выполнении всех заданий:</strong></p>
+          <div class="card bg-dark text-light">
+            <div class="card-body pb-1">
+              <p><img src="../assets/check.svg">&nbsp;<strong>после прохождения мастер-проекта и&nbsp;при успешном выполнении всех заданий:</strong></p>
+            </div>
+          </div>
           <ol class="p-0">
-            <div class="card">
+            <div class="card mt-2">
               <div class="card-body pl-5 pb-1">
                 <li>
                   <p>Полностью <strong>описана архитектура процессов</strong> компании, включая:</p>
@@ -319,9 +323,7 @@
         <div class="col-lg-4 mt-2">
           <div class="card h-100">
             <div class="card-header bg-dark text-light">
-              <span class="lead"><strong>ПАКЕТ &laquo;СЛУШАТЕЛЬ&raquo;</strong></span><br>
-              <!-- <span class="badge badge-warning" style="font-size: 0.8em;">Включает ПАКЕТ &laquo;СЛУШАТЕЛЬ&raquo;</span><br>
-              <span class="lead"><strong>+</strong></span> -->
+              <span class="lead"><strong>ПАКЕТ &laquo;СЛУШАТЕЛЬ&raquo;</strong></span>
             </div>
             <ul class="list-group list-group-flush">
               <li class="list-group-item">Участие во всех мастер-классах.</li>
@@ -522,11 +524,12 @@ h2 {
   border-width: 2px;
 }
 .mp-is-block {
-  background-image: url("../assets/bg.jpg");
+  background-image: url("../assets/mp.jpg");
   background-size: cover;
+  min-height: 150px;
 }
 .mp-is-usefull-block {
-  background-image: url("../assets/bg.jpg");
+  background-image: url("../assets/usefull.jpg");
   background-size: cover;
 }
 
