@@ -8,16 +8,42 @@
         <p class="header-title lead">МАСТЕР-ПРОЕКТ</p>
         <h1 class="display-3 d-none d-sm-block text-uppercase">Создание системы управления процессами</h1>
         <h1 class="display-5 d-sm-none text-uppercase">Создание системы управления процессами</h1>
-        <p class="lead header-date">Для руководителей и&nbsp;собственников бизнеса</p>
+        <p class="lead header-date">14 мастер-классов + 50 шаблонов + консультации!</p>
         <p class="lead"><span class="badge badge-light">Старт 29&nbsp;марта 2018 года</span></p>
         <a href="#" class="btn btn-danger btn-lg text-uppercase" @click.prevent="scrollMeTo('join-block')">Участвовать</a>
       </div>
     </div>
 
-    <div class="container-fluid">
-      <div class="row">
+    <div class="container">
+      <div class="row text-center">
         <div class="col">
-          <img src="../assets/cloud.jpg" class="img-fluid">
+          <h2>МАСТЕР-ПРОЕКТ ЭТО:</h2>
+        </div>
+      </div>
+      <div class="row last-row">
+        <div class="col">
+          <ul>
+            <li>Новая форма обучения и&nbsp;консультирования, в&nbsp;котором участвует вся управленческая команда.</li>
+            <li>В&nbsp;течение 4&nbsp;месяцев шаг за&nbsp;шагом под руководством консультанта-наставника вы&nbsp;проходите все этапы внедрения процессного управления в&nbsp;вашей компании.</li>
+            <li>Результат мастер-проекта&nbsp;&mdash; работающая система управления процессами и&nbsp;обученные сотрудники, способные самостоятельно вести работу по&nbsp;совершенствованию процессов.</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <div class="container">
+      <div class="row text-center">
+        <div class="col">
+          <h2>ВАМ НА&nbsp;100% БУДЕТ ПОЛЕЗЕН МАСТЕР-ПРОЕКТ, ЕСЛИ::</h2>
+        </div>
+      </div>
+      <div class="row last-row">
+        <div class="col">
+          <ul>
+            <li>Новая форма обучения и&nbsp;консультирования, в&nbsp;котором участвует вся управленческая команда.</li>
+            <li>В&nbsp;течение 4&nbsp;месяцев шаг за&nbsp;шагом под руководством консультанта-наставника вы&nbsp;проходите все этапы внедрения процессного управления в&nbsp;вашей компании.</li>
+            <li>Результат мастер-проекта&nbsp;&mdash; работающая система управления процессами и&nbsp;обученные сотрудники, способные самостоятельно вести работу по&nbsp;совершенствованию процессов.</li>
+          </ul>
         </div>
       </div>
     </div>
@@ -436,19 +462,6 @@
         </div>
       </div>
 
-      <!-- <div class="row text-center" ref="join-block">
-        <div class="col" style="margin-top:30px">
-          <h2>Я участвую!</h2>
-        </div>
-      </div>
-      <div class="row last-row text-center">
-        <div class="col">
-          <Grform 
-            campaign_token="ng5Lk"
-          />
-        </div>
-      </div> -->
-
       <div class="row text-center" ref="join-block">
         <div class="col" style="margin-top:30px">
           <h2>Я участвую!</h2>
@@ -530,24 +543,6 @@
             </div>
           </div>
         </div>
-
-        <!-- <div class="col-lg-4">
-          <div class="card">
-            <div class="card-header bg-dark text-light">
-              <span class="lead"><strong>ПАКЕТ &laquo;ЗРИТЕЛЬ&raquo;</strong></span>
-            </div>
-            <ul class="list-group list-group-flush">
-              <li class="list-group-item">Участие во&nbsp;всех мастер-классах Марафона очно.</li>
-              <li class="list-group-item">Самостоятельное выполнение заданий наставника.</li>
-              <li class="list-group-item">Обсуждение вопросов и&nbsp;проблем в&nbsp;общей группе в&nbsp;социальных сетях.</li>
-            </ul>
-            <div class="card-body">
-              <Grform 
-                campaign_token="ng5Lk"
-              />
-            </div>
-          </div>
-        </div> -->
         
       </div>
 
@@ -597,7 +592,7 @@
         </div>
       </div>
 
-      <!-- <div class="row text-center">
+      <div class="row text-center">
         <div class="col">
           <h2>FAQ</h2>
         </div>
@@ -632,7 +627,7 @@
             </div>
           </div>
         </div>
-      </div> -->
+      </div>
 
     </div>
   </div>
