@@ -457,6 +457,108 @@
         </div>
       </div> -->
 
+      <div class="row text-center" ref="join-block">
+        <div class="col" style="margin-top:30px">
+          <h2>Я участвую!</h2>
+        </div>
+      </div>
+      <div class="row last-row text-center">
+        
+        <div class="col-lg-4">
+          <div class="card">
+            <div class="card-header bg-danger text-light">
+              <span class="lead"><strong>ПАКЕТ &laquo;СЛУШАТЕЛЬ&raquo;</strong></span><br>
+              <!-- <span class="badge badge-warning" style="font-size: 0.8em;">Включает ПАКЕТ &laquo;СЛУШАТЕЛЬ&raquo;</span><br>
+              <span class="lead"><strong>+</strong></span> -->
+            </div>
+            <ul class="list-group list-group-flush">
+              <li class="list-group-item">участвует во всех мастер-классах</li>
+              <li class="list-group-item">без шаблонов</li>
+            </ul>
+            <div class="card-body">
+              <h2><span class="badge badge-primary">29&thinsp;000&nbsp;&#8381;</span></h2>
+              <Payment
+                WMI_PAYMENT_AMOUNT="29000"
+                WMI_DESCRIPTION="iTeam"
+                WMI_SUCCESS_URL="https://iteam.ru/promo/processes"
+                WMI_FAIL_URL="https://iteam.ru/promo/processes"
+                campaign_token=""
+                product_name="ПАКЕТ «СЛУШАТЕЛЬ»"
+              />
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-4">
+          <div class="card border-danger card-accent">
+            <div class="card-header bg-danger text-light">
+              <span class="lead"><strong>ПАКЕТ &laquo;СЛУШАТЕЛЬ&raquo;</strong></span><br>
+              <span class="lead"><strong>+</strong></span><br>
+              <span class="badge badge-warning" style="font-size: 0.8em;">шаблоны документов</span>
+            </div>
+            <ul class="list-group list-group-flush">
+              <li class="list-group-item">Записи мастер-классов и&nbsp;дополнительные материалы (презентация, шаблоны и&nbsp;проекты документов).</li>
+            </ul>
+            <div class="card-body">
+              <h2><span class="badge badge-primary">40&thinsp;000&nbsp;&#8381;</span></h2>
+              <Payment
+                WMI_PAYMENT_AMOUNT="40000"
+                WMI_DESCRIPTION="iTeam"
+                WMI_SUCCESS_URL="https://iteam.ru/promo/processes"
+                WMI_FAIL_URL="https://iteam.ru/promo/processes"
+                campaign_token=""
+                product_name="ПАКЕТ «СЛУШАТЕЛЬ» + шаблоны документов"
+              />
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-4">
+          <div class="card">
+            <div class="card-header bg-danger text-light">
+              <span class="lead"><strong>ПАКЕТ &laquo;УЧАСТНИК&raquo;</strong></span><br>
+              <span class="badge badge-warning" style="font-size: 0.8em;">Включает ПАКЕТ &laquo;СЛУШАТЕЛЬ&raquo;</span><br>
+              <span class="lead"><strong>+</strong></span><br>
+              <span class="badge badge-warning" style="font-size: 0.8em;">шаблоны документов</span><br>
+              <span class="lead"><strong>+</strong></span>
+            </div>
+            <ul class="list-group list-group-flush">
+              <li class="list-group-item">Индивидуальное сопровождение управляющего партнера iTeam Александра Кочнева.</li>
+            </ul>
+            <div class="card-body">
+              <h2><span class="badge badge-primary">160&thinsp;000&nbsp;&#8381;</span></h2>
+              <Payment
+                WMI_PAYMENT_AMOUNT="160000"
+                WMI_DESCRIPTION="iTeam"
+                WMI_SUCCESS_URL="https://iteam.ru/promo/processes"
+                WMI_FAIL_URL="https://iteam.ru/promo/processes"
+                campaign_token=""
+                product_name="ПАКЕТ «УЧАСТНИК»"
+              />
+            </div>
+          </div>
+        </div>
+
+        <!-- <div class="col-lg-4">
+          <div class="card">
+            <div class="card-header bg-dark text-light">
+              <span class="lead"><strong>ПАКЕТ &laquo;ЗРИТЕЛЬ&raquo;</strong></span>
+            </div>
+            <ul class="list-group list-group-flush">
+              <li class="list-group-item">Участие во&nbsp;всех мастер-классах Марафона очно.</li>
+              <li class="list-group-item">Самостоятельное выполнение заданий наставника.</li>
+              <li class="list-group-item">Обсуждение вопросов и&nbsp;проблем в&nbsp;общей группе в&nbsp;социальных сетях.</li>
+            </ul>
+            <div class="card-body">
+              <Grform 
+                campaign_token="ng5Lk"
+              />
+            </div>
+          </div>
+        </div> -->
+        
+      </div>
+
       <div class="row last-row" style="margin-top:80px; font-family: 'Playfair Display', serif;">
         <div class="col-md-3" style="margin-bottom:20px;">
           <img class="img-fluid" src="../assets/kochnev.jpg">
@@ -502,85 +604,6 @@
           </div>
         </div>
       </div>
-
-      <!-- <div class="row text-center" ref="join-block">
-        <div class="col" style="margin-top:30px">
-          <h2>Я участвую!</h2>
-        </div>
-      </div>
-      <div class="row last-row text-center">
-        
-        <div class="col-lg-4">
-          <div class="card">
-            <div class="card-header bg-danger text-light">
-              <span class="lead"><strong>ПАКЕТ &laquo;СУПЕРМАРАФОН&raquo;</strong></span><br>
-              <span class="badge badge-warning" style="font-size: 0.8em;">Включает ПАКЕТ &laquo;МАРАФОН&raquo;</span><br>
-              <span class="lead"><strong>+</strong></span>
-            </div>
-            <ul class="list-group list-group-flush">
-              <li class="list-group-item">Индивидуальное сопровождение управляющего партнера iTeam Александра Кочнева.</li>
-              <li class="list-group-item">8&nbsp;консультаций в&nbsp;удобное для вас и&nbsp;вашей команды время после каждого мастер-класса, работа под руководством Наставника.</li>
-              <li class="list-group-item">Результат&nbsp;&mdash; готовый эффективный план проведения изменений. Управляемая и&nbsp;эффективная компания.</li>
-            </ul>
-            <div class="card-body">
-              <h2><span class="badge badge-primary">128&thinsp;000&nbsp;&#8381;</span></h2>
-              <Payment
-                WMI_PAYMENT_AMOUNT="128000"
-                WMI_DESCRIPTION="iTeam"
-                WMI_SUCCESS_URL="https://iteam.ru/promo/marafon/db"
-                WMI_FAIL_URL="https://iteam.ru/promo/marafon/db"
-                campaign_token="ng5PT"
-                product_name="ПАКЕТ «СУПЕРМАРАФОН»"
-              />
-            </div>
-          </div>
-        </div>
-
-        <div class="col-lg-4">
-          <div class="card border-danger card-accent">
-            <div class="card-header bg-danger text-light">
-              <span class="lead"><strong>ПАКЕТ &laquo;МАРАФОН&raquo;</strong></span><br>
-              <span class="badge badge-warning" style="font-size: 0.8em;">Включает ПАКЕТ &laquo;ЗРИТЕЛЬ&raquo;</span><br>
-              <span class="lead"><strong>+</strong></span>
-            </div>
-            <ul class="list-group list-group-flush">
-              <li class="list-group-item">Записи мастер-классов и&nbsp;дополнительные материалы (презентация, шаблоны и&nbsp;проекты документов).</li>
-              <li class="list-group-item">Материалы будут приходить на&nbsp;указанную вами почту еженедельно, по&nbsp;мере прохождения мастер-классов.</li>
-            </ul>
-            <div class="card-body">
-              <p>8 комплектов материалов</p>
-              <h2><span class="badge badge-primary">6&thinsp;400&nbsp;&#8381;</span></h2>
-              <Payment
-                WMI_PAYMENT_AMOUNT="6400"
-                WMI_DESCRIPTION="iTeam"
-                WMI_SUCCESS_URL="https://iteam.ru/promo/marafon/db"
-                WMI_FAIL_URL="https://iteam.ru/promo/marafon/db"
-                campaign_token="ng5u2"
-                product_name="ПАКЕТ «МАРАФОН»"
-              />
-            </div>
-          </div>
-        </div>
-
-        <div class="col-lg-4">
-          <div class="card">
-            <div class="card-header bg-dark text-light">
-              <span class="lead"><strong>ПАКЕТ &laquo;ЗРИТЕЛЬ&raquo;</strong></span>
-            </div>
-            <ul class="list-group list-group-flush">
-              <li class="list-group-item">Участие во&nbsp;всех мастер-классах Марафона очно.</li>
-              <li class="list-group-item">Самостоятельное выполнение заданий наставника.</li>
-              <li class="list-group-item">Обсуждение вопросов и&nbsp;проблем в&nbsp;общей группе в&nbsp;социальных сетях.</li>
-            </ul>
-            <div class="card-body">
-              <Grform 
-                campaign_token="ng5Lk"
-              />
-            </div>
-          </div>
-        </div>
-        
-      </div> -->
 
       <!-- <div class="row text-center">
         <div class="col">
