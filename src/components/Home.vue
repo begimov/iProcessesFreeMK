@@ -4,21 +4,13 @@
       <div class="container">
         <div class="row">
           <div class="col"><img src="../assets/logo.png" class="logo" width="110"></div>
-          <!-- <div class="col d-none d-md-block"><span class="badge badge-primary">2&nbsp;МЕСЯЦА</span></div>
-          <div class="col d-none d-md-block text-center"><span class="badge badge-primary">ОНЛАЙН</span></div>
-          <div class="col d-none d-md-block text-right"><span class="badge badge-primary">БЕСПЛАТНО</span></div>
-          <div class="col d-md-none text-right">
-            <p><span class="badge badge-primary">2&nbsp;МЕСЯЦА</span></p>
-            <p><span class="badge badge-primary">ОНЛАЙН</span></p>
-            <p><span class="badge badge-primary">БЕСПЛАТНО</span></p>
-          </div> -->
         </div>
-        <p class="header-title lead">Создайте систему управления компанией за&nbsp;8&nbsp;недель шаг за&nbsp;шагом</p>
-        <h1 class="display-3 d-none d-sm-block"><strong>РУССКИЙ МЕНЕДЖМЕНТ<br>БИЗНЕС КАК СИСТЕМА</strong></h1>
-        <h1 class="display-5 d-sm-none"><strong>РУССКИЙ МЕНЕДЖМЕНТ<br>БИЗНЕС КАК СИСТЕМА</strong></h1>
-        <p class="lead header-date">Онлайн марафон для руководителей и&nbsp;собственников бизнеса</p>
-        <p class="lead"><span class="badge badge-light">Старт 1&nbsp;октября 2018 года</span></p>
-        <!-- <a href="#" class="btn btn-danger btn-lg text-uppercase" @click.prevent="scrollMeTo('join-block')">Участвовать</a> -->
+        <p class="header-title lead">МАСТЕР-ПРОЕКТ</p>
+        <h1 class="display-3 d-none d-sm-block text-uppercase">Создание системы управления процессами</h1>
+        <h1 class="display-5 d-sm-none text-uppercase">Создание системы управления процессами</h1>
+        <p class="lead header-date">Для руководителей и&nbsp;собственников бизнеса</p>
+        <p class="lead"><span class="badge badge-light">Старт 29&nbsp;марта 2018 года</span></p>
+        <a href="#" class="btn btn-danger btn-lg text-uppercase" @click.prevent="scrollMeTo('join-block')">Участвовать</a>
       </div>
     </div>
 
