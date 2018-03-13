@@ -607,7 +607,8 @@
               <li class="list-group-item">Участие в мастер-классах.</li>
               <li class="list-group-item">Записи мастер-классов.</li>
             </ul>
-            <div class="card-body">
+            <div class="card-body"></div>
+            <div class="card-footer bg-white border-top-0 pb-3">
               <h2><span class="badge badge-primary">12&thinsp;000&nbsp;&#8381;</span></h2>
               <Payment
                 WMI_PAYMENT_AMOUNT="12000"
@@ -632,7 +633,8 @@
               <li class="list-group-item">Презентационные материалы.</li>
               <li class="list-group-item">Методические материалы, шаблоны, образцы документов.</li>
             </ul>
-            <div class="card-body">
+            <div class="card-body"></div>
+            <div class="card-footer bg-white border-top-0 pb-3">
               <h2><span class="badge badge-primary">40&thinsp;000&nbsp;&#8381;</span></h2>
               <Payment
                 WMI_PAYMENT_AMOUNT="40000"
@@ -658,7 +660,8 @@
               <li class="list-group-item">Рецензирование документов.</li>
               <li class="list-group-item">Ответы на вопросы по e-mail и телефону. Онлайн-консультации.</li>
             </ul>
-            <div class="card-body">
+            <div class="card-body"></div>
+            <div class="card-footer bg-white border-top-0 pb-3">
               <h2><span class="badge badge-primary">160&thinsp;000&nbsp;&#8381;</span></h2>
               <Payment
                 WMI_PAYMENT_AMOUNT="160000"
@@ -682,7 +685,8 @@
             <ul class="list-group list-group-flush">
               <li class="list-group-item lead">3 очных стратегических сессий и 7 рабочих сессий с Александром Кочневым по Skype.</li>
             </ul>
-            <div class="card-body">
+            <div class="card-body"></div>
+            <div class="card-footer bg-white border-top-0 pb-3">
               <h2><span class="badge badge-primary">800&thinsp;000&nbsp;&#8381;</span></h2>
               <Payment
                 WMI_PAYMENT_AMOUNT="800000"
