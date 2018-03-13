@@ -6,7 +6,7 @@
           <div class="col"><img src="../assets/logo.png" class="logo" width="110"></div>
         </div>
         <p class="header-title lead">МАСТЕР-ПРОЕКТ</p>
-        <h1 class="display-3 d-none d-sm-block text-uppercase">Создание системы управления процессами</h1>
+        <h1 class="display-3 d-none d-sm-block text-uppercase"><strong>Создание системы управления процессами</strong></h1>
         <h1 class="display-5 d-sm-none text-uppercase">Создание системы управления процессами</h1>
         <p class="lead header-date">14 мастер-классов + 50 шаблонов + консультации!</p>
         <p class="lead"><span class="badge badge-light">Старт 29&nbsp;марта 2018 года</span></p>
@@ -23,7 +23,7 @@
       <div class="row last-row text-center">
         <div class="col">
           <Grform 
-            campaign_token="ngWDi"
+            campaign_token="pugf"
           />
         </div>
       </div>
@@ -612,8 +612,10 @@
         
         <div class="col-xl-3 col-md-6 mt-2">
           <div class="card h-100">
-            <div class="card-header bg-dark text-light">
-              <span class="lead"><strong>ПАКЕТ &laquo;ЛАЙТ&raquo;</strong></span>
+            <div class="card-header bg-primary text-light">
+              <span style="font-size: 0.8em;">&nbsp;</span><br>
+              <span class="lead"><strong>ПАКЕТ &laquo;ЛАЙТ&raquo;</strong></span><br>
+              <span class="lead"><strong>&nbsp;</strong></span>
             </div>
             <ul class="list-group list-group-flush">
               <li class="list-group-item">Участие в мастер-классах.</li>
@@ -664,7 +666,7 @@
           <div class="card h-100">
             <div class="card-header bg-danger text-light">
               <span class="lead"><strong>ПАКЕТ &laquo;СУПЕР&raquo;</strong></span><br>
-              <span class="badge badge-warning lead" style="font-size: 0.8em;">Включает ПАКЕТ &laquo;БАЗОВЫЙ&raquo;</span><br>
+              <span class="badge badge-warning" style="font-size: 0.8em;">Включает ПАКЕТ &laquo;БАЗОВЫЙ&raquo;</span><br>
               <span class="lead"><strong>+</strong></span>
             </div>
             <ul class="list-group list-group-flush">
@@ -691,11 +693,13 @@
           <div class="card h-100">
             <div class="card-header bg-danger text-light">
               <span class="lead"><strong>ПАКЕТ &laquo;ПРЕМИУМ&raquo;</strong></span><br>
-              <span class="badge badge-warning lead" style="font-size: 0.8em;">Включает ПАКЕТ &laquo;СУПЕР&raquo;</span><br>
+              <span class="badge badge-warning" style="font-size: 0.8em;">Включает ПАКЕТ &laquo;БАЗОВЫЙ&raquo;</span><br>
               <span class="lead"><strong>+</strong></span>
             </div>
             <ul class="list-group list-group-flush">
-              <li class="list-group-item lead">3 очных стратегических сессий и 7 рабочих сессий с Александром Кочневым по Skype.</li>
+              <li class="list-group-item">3 очных стратегических сессий и 7 рабочих сессий с Александром Кочневым по Skype.</li>
+              <li class="list-group-item">Рецензирование документов.</li>
+              <li class="list-group-item">Ответы на вопросы по e-mail и телефону. Онлайн-консультации.</li>
             </ul>
             <div class="card-body"></div>
             <div class="card-footer bg-white border-top-0 pb-3">

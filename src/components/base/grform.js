@@ -33,7 +33,8 @@ export default {
             }).then((response) => {
                 if (response.data.status === 'ok') {
                     this.msg = response.data.msg
-                    this.$router.push({ path: 'purchase' })
+                    window.location.href = "https://iteam.ru/promo/processes/programm.pdf";
+                    // this.$router.push({ path: 'purchase' })
                     // location.reload()
                 } else if (response.data.status === 'error') {
                     this.error = response.data.msg
