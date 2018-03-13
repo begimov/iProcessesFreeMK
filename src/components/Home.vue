@@ -598,40 +598,39 @@
       </div>
       <div class="row last-row text-center">
         
-        <div class="col-lg-4 mt-2">
+        <div class="col-xl-3 col-md-6 mt-2">
           <div class="card h-100">
             <div class="card-header bg-dark text-light">
-              <span class="lead"><strong>ПАКЕТ &laquo;СЛУШАТЕЛЬ&raquo;</strong></span>
+              <span class="lead"><strong>ПАКЕТ &laquo;ЛАЙТ&raquo;</strong></span>
             </div>
             <ul class="list-group list-group-flush">
-              <li class="list-group-item">Участие во всех мастер-классах.</li>
+              <li class="list-group-item">Участие в мастер-классах.</li>
               <li class="list-group-item">Записи мастер-классов.</li>
-              <li class="list-group-item">Презентационные материалы.</li>
             </ul>
             <div class="card-body">
-              <h2><span class="badge badge-primary">29&thinsp;000&nbsp;&#8381;</span></h2>
+              <h2><span class="badge badge-primary">12&thinsp;000&nbsp;&#8381;</span></h2>
               <Payment
-                WMI_PAYMENT_AMOUNT="29000"
+                WMI_PAYMENT_AMOUNT="12000"
                 WMI_DESCRIPTION="iTeam"
                 WMI_SUCCESS_URL="https://iteam.ru/promo/processes"
                 WMI_FAIL_URL="https://iteam.ru/promo/processes"
                 campaign_token="1"
-                product_name="ПАКЕТ «СЛУШАТЕЛЬ»"
+                product_name="ПАКЕТ «ЛАЙТ»"
               />
             </div>
           </div>
         </div>
 
-        <div class="col-lg-4 mt-2">
+        <div class="col-xl-3 col-md-6 mt-2">
           <div class="card border-danger card-accent h-100">
             <div class="card-header bg-danger text-light">
-              <span class="lead"><strong>ПАКЕТ &laquo;СЛУШАТЕЛЬ&raquo;</strong></span><br>
-              <span class="lead"><strong>+</strong></span><br>
-              <span class="badge badge-warning" style="font-size: 0.8em;">шаблоны документов</span>
+              <span class="lead"><strong>ПАКЕТ &laquo;БАЗОВЫЙ&raquo;</strong></span><br>
+              <span class="badge badge-warning" style="font-size: 0.8em;">Включает ПАКЕТ &laquo;ЛАЙТ&raquo;</span><br>
+              <span class="lead"><strong>+</strong></span>
             </div>
             <ul class="list-group list-group-flush">
-              <li class="list-group-item">Участие во всех мастер-классах.</li>
-              <li class="list-group-item">Записи мастер-классов и&nbsp;дополнительные материалы (презентация, шаблоны и&nbsp;проекты документов).</li>
+              <li class="list-group-item">Презентационные материалы.</li>
+              <li class="list-group-item">Методические материалы, шаблоны, образцы документов.</li>
             </ul>
             <div class="card-body">
               <h2><span class="badge badge-primary">40&thinsp;000&nbsp;&#8381;</span></h2>
@@ -641,23 +640,23 @@
                 WMI_SUCCESS_URL="https://iteam.ru/promo/processes"
                 WMI_FAIL_URL="https://iteam.ru/promo/processes"
                 campaign_token="2"
-                product_name="ПАКЕТ «СЛУШАТЕЛЬ» + шаблоны документов"
+                product_name="ПАКЕТ «БАЗОВЫЙ»"
               />
             </div>
           </div>
         </div>
 
-        <div class="col-lg-4 mt-2">
+        <div class="col-xl-3 col-md-6 mt-2">
           <div class="card h-100">
             <div class="card-header bg-danger text-light">
-              <span class="lead"><strong>ПАКЕТ &laquo;УЧАСТНИК&raquo;</strong></span><br>
-              <span class="badge badge-warning" style="font-size: 0.8em;">Включает ПАКЕТ &laquo;СЛУШАТЕЛЬ&raquo;</span><br>
-              <span class="lead"><strong>+</strong></span><br>
-              <span class="badge badge-warning" style="font-size: 0.8em;">шаблоны документов</span><br>
+              <span class="lead"><strong>ПАКЕТ &laquo;СУПЕР&raquo;</strong></span><br>
+              <span class="badge badge-warning lead" style="font-size: 0.8em;">Включает ПАКЕТ &laquo;БАЗОВЫЙ&raquo;</span><br>
               <span class="lead"><strong>+</strong></span>
             </div>
             <ul class="list-group list-group-flush">
-              <li class="list-group-item">Индивидуальное сопровождение управляющего партнера iTeam Александра Кочнева.</li>
+              <li class="list-group-item">10 рабочих сессий с Александром Кочневым по Skype.</li>
+              <li class="list-group-item">Рецензирование документов.</li>
+              <li class="list-group-item">Ответы на вопросы по e-mail и телефону. Онлайн-консультации.</li>
             </ul>
             <div class="card-body">
               <h2><span class="badge badge-primary">160&thinsp;000&nbsp;&#8381;</span></h2>
@@ -667,7 +666,31 @@
                 WMI_SUCCESS_URL="https://iteam.ru/promo/processes"
                 WMI_FAIL_URL="https://iteam.ru/promo/processes"
                 campaign_token="3"
-                product_name="ПАКЕТ «УЧАСТНИК»"
+                product_name="ПАКЕТ «СУПЕР»"
+              />
+            </div>
+          </div>
+        </div>
+
+        <div class="col-xl-3 col-md-6 mt-2">
+          <div class="card h-100">
+            <div class="card-header bg-danger text-light">
+              <span class="lead"><strong>ПАКЕТ &laquo;ПРЕМИУМ&raquo;</strong></span><br>
+              <span class="badge badge-warning lead" style="font-size: 0.8em;">Включает ПАКЕТ &laquo;СУПЕР&raquo;</span><br>
+              <span class="lead"><strong>+</strong></span>
+            </div>
+            <ul class="list-group list-group-flush">
+              <li class="list-group-item lead">3 очных стратегических сессий и 7 рабочих сессий с Александром Кочневым по Skype.</li>
+            </ul>
+            <div class="card-body">
+              <h2><span class="badge badge-primary">800&thinsp;000&nbsp;&#8381;</span></h2>
+              <Payment
+                WMI_PAYMENT_AMOUNT="800000"
+                WMI_DESCRIPTION="iTeam"
+                WMI_SUCCESS_URL="https://iteam.ru/promo/processes"
+                WMI_FAIL_URL="https://iteam.ru/promo/processes"
+                campaign_token="3"
+                product_name="ПАКЕТ «ПРЕМИУМ»"
               />
             </div>
           </div>
