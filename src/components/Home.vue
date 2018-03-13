@@ -17,6 +17,18 @@
     <div class="container">
       <div class="row text-center">
         <div class="col" style="margin-top:30px">
+          <h2>СКАЧАТЬ ПОДРОБНУЮ ПРОГРАММУ</h2>
+        </div>
+      </div>
+      <div class="row last-row text-center">
+        <div class="col">
+          <Grform 
+            campaign_token="ngWDi"
+          />
+        </div>
+      </div>
+      <div class="row text-center">
+        <div class="col" style="margin-top:30px">
           <h2>МАСТЕР-ПРОЕКТ ЭТО:</h2>
         </div>
       </div>
@@ -615,7 +627,7 @@
                 WMI_DESCRIPTION="iTeam"
                 WMI_SUCCESS_URL="https://iteam.ru/promo/processes"
                 WMI_FAIL_URL="https://iteam.ru/promo/processes"
-                campaign_token="1"
+                campaign_token="nlaW6"
                 product_name="ПАКЕТ «ЛАЙТ»"
               />
             </div>
@@ -641,7 +653,7 @@
                 WMI_DESCRIPTION="iTeam"
                 WMI_SUCCESS_URL="https://iteam.ru/promo/processes"
                 WMI_FAIL_URL="https://iteam.ru/promo/processes"
-                campaign_token="2"
+                campaign_token="pu9s"
                 product_name="ПАКЕТ «БАЗОВЫЙ»"
               />
             </div>
@@ -668,7 +680,7 @@
                 WMI_DESCRIPTION="iTeam"
                 WMI_SUCCESS_URL="https://iteam.ru/promo/processes"
                 WMI_FAIL_URL="https://iteam.ru/promo/processes"
-                campaign_token="3"
+                campaign_token="nlaKD"
                 product_name="ПАКЕТ «СУПЕР»"
               />
             </div>
@@ -693,7 +705,7 @@
                 WMI_DESCRIPTION="iTeam"
                 WMI_SUCCESS_URL="https://iteam.ru/promo/processes"
                 WMI_FAIL_URL="https://iteam.ru/promo/processes"
-                campaign_token="3"
+                campaign_token="nlaoj"
                 product_name="ПАКЕТ «ПРЕМИУМ»"
               />
             </div>

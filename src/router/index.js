@@ -12,11 +12,11 @@ export default new Router({
       name: 'Home',
       component: Home
     },
-    // {
-    //   path: '/purchase',
-    //   name: 'Purchase',
-    //   component: Purchase
-    // }
+    {
+      path: '/purchase',
+      name: 'Purchase',
+      component: Purchase
+    }
   ],
   scrollBehavior (to, from, savedPosition) {
     return { x: 0, y: 0 }
