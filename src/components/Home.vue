@@ -9,7 +9,8 @@
         <h1 class="display-3 d-none d-sm-block text-uppercase"><strong>Создание системы управления процессами</strong></h1>
         <h1 class="display-5 d-sm-none text-uppercase">Создание системы управления процессами</h1>
         <p class="lead header-date">14 мастер-классов + 50 шаблонов + консультации!</p>
-        <p class="lead"><span class="badge badge-light">Старт 29&nbsp;марта 2018 года</span></p>
+        <p class="lead"><strong class="text-warning">По&nbsp;просьбам участников перенесено на&nbsp;неделю.</strong></p>
+        <p class="lead"><span class="badge badge-light">Старт 5&nbsp;апреля!</span></p>
         <a href="#" class="btn btn-danger btn-lg text-uppercase" @click.prevent="scrollMeTo('join-block')">Участвовать</a>
       </div>
     </div>
