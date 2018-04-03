@@ -22,8 +22,10 @@
       </div>
       <div class="row last-row text-center">
         <div class="col">
-          <Grform 
-            campaign_token="pugf"
+          <Grform
+            redirect="false"
+            cta="ЗАРЕГИСТРИРОВАТЬСЯ"
+            campaign_token="nlgDi"
           />
         </div>
       </div>
@@ -610,7 +612,9 @@
       </div>
       <div class="row last-row text-center">
         <div class="col">
-          <Grform 
+          <Grform
+            redirect="true"
+            cta="СКАЧАТЬ" 
             campaign_token="pugf"
           />
         </div>

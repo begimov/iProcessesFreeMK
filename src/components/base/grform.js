@@ -3,7 +3,9 @@ import axios from 'axios'
 export default {
     name: 'Grform',
     props: [
-        'campaign_token'
+        'campaign_token',
+        'cta',
+        'redirect'
     ],
     data() {
         return {
@@ -33,7 +35,9 @@ export default {
             }).then((response) => {
                 if (response.data.status === 'ok') {
                     this.msg = response.data.msg
-                    window.location.href = "https://iteam.ru/promo/processes/programm.pdf";
+                    if (this.redirect === 'true') {
+                        window.location.href = "https://iteam.ru/promo/processes/programm.pdf";
+                    }
                     // this.$router.push({ path: 'purchase' })
                     // location.reload()
                 } else if (response.data.status === 'error') {

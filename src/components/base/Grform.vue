@@ -22,7 +22,7 @@
                   </div>
               </div>
               <a href="#" class="btn btn-danger btn-lg disabled" id="grFormBtn" v-if="isLoading">ОТПРАВКА...</a>
-              <a href="#" class="btn btn-danger btn-lg" id="grFormBtn" v-else @click.prevent="register">СКАЧАТЬ</a>
+              <a href="#" class="btn btn-danger btn-lg" id="grFormBtn" v-else @click.prevent="register">{{ cta }}</a>
           </form>
           <p class="help-block alert-danger" id="grFormHelpBlock" v-if="error">{{ error }}</p>
           <p class="help-block alert-success" id="grFormHelpBlock" v-if="msg">{{ msg }}</p>
