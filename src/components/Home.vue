@@ -31,10 +31,19 @@
       </div>
       <div class="row text-center last-row">
         <div class="col" style="margin-top:30px">
-          <h2>Первый в серии мастер-проекта «Создание системы управления процессами» мастер-класс.</h2>
+          <div class="card bg-primary text-white">
+            <div class="card-body p-3">
+              <h2 class="m-0">Первый в&nbsp;серии мастер-проекта &laquo;Создание системы управления процессами&raquo; мастер-класс.</h2>
+            </div>
+          </div>
         </div>
       </div>
-      <!-- <div class="row last-row">
+      <div class="row text-center">
+        <div class="col" style="margin-top:30px">
+          <h2>МАСТЕР-ПРОЕКТ ЭТО:</h2>
+        </div>
+      </div>
+      <div class="row last-row">
         <div class="col-lg-4 mp-is-block">&nbsp;</div>
         <div class="col-lg-8 mt-3 mt-lg-0">
           <ul>
@@ -43,7 +52,7 @@
             <li>Результат мастер-проекта&nbsp;&mdash; работающая система управления процессами и&nbsp;обученные сотрудники, способные самостоятельно вести работу по&nbsp;совершенствованию процессов.</li>
           </ul>
         </div>
-      </div> -->
+      </div>
     </div>
 
     <div class="container">
