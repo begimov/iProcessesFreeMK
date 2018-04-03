@@ -1,6 +1,6 @@
-# imarathonDB
+# iProcessesFreeMK
 
-> special project for bussiness processes product
+> project for bussiness processes free MK
 
 ## Build Setup
 
