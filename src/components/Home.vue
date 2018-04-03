@@ -5,20 +5,19 @@
         <div class="row">
           <div class="col"><img src="../assets/logo.png" class="logo" width="110"></div>
         </div>
-        <p class="header-title lead">МАСТЕР-ПРОЕКТ</p>
-        <h1 class="display-3 d-none d-sm-block text-uppercase"><strong>Создание системы управления процессами</strong></h1>
-        <h1 class="display-5 d-sm-none text-uppercase">Создание системы управления процессами</h1>
-        <p class="lead header-date">14 мастер-классов + 50 шаблонов + консультации!</p>
-        <p class="lead"><strong class="text-warning">По&nbsp;просьбам участников перенесено на&nbsp;неделю.</strong></p>
-        <p class="lead"><span class="badge badge-light">Старт 5&nbsp;апреля!</span></p>
-        <a href="#" class="btn btn-danger btn-lg text-uppercase" @click.prevent="scrollMeTo('join-block')">Участвовать</a>
+        <p class="header-title lead">ОТКРЫТЫЙ МАСТЕР-КЛАСС</p>
+        <h1 class="display-3 d-none d-sm-block text-uppercase"><strong>ТИПИЧНЫЕ ОШИБКИ ВНЕДРЕНИЯ ПРОЦЕССОВ</strong></h1>
+        <h1 class="display-5 d-sm-none text-uppercase">ТИПИЧНЫЕ ОШИБКИ ВНЕДРЕНИЯ ПРОЦЕССОВ</h1>
+        <p class="lead"><span class="badge badge-primary">Online</span></p>
+        <p class="lead"><span class="badge badge-light">5 апреля. 11 часов по Москве</span></p>
+        <!-- <a href="#" class="btn btn-danger btn-lg text-uppercase" @click.prevent="scrollMeTo('join-block')">Участвовать</a> -->
       </div>
     </div>
 
     <div class="container">
       <div class="row text-center">
         <div class="col" style="margin-top:30px">
-          <h2>СКАЧАТЬ ПОДРОБНУЮ ПРОГРАММУ</h2>
+          <h2>ЗАРЕГИСТРИРОВАТЬСЯ НА БЕСПЛАТНЫЙ МАСТЕР-КЛАСС</h2>
         </div>
       </div>
       <div class="row last-row text-center">
@@ -28,12 +27,12 @@
           />
         </div>
       </div>
-      <div class="row text-center">
+      <div class="row text-center last-row">
         <div class="col" style="margin-top:30px">
-          <h2>МАСТЕР-ПРОЕКТ ЭТО:</h2>
+          <h2>Первый в серии мастер-проекта «Создание системы управления процессами» мастер-класс.</h2>
         </div>
       </div>
-      <div class="row last-row">
+      <!-- <div class="row last-row">
         <div class="col-lg-4 mp-is-block">&nbsp;</div>
         <div class="col-lg-8 mt-3 mt-lg-0">
           <ul>
@@ -42,7 +41,7 @@
             <li>Результат мастер-проекта&nbsp;&mdash; работающая система управления процессами и&nbsp;обученные сотрудники, способные самостоятельно вести работу по&nbsp;совершенствованию процессов.</li>
           </ul>
         </div>
-      </div>
+      </div> -->
     </div>
 
     <div class="container">
@@ -599,6 +598,21 @@
 
             </div>
           </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="container">
+      <div class="row text-center">
+        <div class="col" style="margin-top:30px">
+          <h2>СКАЧАТЬ ПОДРОБНУЮ ПРОГРАММУ</h2>
+        </div>
+      </div>
+      <div class="row last-row text-center">
+        <div class="col">
+          <Grform 
+            campaign_token="pugf"
+          />
         </div>
       </div>
     </div>
