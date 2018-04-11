@@ -609,6 +609,47 @@
             </div>
           </div>
         </div>
+        <div class="row text-center last-row">
+          <div class="col-md-12">
+              <div class="card">
+                  <div class="card-header"><strong>График этапов</strong></div>
+                  <div class="card-body p-0">
+                      <div class="table-responsive">
+                          <table class="table table-striped table-sm m-0 mb-2"> 
+                              <thead>
+                                  <tr> 
+                                      <th scope="col" class="text-center">1</th>
+                                      <th scope="col" class="text-center">2</th>
+                                      <th scope="col" class="text-center">3</th>
+                                      <th scope="col" class="text-center">4</th>
+                                      <th scope="col" class="text-center">5</th>
+                                      <th scope="col" class="text-center">6</th>
+                                      <th scope="col" class="text-center">7</th>
+                                      <th scope="col" class="text-center">8</th>
+                                      <th scope="col" class="text-center">9</th>
+                                      <th scope="col" class="text-center">10</th>
+                                  </tr>
+                              </thead> 
+                              <tbody> 
+                                  <tr> 
+                                      <td class="text-center">21.05</th>
+                                      <td class="text-center">4.06</td>
+                                      <td class="text-center">18.06</td>
+                                      <td class="text-center">2.07</td>
+                                      <td class="text-center">16.07</td>
+                                      <td class="text-center">30.07</td>
+                                      <td class="text-center">13.08</td>
+                                      <td class="text-center">27.08</td>
+                                      <td class="text-center">10.09</td>
+                                      <td class="text-center">24.09</td>
+                                  </tr>
+                              </tbody> 
+                          </table>
+                      </div>
+                  </div>
+              </div>
+          </div>
+        </div>
       </div>
     </div>
 
