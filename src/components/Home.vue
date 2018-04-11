@@ -6,10 +6,10 @@
           <div class="col"><img src="../assets/logo.png" class="logo" width="110"></div>
         </div>
         <p class="header-title lead">ОТКРЫТЫЙ МАСТЕР-КЛАСС</p>
-        <h1 class="display-3 d-none d-sm-block text-uppercase"><strong>ТИПИЧНЫЕ ОШИБКИ ВНЕДРЕНИЯ ПРОЦЕССОВ</strong></h1>
-        <h1 class="display-5 d-sm-none text-uppercase">ТИПИЧНЫЕ ОШИБКИ ВНЕДРЕНИЯ ПРОЦЕССОВ</h1>
-        <p class="lead"><span class="badge badge-primary">Online</span></p>
-        <p class="lead"><span class="badge badge-light">5 апреля. 11 часов по Москве</span></p>
+        <h1 class="display-4 d-none d-sm-block text-uppercase"><strong>Как преодолеть сопротивление изменениям</strong></h1>
+        <h1 class="display-5 d-sm-none text-uppercase">Как преодолеть сопротивление изменениям</h1>
+        <p class="lead bg-primary p-2">21&nbsp;мая 2018 года стартует мастер-проект &laquo;Создание системы управления процессами&raquo;. Участвуйте в&nbsp;мастер-проекте, чтобы внедрить систему управления процессами в&nbsp;вашей компании за&nbsp;4&nbsp;месяца.</p>
+        <p class="lead"><span class="badge badge-light">16 апреля, 11.00 мск</span></p>
         <!-- <a href="#" class="btn btn-danger btn-lg text-uppercase" @click.prevent="scrollMeTo('join-block')">Участвовать</a> -->
       </div>
     </div>
