@@ -647,8 +647,8 @@
               <span class="lead"><strong>&nbsp;</strong></span>
             </div>
             <ul class="list-group list-group-flush">
-              <li class="list-group-item">Участие в мастер-классах.</li>
-              <li class="list-group-item">Записи мастер-классов.</li>
+              <li class="list-group-item">Участие в мастер-классах</li>
+              <li class="list-group-item">Записи мастер-классов</li>
             </ul>
             <div class="card-body"></div>
             <div class="card-footer bg-white border-top-0 pb-3">
@@ -673,8 +673,8 @@
               <span class="lead"><strong>+</strong></span>
             </div>
             <ul class="list-group list-group-flush">
-              <li class="list-group-item">Презентационные материалы.</li>
-              <li class="list-group-item">Методические материалы, шаблоны, образцы документов.</li>
+              <li class="list-group-item">Презентационные материалы</li>
+              <li class="list-group-item">Методические материалы, шаблоны, образцы документов</li>
             </ul>
             <div class="card-body"></div>
             <div class="card-footer bg-white border-top-0 pb-3">
@@ -699,9 +699,10 @@
               <span class="lead"><strong>+</strong></span>
             </div>
             <ul class="list-group list-group-flush">
-              <li class="list-group-item">10 рабочих сессий с Александром Кочневым по Skype.</li>
-              <li class="list-group-item">Рецензирование документов.</li>
-              <li class="list-group-item">Ответы на вопросы по e-mail и телефону. Онлайн-консультации.</li>
+              <li class="list-group-item">10 рабочих сессий с Александром Кочневым по Skype</li>
+              <li class="list-group-item">Рецензирование документов</li>
+              <li class="list-group-item">Ответы на вопросы по e-mail и телефону</li>
+              <li class="list-group-item">Онлайн-консультации</li>
             </ul>
             <div class="card-body"></div>
             <div class="card-footer bg-white border-top-0 pb-3">
@@ -726,9 +727,10 @@
               <span class="lead"><strong>+</strong></span>
             </div>
             <ul class="list-group list-group-flush">
-              <li class="list-group-item">3 очных стратегических сессий и 7 рабочих сессий с Александром Кочневым по Skype.</li>
-              <li class="list-group-item">Рецензирование документов.</li>
-              <li class="list-group-item">Ответы на вопросы по e-mail и телефону. Онлайн-консультации.</li>
+              <li class="list-group-item">3 очных стратегических сессий и 7 рабочих сессий с Александром Кочневым по Skype</li>
+              <li class="list-group-item">Рецензирование документов</li>
+              <li class="list-group-item">Ответы на вопросы по e-mail и телефону</li>
+              <li class="list-group-item">Онлайн-консультации</li>
             </ul>
             <div class="card-body"></div>
             <div class="card-footer bg-white border-top-0 pb-3">
