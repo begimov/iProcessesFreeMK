@@ -8,8 +8,7 @@
         <p class="header-title lead">ОТКРЫТЫЙ МАСТЕР-КЛАСС</p>
         <h1 class="display-4 d-none d-sm-block text-uppercase"><strong>Как преодолеть сопротивление изменениям</strong></h1>
         <h1 class="display-5 d-sm-none text-uppercase">Как преодолеть сопротивление изменениям</h1>
-        <p class="lead bg-primary p-2">21&nbsp;мая 2018 года стартует мастер-проект &laquo;Создание системы управления процессами&raquo;. Участвуйте в&nbsp;мастер-проекте, чтобы внедрить систему управления процессами в&nbsp;вашей компании за&nbsp;4&nbsp;месяца.</p>
-        <p class="lead"><span class="badge badge-light">16 апреля, 11.00 мск</span></p>
+        <p class="lead"><span class="badge badge-light">16 апреля 11.00 мск</span></p>
         <!-- <a href="#" class="btn btn-danger btn-lg text-uppercase" @click.prevent="scrollMeTo('join-block')">Участвовать</a> -->
       </div>
     </div>
@@ -33,7 +32,7 @@
         <div class="col" style="margin-top:30px">
           <div class="card bg-primary text-white">
             <div class="card-body p-3">
-              <h2 class="m-0">Первый в&nbsp;серии мастер-проекта &laquo;Создание системы управления процессами&raquo; мастер-класс.</h2>
+              <h2 class="m-0">21&nbsp;мая 2018 года стартует мастер-проект &laquo;Создание системы управления процессами&raquo;.<br>Участвуйте в&nbsp;мастер-проекте, чтобы внедрить систему управления процессами в&nbsp;вашей компании за&nbsp;4&nbsp;месяца.</h2>
             </div>
           </div>
         </div>
@@ -634,10 +633,9 @@
       <div class="row text-center" ref="join-block">
         <div class="col" style="margin-top:30px">
           <h2>Я участвую!</h2>
-          <p class="lead bg-success text-white p-2 font-weight-bold">Льготные цены в случае оплаты до 30 апреля.</p>
         </div>
       </div>
-      <div class="row last-row text-center">
+      <div class="row text-center">
         
         <div class="col-xl-3 col-md-6 mt-2">
           <div class="card h-100">
@@ -747,6 +745,12 @@
           </div>
         </div>
         
+      </div>
+
+      <div class="row last-row text-center" style="margin-top:30px">
+        <div class="col">
+          <p class="lead bg-success text-white p-2 font-weight-bold">До&nbsp;30&nbsp;апреля льготные цены. После 1&nbsp;мая повышение цен каждый день!</p>
+        </div>
       </div>
 
       <div class="row last-row" style="margin-top:80px; font-family: 'Playfair Display', serif;">
