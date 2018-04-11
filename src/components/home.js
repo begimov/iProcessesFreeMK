@@ -1,6 +1,7 @@
 import Payment from '@/components/base/Payment.vue'
 import Ytplayer from '@/components/base/Ytplayer.vue'
 import Grform from '@/components/base/Grform.vue'
+import moment from 'moment'
 
 export default {
     name: 'Home',
@@ -11,20 +12,7 @@ export default {
     },
     data() {
         return {
-            // words: [
-            //     ['Компания малоуправляема', 1000],
-            //     ['Нечетко определены области ответственности', 500],
-            //     ['Много совещаний, низкая результативность', 250],
-            //     ['Решения не доводятся до результатов', 125],
-            //     ['Планы не выполняются', 60],
-            //     ['Рабочие процессы плохо организованы', 30],
-            //     ['Сотрудники не мотивированы работать на результат', 15],
-            //     ['Исполнители безответственны', 7],
-            //     ['Ухудшается качество продукции, услуг', 3],
-            //     ['Утрачивается лояльность клиентов', 2],
-            //     ['Снижается прибыль', 1],
-            //     ['Развитие компании замедлено', 1],
-            // ],
+            //
         }
     },
     methods: {
@@ -32,7 +20,22 @@ export default {
             var element = this.$refs[refName];
             var top = element.offsetTop;
             window.scrollTo(0, top);
+        },
+        price(basePrice) {
+            const now = moment()
+            const startDate = moment("5-1-2018", "MM-DD-YYYY")
+            const stopDate = moment("5-21-2018", "MM-DD-YYYY")
+
+            let price = basePrice
+
+            if (now.isBetween(startDate, stopDate)) {
+                price = price + 2000 * now.diff(startDate, 'days')
+            }
+            return price
         }
+    },
+    computed:{
+        // 
     },
     mounted() {
         //

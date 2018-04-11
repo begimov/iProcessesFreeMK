@@ -634,6 +634,7 @@
       <div class="row text-center" ref="join-block">
         <div class="col" style="margin-top:30px">
           <h2>Я участвую!</h2>
+          <p class="lead">Льготные цены в случае оплаты до 30 апреля.</p>
         </div>
       </div>
       <div class="row last-row text-center">
@@ -651,9 +652,9 @@
             </ul>
             <div class="card-body"></div>
             <div class="card-footer bg-white border-top-0 pb-3">
-              <h2><span class="badge badge-primary">12&thinsp;000&nbsp;&#8381;</span></h2>
+              <h2><span class="badge badge-primary">11900</span></h2>
               <Payment
-                WMI_PAYMENT_AMOUNT="12000"
+                WMI_PAYMENT_AMOUNT="11900"
                 WMI_DESCRIPTION="iTeam"
                 WMI_SUCCESS_URL="https://iteam.ru/promo/processes"
                 WMI_FAIL_URL="https://iteam.ru/promo/processes"
@@ -677,9 +678,9 @@
             </ul>
             <div class="card-body"></div>
             <div class="card-footer bg-white border-top-0 pb-3">
-              <h2><span class="badge badge-primary">40&thinsp;000&nbsp;&#8381;</span></h2>
+              <h2><span class="badge badge-primary">{{ price(29000) }}</span></h2>
               <Payment
-                WMI_PAYMENT_AMOUNT="40000"
+                :WMI_PAYMENT_AMOUNT="price(29000)"
                 WMI_DESCRIPTION="iTeam"
                 WMI_SUCCESS_URL="https://iteam.ru/promo/processes"
                 WMI_FAIL_URL="https://iteam.ru/promo/processes"
@@ -704,9 +705,9 @@
             </ul>
             <div class="card-body"></div>
             <div class="card-footer bg-white border-top-0 pb-3">
-              <h2><span class="badge badge-primary">160&thinsp;000&nbsp;&#8381;</span></h2>
+              <h2><span class="badge badge-primary">{{ price(119000) }}</span></h2>
               <Payment
-                WMI_PAYMENT_AMOUNT="160000"
+                :WMI_PAYMENT_AMOUNT="price(119000)"
                 WMI_DESCRIPTION="iTeam"
                 WMI_SUCCESS_URL="https://iteam.ru/promo/processes"
                 WMI_FAIL_URL="https://iteam.ru/promo/processes"
@@ -731,9 +732,9 @@
             </ul>
             <div class="card-body"></div>
             <div class="card-footer bg-white border-top-0 pb-3">
-              <h2><span class="badge badge-primary">800&thinsp;000&nbsp;&#8381;</span></h2>
+              <h2><span class="badge badge-primary">799000</span></h2>
               <Payment
-                WMI_PAYMENT_AMOUNT="800000"
+                WMI_PAYMENT_AMOUNT="799000"
                 WMI_DESCRIPTION="iTeam"
                 WMI_SUCCESS_URL="https://iteam.ru/promo/processes"
                 WMI_FAIL_URL="https://iteam.ru/promo/processes"
