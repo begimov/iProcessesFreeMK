@@ -6,8 +6,8 @@
           <div class="col"><img src="../assets/logo.png" class="logo" width="110"></div>
         </div>
         <p class="header-title lead">МАСТЕР-КЛАСС</p>
-        <h1 class="display-4 d-none d-sm-block text-uppercase"><strong>Как преодолеть сопротивление изменениям</strong></h1>
-        <h1 class="display-5 d-sm-none text-uppercase">Как преодолеть сопротивление изменениям</h1>
+        <h1 class="display-4 d-none d-sm-block text-uppercase"><strong>Типичные ошибки внедрения бизнес-процессов</strong></h1>
+        <h1 class="display-5 d-sm-none text-uppercase">Типичные ошибки внедрения бизнес-процессов</h1>
         <!-- <p class="lead"><span class="badge badge-light">16 апреля 11.00 мск</span></p> -->
         <!-- <a href="#" class="btn btn-danger btn-lg text-uppercase" @click.prevent="scrollMeTo('join-block')">Участвовать</a> -->
       </div>
@@ -24,7 +24,7 @@
           <Grform
             redirect="false"
             cta="ЗАРЕГИСТРИРОВАТЬСЯ"
-            campaign_token="nlgDi"
+            campaign_token="nLoTI"
           />
         </div>
       </div>
