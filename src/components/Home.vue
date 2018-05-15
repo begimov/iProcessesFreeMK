@@ -5,10 +5,10 @@
         <div class="row">
           <div class="col"><img src="../assets/logo.png" class="logo" width="110"></div>
         </div>
-        <p class="header-title lead">ОТКРЫТЫЙ МАСТЕР-КЛАСС</p>
+        <p class="header-title lead">МАСТЕР-КЛАСС</p>
         <h1 class="display-4 d-none d-sm-block text-uppercase"><strong>Как преодолеть сопротивление изменениям</strong></h1>
         <h1 class="display-5 d-sm-none text-uppercase">Как преодолеть сопротивление изменениям</h1>
-        <p class="lead"><span class="badge badge-light">16 апреля 11.00 мск</span></p>
+        <!-- <p class="lead"><span class="badge badge-light">16 апреля 11.00 мск</span></p> -->
         <!-- <a href="#" class="btn btn-danger btn-lg text-uppercase" @click.prevent="scrollMeTo('join-block')">Участвовать</a> -->
       </div>
     </div>
@@ -16,7 +16,7 @@
     <div class="container">
       <div class="row text-center">
         <div class="col" style="margin-top:30px">
-          <h2>ЗАРЕГИСТРИРОВАТЬСЯ НА БЕСПЛАТНЫЙ МАСТЕР-КЛАСС</h2>
+          <h2>ЗАРЕГИСТРИРОВАТЬСЯ НА МАСТЕР-КЛАСС БЕСПЛАТНО</h2>
         </div>
       </div>
       <div class="row last-row text-center">
