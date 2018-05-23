@@ -5,10 +5,10 @@
         <div class="row">
           <div class="col"><img src="../assets/logo.png" class="logo" width="110"></div>
         </div>
-        <p class="header-title lead">МАСТЕР-КЛАСС</p>
+        <p class="header-title lead">БЕСПЛАТНЫЙ МАСТЕР-КЛАСС</p>
         <h1 class="display-4 d-none d-sm-block text-uppercase"><strong>Два подхода к внедрению бизнес-процессов</strong></h1>
         <h1 class="display-5 d-sm-none text-uppercase">Два подхода к внедрению бизнес-процессов</h1>
-        <p class="lead"><span class="badge badge-light">21 мая 11.00 Мск</span></p>
+        <!-- <p class="lead"><span class="badge badge-light">21 мая 11.00 Мск</span></p> -->
         <!-- <a href="#" class="btn btn-danger btn-lg text-uppercase" @click.prevent="scrollMeTo('join-block')">Участвовать</a> -->
       </div>
     </div>
