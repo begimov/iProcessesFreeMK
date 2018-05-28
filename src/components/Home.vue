@@ -5,10 +5,11 @@
         <div class="row">
           <div class="col"><img src="../assets/logo.png" class="logo" width="110"></div>
         </div>
-        <p class="header-title lead">БЕСПЛАТНЫЙ МАСТЕР-КЛАСС</p>
-        <h1 class="display-4 d-none d-sm-block text-uppercase"><strong>Два подхода к внедрению бизнес-процессов</strong></h1>
-        <h1 class="display-5 d-sm-none text-uppercase">Два подхода к внедрению бизнес-процессов</h1>
-        <!-- <p class="lead"><span class="badge badge-light">21 мая 11.00 Мск</span></p> -->
+        <!-- <p class="header-title lead">БЕСПЛАТНЫЙ МАСТЕР-КЛАСС</p> -->
+        <h1 class="display-4 d-none d-sm-block text-uppercase"><strong>Стратегия для &laquo;чайников&raquo;</strong></h1>
+        <h1 class="display-5 d-sm-none text-uppercase">Стратегия для &laquo;чайников&raquo;</h1>
+        <h3 class="mb-3">Мастер-класс для собственников и&nbsp;руководителей</h3>
+        <p class="lead"><span class="badge badge-light">31&nbsp;мая 2018&nbsp;г., 11.00 Мск</span></p>
         <!-- <a href="#" class="btn btn-danger btn-lg text-uppercase" @click.prevent="scrollMeTo('join-block')">Участвовать</a> -->
       </div>
     </div>
@@ -16,7 +17,7 @@
     <div class="container">
       <div class="row text-center">
         <div class="col" style="margin-top:30px">
-          <h2>ЗАРЕГИСТРИРОВАТЬСЯ НА МАСТЕР-КЛАСС БЕСПЛАТНО</h2>
+          <h2>Участвовать бесплатно</h2>
         </div>
       </div>
       <div class="row last-row text-center">
@@ -24,7 +25,7 @@
           <Grform
             redirect="false"
             cta="ЗАРЕГИСТРИРОВАТЬСЯ"
-            campaign_token="nLZuM"
+            campaign_token="nMVMI"
           />
         </div>
       </div>
