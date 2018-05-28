@@ -1,6 +1,6 @@
 <template>
   <div>
-    <div class="jumbotron jumbotron-fluid text-white">
+    <div class="jumbotron jumbotron-fluid text-white bg-primary">
       <div class="container">
         <div class="row">
           <div class="col"><img src="../assets/logo.png" class="logo" width="110"></div>
@@ -31,7 +31,7 @@
       </div>
       <div class="row text-center last-row">
         <div class="col p-0" style="margin-top:30px">
-          <div class="card bg-dark text-white">
+          <div class="card bg-info text-white">
             <div class="card-body p-3">
               <h3 class="m-0 mb-1">Разработка стратегии компании&nbsp;&mdash; сложная управленческая задача. Лишь немногим руководителям удается создать и&nbsp;реализовать победную стратегию, которая выводит компанию на&nbsp;лидирующие позиции на&nbsp;высоко конкурентом рынке.</h3>
             </div>
@@ -73,7 +73,7 @@
 
       <div class="row text-center last-row">
         <div class="col p-0">
-          <div class="card bg-dark text-white">
+          <div class="card bg-info text-white">
             <div class="card-body p-3">
               <h4 class="m-0 mb-1">Участвуя в&nbsp;мастер-классе Вы&nbsp;приобретете понимание того, какие практические шаги необходимо предпринять для четкого определения стратегии вашей компании и&nbsp;что нужно сделать для создания сильной конкурентной позиции в&nbsp;вашем бизнесе.</h4>
             </div>
@@ -169,8 +169,8 @@ h2 {
 }
 .jumbotron {
   padding-top: 20px;
-  background-image: url("../assets/bg_darker.jpg");
-  background-size: cover;
+  /*background-image: url("../assets/bg_darker.jpg");
+  background-size: cover;*/
 }
 .container-fluid {
   padding: 20px 10px;
