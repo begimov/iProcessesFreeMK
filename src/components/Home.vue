@@ -1,103 +1,23 @@
 <template>
   <div>
-    <div class="jumbotron jumbotron-fluid text-white bg-primary">
-      <div class="container">
-        <div class="row">
-          <div class="col"><img src="../assets/logo.png" class="logo" width="110"></div>
-        </div>
-        <!-- <p class="header-title lead">БЕСПЛАТНЫЙ МАСТЕР-КЛАСС</p> -->
-        <h1 class="display-4 d-none d-sm-block text-uppercase"><strong>Практика построения корпоративной культуры</strong></h1>
-        <h1 class="display-5 d-sm-none text-uppercase">Практика построения корпоративной культуры</h1>
-        <h3 class="mb-3">Мастер-класс для собственников и&nbsp;руководителей</h3>
-        <p class="lead"><span class="badge badge-light">6 июня в 11 часов по московскому времени</span></p>
-        <!-- <a href="#" class="btn btn-danger btn-lg text-uppercase" @click.prevent="scrollMeTo('join-block')">Участвовать</a> -->
-      </div>
-    </div>
-
-    <div class="container">
-      <div class="row text-center">
-        <div class="col" style="margin-top:30px">
-          <h2>Участвовать бесплатно</h2>
-        </div>
-      </div>
-      <div class="row last-row text-center">
-        <div class="col">
-          <Grform
-            redirect="false"
-            cta="ЗАРЕГИСТРИРОВАТЬСЯ"
-            campaign_token="UkGy"
-          />
-        </div>
-      </div>
-      <div class="row text-center last-row">
-        <div class="col p-0" style="margin-top:30px">
-          <div class="card bg-info text-white">
-            <div class="card-body p-3">
-              <h3 class="m-0 mb-1">Наступило время, когда главным ресурсом бизнеса становится корпоративная культура. Побеждают&nbsp;те, кто сумел создать организацию, способную притягивать и&nbsp;удерживать лучших специалистов, раскрывать их&nbsp;потенциал, вовлекать в&nbsp;деловой оборот 100% энергии и&nbsp;интеллекта сотрудников.</h3>
-            </div>
+    <div class="jumbotron jumbotron-fluid bg-light">
+      <div class="container text-center">
+        <h1 class="d-none d-sm-block my-4"><strong>Хочу подключиться к Пульс Опросу на специальных условиях!</strong></h1>
+        <h2 class="d-sm-none my-4">Хочу подключиться к Пульс Опросу на специальных условиях!</h2>
+        <div class="rowtext-center">
+          <div class="col">
+            <Grform
+              redirect="false"
+              cta="ЗАРЕГИСТРИРОВАТЬСЯ"
+              campaign_token="nqGx"
+            />
           </div>
         </div>
       </div>
-      <div class="row last-row">
-        <div class="col-lg-4 mp-is-block">&nbsp;</div>
-        <div class="col-lg-8 mt-3 mt-lg-0">
-          <p class="lead">Наш мастер-класс для тех, кто осознал значимость построения корпоративной культуры и&nbsp;стремится найти практические подходы к&nbsp;решению этой задачи.</p>
-          <h4>Вы узнаете:</h4>
-          <p>
-            <ul>
-              <li>Как измерить ценности, из&nbsp;которых складывается корпоративная культура;</li>
-              <li>Какие инструменты нужно использовать для трансформации ценностей;</li>
-              <li>Как управлять изменениями в&nbsp;корпоративной культуре.</li>
-            </ul>
-          </p>
-        </div>
-      </div>
     </div>
 
     <div class="container">
-      <div class="row text-center">
-        <div class="col">
-          <h2>Вы&nbsp;получите готовый инструмент для трансформации корпоративной культуры и&nbsp;сможете применить его безотлагательно.</h2>
-        </div>
-      </div>
-      <div class="row mb-4 text-center">
-        <div class="col">
-          <p class="lead">Применяя полученные на&nbsp;мастер-классе инструменты и&nbsp;технологии&nbsp;Вы сможете</p>
-          <p class="lead"><span class="text-success check-mark">&#10004;</span> Поднять вовлеченность;</p>
-          <p class="lead"><span class="text-success check-mark">&#10004;</span> Пробудить инициативу;</p>
-          <p class="lead"><span class="text-success check-mark">&#10004;</span> Улучшить взаимодействие;</p>
-          <p class="lead"><span class="text-success check-mark">&#10004;</span> Повысить ответственность;</p>
-        </div>
-      </div>
-
-      <div class="row text-center last-row">
-        <div class="col p-0">
-          <div class="card bg-info text-white">
-            <div class="card-body p-3">
-              <h4 class="m-0 mb-1">Вы убедитесь, что формированием корпоративной культуры можно управлять!</h4>
-            </div>
-          </div>
-        </div>
-      </div>
-
-      <div class="row text-center">
-        <div class="col">
-          <h2>Участвовать бесплатно</h2>
-        </div>
-      </div>
-      <div class="row last-row text-center">
-        <div class="col">
-          <Grform
-            redirect="false"
-            cta="ЗАРЕГИСТРИРОВАТЬСЯ"
-            campaign_token="UkGy"
-          />
-        </div>
-      </div>
-    </div>
-
-    <div class="container">
-      <div class="row last-row" style="margin-top:80px; font-family: 'Playfair Display', serif;">
+      <div class="row last-row" style="font-family: 'Playfair Display', serif;">
         <div class="col-md-3" style="margin-bottom:20px;">
           <img class="img-fluid" src="../assets/kochnev.jpg">
         </div>
@@ -144,6 +64,7 @@
       </div>
 
     </div>
+
   </div>
 </template>
 
