@@ -1,10 +1,10 @@
 <template>
   <div>
-    <div class="jumbotron jumbotron-fluid bg-light">
+    <div class="jumbotron jumbotron-fluid mb-0">
       <div class="container text-center">
-        <h1 class="d-none d-sm-block my-4"><strong>Хочу подключиться к Пульс Опросу на специальных условиях!</strong></h1>
+        <h1 class="d-none d-sm-block mt-5 mb-4"><strong>Хочу подключиться к Пульс Опросу на специальных условиях!</strong></h1>
         <h2 class="d-sm-none my-4">Хочу подключиться к Пульс Опросу на специальных условиях!</h2>
-        <div class="rowtext-center">
+        <div class="rowtext-center mb-5">
           <div class="col">
             <Grform
               redirect="false"
@@ -16,7 +16,7 @@
       </div>
     </div>
 
-    <div class="container">
+    <!-- <div class="container">
       <div class="row last-row" style="font-family: 'Playfair Display', serif;">
         <div class="col-md-3" style="margin-bottom:20px;">
           <img class="img-fluid" src="../assets/kochnev.jpg">
@@ -63,7 +63,7 @@
         </div>
       </div>
 
-    </div>
+    </div> -->
 
   </div>
 </template>

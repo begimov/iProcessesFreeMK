@@ -1,6 +1,6 @@
 <template>
 
-  <div id="app" class="bg-light">
+  <div id="app">
 
     <router-view/>
 
@@ -25,7 +25,7 @@
               </a>
             </li>
             <li class="list-inline-item">
-              <a href="https://www.instagram.com/iteamanagement/">
+              <a href="https://www.instagram.com/iteam.ru/">
                 <img src="https://iteam.ru/landing/template/img/instagram.png">
               </a>
             </li>
@@ -49,6 +49,5 @@ export default {
 <style scoped>
 .ifooter {
   padding: 20px;
-  margin-top: 100px;
 }
 </style>
