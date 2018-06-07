@@ -6,10 +6,10 @@
           <div class="col"><img src="../assets/logo.png" class="logo" width="110"></div>
         </div>
         <!-- <p class="header-title lead">БЕСПЛАТНЫЙ МАСТЕР-КЛАСС</p> -->
-        <h1 class="display-4 d-none d-sm-block text-uppercase"><strong>Стратегия для &laquo;чайников&raquo;</strong></h1>
-        <h1 class="display-5 d-sm-none text-uppercase">Стратегия для &laquo;чайников&raquo;</h1>
+        <h1 class="display-4 d-none d-sm-block text-uppercase"><strong>7 стратегий для вашей компании</strong></h1>
+        <h1 class="display-5 d-sm-none text-uppercase">7 стратегий для вашей компании</h1>
         <h3 class="mb-3">Мастер-класс для собственников и&nbsp;руководителей</h3>
-        <p class="lead"><span class="badge badge-light">31&nbsp;мая 2018&nbsp;г., 11.00 Мск</span></p>
+        <p class="lead"><span class="badge badge-light">20&nbsp;июня 2018&nbsp;г.</span></p>
         <!-- <a href="#" class="btn btn-danger btn-lg text-uppercase" @click.prevent="scrollMeTo('join-block')">Участвовать</a> -->
       </div>
     </div>
