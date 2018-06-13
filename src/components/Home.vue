@@ -28,7 +28,7 @@
                 WMI_DESCRIPTION="iTeam"
                 WMI_SUCCESS_URL="https://iteam.ru/promo/pulse_survey"
                 WMI_FAIL_URL="https://iteam.ru/promo/pulse_survey"
-                campaign_token=""
+                campaign_token="dAVO"
                 product_name="«Проект по развитию корпоративной культуры»"
               />
               <a href="https://iteam.ru/learn/course/proekt-po-razvitiju-korporativnoj-kultury" class="btn btn-dark btn-lg mt-4">Выставить счет</a>
