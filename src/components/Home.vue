@@ -1,69 +1,59 @@
 <template>
   <div>
+
+    <div class="container">
+      <div class="row text-center mt-5 mb-4" ref="join-block">
+        <div class="col">
+          <h1>Присоединиться к проекту по развитию корпоративной культуры с 20 июня 2018 года</h1>
+        </div>
+      </div>
+      <div class="row text-center last-row justify-content-center">
+        
+        <div class="col-lg-4 col-md-6 mt-2">
+          <div class="h-100">
+            <!-- <div class="card-header bg-danger text-light">
+              <span class="lead"><strong>ПАКЕТ &laquo;БАЗОВЫЙ&raquo;</strong></span><br>
+            </div>
+            <ul class="list-group list-group-flush">
+              <li class="list-group-item">Участие в мастер-классах</li>
+              <li class="list-group-item">Записи мастер-классов</li>
+              <li class="list-group-item">Презентационные материалы</li>
+              <li class="list-group-item">Методические материалы, шаблоны, образцы документов</li>
+            </ul>
+            <div class="card-body"></div> -->
+            <div class="bg-white border-top-0 pb-3">
+              <h2><span class="badge badge-primary">20&nbsp;000</span></h2>
+              <Payment
+                WMI_PAYMENT_AMOUNT="20000"
+                WMI_DESCRIPTION="iTeam"
+                WMI_SUCCESS_URL="https://iteam.ru/promo/pulse_survey"
+                WMI_FAIL_URL="https://iteam.ru/promo/pulse_survey"
+                campaign_token=""
+                product_name="«Проект по развитию корпоративной культуры»"
+              />
+              <a href="https://iteam.ru/learn/course/proekt-po-razvitiju-korporativnoj-kultury" class="btn btn-dark btn-lg mt-4">Выставить счет</a>
+            </div>
+          </div>
+        </div>
+        
+      </div>
+    </div>
+
     <div class="jumbotron jumbotron-fluid mb-0">
       <div class="container text-center">
-        <h1 class="d-none d-sm-block mt-5 mb-4"><strong>Хочу подключиться к Пульс Опросу на специальных условиях!</strong></h1>
-        <h2 class="d-sm-none my-4">Хочу подключиться к Пульс Опросу на специальных условиях!</h2>
+        <h2 class="d-none d-sm-block mt-5 mb-4"><strong>Получить план улучшения корпоративной культуры!</strong></h2>
+        <h3 class="d-sm-none my-4">Получить план улучшения корпоративной культуры!</h3>
         <div class="rowtext-center mb-5">
           <div class="col">
             <Grform
               redirect="false"
-              cta="ЗАРЕГИСТРИРОВАТЬСЯ"
+              cta="ПОЛУЧИТЬ"
               campaign_token="nqGx"
             />
           </div>
         </div>
       </div>
     </div>
-
-    <!-- <div class="container">
-      <div class="row last-row" style="font-family: 'Playfair Display', serif;">
-        <div class="col-md-3" style="margin-bottom:20px;">
-          <img class="img-fluid" src="../assets/kochnev.jpg">
-        </div>
-        <div class="col-md-9">
-          <h3 style="margin-bottom:20px;">Ведущий наставник проекта&nbsp;&mdash; управляющий партнер iTeam Александр Кочнев. 15&nbsp;лет помогает компаниям выйти на&nbsp;новый уровень.</h3>
-          <p><img class="img-fluid" src="../assets/client_logos.jpg"></p>
-        </div>
-      </div>
-
-      <div class="row text-center">
-        <div class="col">
-          <h2>Отзывы наших участников:</h2>
-        </div>
-      </div>
-      <div class="row text-center last-row">
-        <div class="col-md-6">
-          <h5>Александр Красный, &laquo;ГаРус&raquo;</h5>
-            <p><a href="http://groupautorus.ru/" target="_blank"><img src="https://iteam.ru/landing/template/img/logo_garus.png" class="img-fluid rounded"></a></p>
-            <div class="embed-responsive embed-responsive-16by9" style="margin-bottom:30px;">
-              <iframe width="560" height="315" src="https://www.youtube.com/embed/Rp4Jh-DP7is" frameborder="0" allowfullscreen></iframe>
-            </div>
-        </div>
-        <div class="col-md-6">
-          <h5>Александр Соловьев, &laquo;FIS&raquo;</h5>
-          <p><a href="http://neofood.de/" target="_blank"><img src="https://iteam.ru/landing/template/img/logo_neofood.png" class="img-fluid rounded"></a></p>
-          <div class="embed-responsive embed-responsive-16by9" style="margin-bottom:30px;">
-            <iframe width="560" height="315" src="https://www.youtube.com/embed/U4QFO0ILnmE" frameborder="0" allowfullscreen></iframe>
-          </div>
-        </div>
-        <div class="col-md-6">
-          <h5>Геннадий Черкасов, &laquo;Миг Плюс&raquo;</h5>
-          <p><a href="http://migplus.ru/" target="_blank"><img src="https://iteam.ru/landing/template/img/logo_migplus.png" class="img-fluid rounded"></a></p>
-          <div class="embed-responsive embed-responsive-16by9" style="margin-bottom:30px;">
-            <iframe width="560" height="315" src="https://www.youtube.com/embed/C2MVqTRj40w" frameborder="0" allowfullscreen></iframe>
-          </div>
-        </div>
-        <div class="col-md-6">
-          <h5>Яна Ходак, &laquo;МК&nbsp;Практик&raquo;</h5>
-          <p><a href="http://practicmed.ru/" target="_blank"><img src="https://iteam.ru/landing/template/img/logo_mkpraktik.png" class="img-fluid rounded"></a></p>
-          <div class="embed-responsive embed-responsive-16by9" style="margin-bottom:30px;">
-            <iframe width="560" height="315" src="https://www.youtube.com/embed/rlzpDK1my58" frameborder="0" allowfullscreen></iframe>
-          </div>
-        </div>
-      </div>
-
-    </div> -->
 
   </div>
 </template>

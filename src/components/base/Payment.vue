@@ -11,7 +11,7 @@
       <input type="hidden" name="WMI_FAIL_URL" v-model="payment.WMI_FAIL_URL"/>
       <input type="hidden" name="WMI_SIGNATURE" v-model="payment.WMI_SIGNATURE"/>
     </form>
-    <button type="button" class="btn btn-danger btn-lg" data-toggle="modal" :data-target="'#payment' + campaign_token">ПОЛУЧИТЬ</button>
+    <button type="button" class="btn btn-danger btn-lg" data-toggle="modal" :data-target="'#payment' + campaign_token">КУПИТЬ</button>
                 
     <!-- Modal -->
     <div class="modal fade" :id="'payment' + campaign_token" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
