@@ -11,7 +11,20 @@
       <input type="hidden" name="WMI_FAIL_URL" v-model="payment.WMI_FAIL_URL"/>
       <input type="hidden" name="WMI_SIGNATURE" v-model="payment.WMI_SIGNATURE"/>
     </form>
-    <button type="button" class="btn btn-danger btn-lg" data-toggle="modal" :data-target="'#payment' + campaign_token">КУПИТЬ</button>
+    <ul class="list-inline">
+      <li class="list-inline-item">
+        <button type="button" class="btn btn-custom" style="background-color:red; color:white;" data-toggle="modal" :data-target="'#payment' + campaign_token">
+          ОПЛАТИТЬ ОНЛАЙН
+        </button>
+      </li>
+      <li class="list-inline-item">
+      <a href="https://iteam.ru/learn/course/proekt-po-razvitiju-korporativnoj-kultury">
+        <button class="btn btn-dark btn-custom">
+          ВЫСТАВИТЬ СЧЕТ
+        </button>
+      </a>
+      </li>
+    </ul>
                 
     <!-- Modal -->
     <div class="modal fade" :id="'payment' + campaign_token" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
@@ -86,5 +99,8 @@
 .help-block {
   margin-top: 20px;
   padding: 5px;
+}
+.btn-custom {
+  height: 50px;
 }
 </style>
