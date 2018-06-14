@@ -9,7 +9,7 @@
         <h1 class="display-4 d-none d-sm-block text-uppercase"><strong>Практика построения корпоративной культуры</strong></h1>
         <h1 class="display-5 d-sm-none text-uppercase">Практика построения корпоративной культуры</h1>
         <h3 class="mb-3">Мастер-класс для собственников и&nbsp;руководителей</h3>
-        <p class="lead"><span class="badge badge-light">6 июня в 11 часов по московскому времени</span></p>
+        <!-- <p class="lead"><span class="badge badge-light">6 июня в 11 часов по московскому времени</span></p> -->
         <!-- <a href="#" class="btn btn-danger btn-lg text-uppercase" @click.prevent="scrollMeTo('join-block')">Участвовать</a> -->
       </div>
     </div>
