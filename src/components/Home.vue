@@ -1,54 +1,28 @@
 <template>
   <div>
 
-    <div class="container">
-      <div class="row text-center mt-5 mb-4" ref="join-block">
-        <div class="col">
-          <h1>Присоединиться к проекту по развитию корпоративной культуры с 20 июня 2018 года</h1>
-        </div>
-      </div>
-      <div class="row text-center last-row justify-content-center">
-        
-        <div class="mt-2">
-          <div class="h-100">
-            <!-- <div class="card-header bg-danger text-light">
-              <span class="lead"><strong>ПАКЕТ &laquo;БАЗОВЫЙ&raquo;</strong></span><br>
-            </div>
-            <ul class="list-group list-group-flush">
-              <li class="list-group-item">Участие в мастер-классах</li>
-              <li class="list-group-item">Записи мастер-классов</li>
-              <li class="list-group-item">Презентационные материалы</li>
-              <li class="list-group-item">Методические материалы, шаблоны, образцы документов</li>
-            </ul>
-            <div class="card-body"></div> -->
-            <div class="bg-white border-top-0 pb-3">
-              <h2><span class="badge badge-primary">20&nbsp;000~</span></h2>
-              <Payment
-                WMI_PAYMENT_AMOUNT="20000"
-                WMI_DESCRIPTION="iTeam"
-                WMI_SUCCESS_URL="https://iteam.ru/promo/pulse_survey"
-                WMI_FAIL_URL="https://iteam.ru/promo/pulse_survey"
-                campaign_token="dAVO"
-                product_name="«Проект по развитию корпоративной культуры»"
-              />
-            </div>
-          </div>
-        </div>
-        
-      </div>
-    </div>
-
     <div class="jumbotron jumbotron-fluid mb-0">
-      <div class="container text-center">
-        <h2 class="d-none d-sm-block mt-5 mb-4"><strong>Получить план улучшения корпоративной культуры!</strong></h2>
+      <div class="container text-center mt-5">
+        <!-- <h2 class="d-none d-sm-block mt-5 mb-4"><strong>Получить план улучшения корпоративной культуры!</strong></h2> -->
+        <h1>Корпоративная культура: с чего начать</h1>
+        <p class="lead mb-5"><span class="badge badge-dark">21 июня 11.00 Мск</span></p>
         <h3 class="d-sm-none my-4">Получить план улучшения корпоративной культуры!</h3>
         <div class="rowtext-center">
           <div class="col">
             <Grform
               redirect="false"
-              cta="ПОЛУЧИТЬ"
-              campaign_token="nqGx"
+              cta="ЗАРЕГИСТРИРОВАТЬСЯ"
+              campaign_token="RCjV"
             />
+          </div>
+        </div>
+
+        <div class="row mt-5">
+          <div class="col">
+            <p class="lead"><span class="text-success check-mark">&#10004;</span> Какие корпоративные ценности мы хотим внедрить</p>
+            <p class="lead"><span class="text-success check-mark">&#10004;</span> Опросы сотрудников - инструмент формирования корпоративной культуры</p>
+            <p class="lead"><span class="text-success check-mark">&#10004;</span> Как организовать регулярные опросы сотрудников</p>
+            <p class="lead"><span class="text-success check-mark">&#10004;</span> Как работать с результатами опросов</p>
           </div>
         </div>
       </div>

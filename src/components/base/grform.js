@@ -12,7 +12,7 @@ export default {
             modal: {
                 name: '',
                 email: '',
-                phone: '',
+                phone: 'none',
                 campaign_token: this.campaign_token
             },
             msg: '',
