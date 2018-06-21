@@ -5,7 +5,7 @@
       <div class="container text-center mt-5">
         <!-- <h2 class="d-none d-sm-block mt-5 mb-4"><strong>Получить план улучшения корпоративной культуры!</strong></h2> -->
         <h1><small>Бесплатный мастер-класс</small><br>&laquo;Корпоративная культура: с чего начать&raquo;</h1>
-        <p class="lead mb-5"><span class="badge badge-dark">21 июня 11.00 Мск</span></p>
+        <p class="lead mb-5"><span class="badge badge-dark">22 июня 11.00 Мск</span></p>
         <h3 class="d-sm-none my-4">Получить план улучшения корпоративной культуры!</h3>
         <div class="rowtext-center">
           <div class="col">
