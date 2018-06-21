@@ -4,7 +4,7 @@
     <div class="container">
       <div class="row text-center mt-5 mb-4" ref="join-block">
         <div class="col">
-          <h1>Присоединиться к проекту по развитию корпоративной культуры с 21 июня 2018 года</h1>
+          <h1>Присоединиться к проекту по развитию корпоративной культуры с 22 июня 2018 года</h1>
         </div>
       </div>
       <div class="row text-center last-row justify-content-center">
