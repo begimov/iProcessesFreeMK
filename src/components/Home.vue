@@ -1,10 +1,10 @@
 <template>
-  <div>
+  <div class="bg-white">
 
     <div class="container">
-      <div class="row text-center mt-5 mb-4" ref="join-block">
-        <div class="col">
-          <h1>Присоединиться к проекту по развитию корпоративной культуры с 22 июня 2018 года</h1>
+      <div class="row text-center mb-4" ref="join-block">
+        <div class="col mt-5">
+          <h1>Материалы Интенсива "Мастерская Управления"</h1>
         </div>
       </div>
       <div class="row text-center last-row justify-content-center">
@@ -21,15 +21,20 @@
               <li class="list-group-item">Методические материалы, шаблоны, образцы документов</li>
             </ul>
             <div class="card-body"></div> -->
+            <p class="lead"><span class="text-success check-mark">&#10004;</span> 5 мастер-классов от Александра Кочнева, автора системы управления Русский Менеджмент</p>
+            <p class="lead"><span class="text-success check-mark">&#10004;</span> 5 рабочих тетрадей для проработки задач в вашей компании</p>
+            <p class="lead"><span class="text-success check-mark">&#10004;</span> шаблоны и методические материалы для внедрения системы управления Русский Менеджмент</p>
             <div class="bg-white border-top-0 pb-3">
-              <h2><span class="badge badge-primary">20&nbsp;000~</span></h2>
+              <h2><del>3&nbsp;500 рублей</del></h2>
+              <h2><small>с 9.07 до 15.07</small> <del>790 рублей</del></h2>
+              <h2>До 9 июля — <span class="badge badge-primary">290 рублей</span></h2>
               <Payment
-                WMI_PAYMENT_AMOUNT="20000"
+                WMI_PAYMENT_AMOUNT="290"
                 WMI_DESCRIPTION="iTeam"
-                WMI_SUCCESS_URL="https://iteam.ru/promo/pulse_survey"
-                WMI_FAIL_URL="https://iteam.ru/promo/pulse_survey"
-                campaign_token="dAVO"
-                product_name="«Проект по развитию корпоративной культуры»"
+                WMI_SUCCESS_URL="https://iteam.ru/promo/management_workshop"
+                WMI_FAIL_URL="https://iteam.ru/promo/management_workshop"
+                campaign_token="ptNqT"
+                product_name="Материалы Интенсива «Мастерская Управления»"
               />
             </div>
           </div>
@@ -38,7 +43,7 @@
       </div>
     </div>
 
-    <div class="jumbotron jumbotron-fluid mb-0">
+    <!-- <div class="jumbotron jumbotron-fluid mb-0">
       <div class="container text-center">
         <h2 class="d-none d-sm-block mt-5 mb-4"><strong>Получить план улучшения корпоративной культуры!</strong></h2>
         <h3 class="d-sm-none my-4">Получить план улучшения корпоративной культуры!</h3>
@@ -52,7 +57,7 @@
           </div>
         </div>
       </div>
-    </div>
+    </div> -->
 
   </div>
 </template>

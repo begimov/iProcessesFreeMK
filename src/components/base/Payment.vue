@@ -14,16 +14,16 @@
     <ul class="list-inline">
       <li class="list-inline-item">
         <button type="button" class="btn btn-custom" style="background-color:red; color:white;" data-toggle="modal" :data-target="'#payment' + campaign_token">
-          ОПЛАТИТЬ ОНЛАЙН
+          ПОЛУЧИТЬ МАТЕРИАЛЫ
         </button>
       </li>
-      <li class="list-inline-item">
+      <!-- <li class="list-inline-item">
       <a href="https://iteam.ru/learn/course/proekt-po-razvitiju-korporativnoj-kultury">
         <button class="btn btn-dark btn-custom">
           ВЫСТАВИТЬ СЧЕТ
         </button>
       </a>
-      </li>
+      </li> -->
     </ul>
                 
     <!-- Modal -->
