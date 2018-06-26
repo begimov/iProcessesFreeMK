@@ -1,15 +1,18 @@
 <template>
   <div>
-    <div class="row">
+    <div class="row text-light">
       <div class="col">
           <form action="/grform/payment" method="get" id="grForm">
-              <div class="row justify-content-center">
-                  <div class="col-md-4">
-                    <div class="form-group form-group-lg">
-                      <input type="text" class="form-control" name="name" placeholder="Имя" v-model="modal.name">
-                    </div>
+            <div class="row">
+              <div class="col text-center text-md-left">
+                <h2 class="mb-4"><small>Бесплатная электронная книга Александра Кочнева</small><br>&laquo;Как внедрить бизнес-процессы&raquo;</h2>
+              </div>
+            </div>
+              <div class="row">
+                <div class="col-lg-7">
+                  <div class="form-group form-group-lg">
+                    <input type="text" class="form-control" name="name" placeholder="Имя" v-model="modal.name">
                   </div>
-                <div class="col-md-4">
                   <div class="form-group form-group-lg">
                     <input type="email" class="form-control" name="email" placeholder="Эл.адрес" v-model="modal.email">
                   </div>

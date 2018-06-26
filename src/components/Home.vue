@@ -2,29 +2,29 @@
   <div>
 
     <div class="jumbotron jumbotron-fluid mb-0">
-      <div class="container text-center mt-5">
-        <!-- <h2 class="d-none d-sm-block mt-5 mb-4"><strong>Получить план улучшения корпоративной культуры!</strong></h2> -->
-        <h1><small>Бесплатный мастер-класс</small><br>&laquo;Корпоративная культура: с чего начать&raquo;</h1>
-        <p class="lead mb-5"><span class="badge badge-dark">22 июня 11.00 Мск</span></p>
-        <h3 class="d-sm-none my-4">Получить план улучшения корпоративной культуры!</h3>
-        <div class="rowtext-center">
-          <div class="col">
+      <div class="container mt-5">
+        <div class="row">
+          <div class="col-md-4 align-self-center">
+            <img src="https://iteam.ru/images/icons/book/11_4.png" class="img-fluid">
+          </div>
+          <div class="col-md-8 align-self-center">
             <Grform
-              redirect="false"
-              cta="Участвовать бесплатно"
-              campaign_token="RCjV"
+              redirect="true"
+              cta="ПОЛУЧИТЬ"
+              campaign_token=""
             />
           </div>
         </div>
 
-        <div class="row mt-5">
+        <!-- <div class="row mt-5">
           <div class="col">
+            <h3>Специальное предложение для вас!</h3>
             <p class="lead"><span class="text-success check-mark">&#10004;</span> Какие корпоративные ценности мы хотим внедрить</p>
             <p class="lead"><span class="text-success check-mark">&#10004;</span> Опросы сотрудников - инструмент формирования корпоративной культуры</p>
             <p class="lead"><span class="text-success check-mark">&#10004;</span> Как организовать регулярные опросы сотрудников</p>
             <p class="lead"><span class="text-success check-mark">&#10004;</span> Как работать с результатами опросов</p>
           </div>
-        </div>
+        </div> -->
       </div>
     </div>
 
@@ -56,8 +56,8 @@ h2 {
 }
 .jumbotron {
   padding-top: 20px;
-  /*background-image: url("../assets/bg_darker.jpg");
-  background-size: cover;*/
+  background-image: url("../assets/bg_darker.jpg");
+  background-size: cover;
 }
 .container-fluid {
   padding: 20px 10px;
