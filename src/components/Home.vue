@@ -11,7 +11,7 @@
             <Grform
               redirect="true"
               cta="ПОЛУЧИТЬ"
-              campaign_token=""
+              campaign_token="Vsi5D"
             />
           </div>
         </div>
