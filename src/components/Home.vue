@@ -4,7 +4,7 @@
     <div class="container">
       <div class="row text-center mb-4" ref="join-block">
         <div class="col mt-5">
-          <h1>Материалы Интенсива "Мастерская Управления"</h1>
+          <h1>Онлайн Марафон &laquo;Сделайте компанию управляемой и&nbsp;эффективной&raquo;</h1>
         </div>
       </div>
       <div class="row text-center last-row justify-content-center">
