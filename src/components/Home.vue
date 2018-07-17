@@ -27,7 +27,7 @@
             <div class="bg-white border-top-0 pb-3">
               <h2><del>3&nbsp;500 рублей</del></h2>
               <!-- <h2><small>с 9.07 до 15.07</small> <del>790 рублей</del></h2> -->
-              <h2>До 15 июля — <span class="badge badge-primary">790 ~</span></h2>
+              <h2>До 17 июля — <span class="badge badge-primary">790 ~</span></h2>
               <Payment
                 WMI_PAYMENT_AMOUNT="790"
                 WMI_DESCRIPTION="iTeam"
