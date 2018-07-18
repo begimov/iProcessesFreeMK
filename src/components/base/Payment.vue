@@ -13,17 +13,10 @@
     </form>
     <ul class="list-inline">
       <li class="list-inline-item">
-        <button type="button" class="btn btn-custom" style="background-color:red; color:white;" data-toggle="modal" :data-target="'#payment' + campaign_token">
-          ПОЛУЧИТЬ МАТЕРИАЛЫ
+        <button type="button" class="btn btn-lg" style="background-color:red; color:white;" data-toggle="modal" :data-target="'#payment' + campaign_token">
+          ОПЛАТИТЬ
         </button>
       </li>
-      <!-- <li class="list-inline-item">
-      <a href="https://iteam.ru/learn/course/proekt-po-razvitiju-korporativnoj-kultury">
-        <button class="btn btn-dark btn-custom">
-          ВЫСТАВИТЬ СЧЕТ
-        </button>
-      </a>
-      </li> -->
     </ul>
                 
     <!-- Modal -->
@@ -31,7 +24,7 @@
       <div class="modal-dialog modal-lg" role="document">
         <div class="modal-content">
           <div class="modal-header">
-            <h5 class="modal-title">{{ product_name }}</h5>
+            <!-- <h5 class="modal-title">{{ product_name }}</h5> -->
             <button type="button" class="close" data-dismiss="modal" aria-label="Close">
               <span aria-hidden="true">&times;</span>
             </button>
@@ -68,7 +61,7 @@
               <div class="col">
                 <div class="card bg-dark text-white">
                   <div class="card-body p-2">
-                    <p class="m-0 lead"><strong>Вы&nbsp;выбрали {{ product_name }}, к&nbsp;оплате&nbsp;&mdash; {{ WMI_PAYMENT_AMOUNT }} руб.,</strong> сейчас вы&nbsp;будете перенаправлены на&nbsp;страницу платежного агрегатора WalletOne.</p>
+                    <p class="m-0 lead"><strong>К&nbsp;оплате&nbsp;&mdash; {{ WMI_PAYMENT_AMOUNT }} руб.,</strong> сейчас вы&nbsp;будете перенаправлены на&nbsp;страницу платежного агрегатора WalletOne.</p>
                   </div>
                 </div>
               </div>

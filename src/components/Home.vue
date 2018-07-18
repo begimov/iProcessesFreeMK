@@ -3,61 +3,19 @@
 
     <div class="container">
       <div class="row text-center mb-4" ref="join-block">
-        <div class="col mt-5">
-          <h1>Онлайн Марафон &laquo;Сделайте компанию управляемой и&nbsp;эффективной&raquo;</h1>
-        </div>
-      </div>
-      <div class="row text-center last-row justify-content-center">
-        
-        <div class="mt-2">
-          <div class="h-100">
-            <!-- <div class="card-header bg-danger text-light">
-              <span class="lead"><strong>ПАКЕТ &laquo;БАЗОВЫЙ&raquo;</strong></span><br>
-            </div>
-            <ul class="list-group list-group-flush">
-              <li class="list-group-item">Участие в мастер-классах</li>
-              <li class="list-group-item">Записи мастер-классов</li>
-              <li class="list-group-item">Презентационные материалы</li>
-              <li class="list-group-item">Методические материалы, шаблоны, образцы документов</li>
-            </ul>
-            <div class="card-body"></div> -->
-            <p class="lead"><span class="text-success check-mark">&#10004;</span> 5 мастер-классов от Александра Кочнева, автора системы управления Русский Менеджмент</p>
-            <p class="lead"><span class="text-success check-mark">&#10004;</span> 5 рабочих тетрадей для проработки задач в вашей компании</p>
-            <p class="lead"><span class="text-success check-mark">&#10004;</span> шаблоны и методические материалы для внедрения системы управления Русский Менеджмент</p>
-            <div class="bg-white border-top-0 pb-3">
-              <h2><del>3&nbsp;500 рублей</del></h2>
-              <!-- <h2><small>с 9.07 до 15.07</small> <del>790 рублей</del></h2> -->
-              <h2>До 18 июля — <span class="badge badge-primary">790 ~</span></h2>
+        <div class="col my-5">
+          <h1 class="mb-3">Оплата</h1>
+          <h2><span class="badge badge-primary">13 000 ~</span></h2>
               <Payment
-                WMI_PAYMENT_AMOUNT="790"
+                WMI_PAYMENT_AMOUNT="13000"
                 WMI_DESCRIPTION="iTeam"
-                WMI_SUCCESS_URL="https://iteam.ru/promo/management_workshop"
-                WMI_FAIL_URL="https://iteam.ru/promo/management_workshop"
-                campaign_token="ptNqT"
-                product_name="Материалы Интенсива «Мастерская Управления»"
+                WMI_SUCCESS_URL="https://iteam.ru/wopayment"
+                WMI_FAIL_URL="https://iteam.ru/wopayment"
+                campaign_token="ptMx"
               />
-            </div>
-          </div>
         </div>
-        
       </div>
     </div>
-
-    <!-- <div class="jumbotron jumbotron-fluid mb-0">
-      <div class="container text-center">
-        <h2 class="d-none d-sm-block mt-5 mb-4"><strong>Получить план улучшения корпоративной культуры!</strong></h2>
-        <h3 class="d-sm-none my-4">Получить план улучшения корпоративной культуры!</h3>
-        <div class="rowtext-center">
-          <div class="col">
-            <Grform
-              redirect="false"
-              cta="ПОЛУЧИТЬ"
-              campaign_token="nqGx"
-            />
-          </div>
-        </div>
-      </div>
-    </div> -->
 
   </div>
 </template>
