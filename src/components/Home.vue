@@ -4,7 +4,7 @@
     <div class="container">
       <div class="row text-center mt-5 mb-4" ref="join-block">
         <div class="col">
-          <h1>Мастер-проект &laquo;Корпоративая культура&raquo;</h1>
+          <h1>Мастер-проект &laquo;Корпоративная культура&raquo;</h1>
         </div>
       </div>
       <div class="row text-center last-row justify-content-center">
