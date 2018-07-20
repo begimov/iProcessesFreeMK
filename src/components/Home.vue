@@ -25,11 +25,11 @@
             <p class="lead"><span class="text-success check-mark">&#10004;</span> 5 рабочих тетрадей для проработки задач в вашей компании</p>
             <p class="lead"><span class="text-success check-mark">&#10004;</span> шаблоны и методические материалы для внедрения системы управления Русский Менеджмент</p>
             <div class="bg-white border-top-0 pb-3">
-              <h2><del>3&nbsp;500 рублей</del></h2>
+              <h2>3&nbsp;500 рублей</h2>
               <!-- <h2><small>с 9.07 до 15.07</small> <del>790 рублей</del></h2> -->
-              <h2>До 18 июля — <span class="badge badge-primary">790 ~</span></h2>
+              <!-- <h2>До 18 июля — <span class="badge badge-primary">790 ~</span></h2> -->
               <Payment
-                WMI_PAYMENT_AMOUNT="790"
+                WMI_PAYMENT_AMOUNT="3500"
                 WMI_DESCRIPTION="iTeam"
                 WMI_SUCCESS_URL="https://iteam.ru/promo/management_workshop"
                 WMI_FAIL_URL="https://iteam.ru/promo/management_workshop"
