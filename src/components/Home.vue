@@ -4,15 +4,17 @@
     <div class="jumbotron jumbotron-fluid mb-0">
       <div class="container mt-5">
         <div class="row">
-          <div class="col-md-4 align-self-center">
-            <img src="https://iteam.ru/images/icons/book/11_4.png" class="img-fluid">
+          <div class="col-sm-3 align-self-center d-none d-sm-block">
+            <img src="https://iteam.ru/img/53_books.jpg" class="img-fluid rounded">
           </div>
-          <div class="col-md-8 align-self-center">
-            <Grform
+          <div class="col-sm-9 align-self-center text-light">
+            <h1>53 лучшие книги по управлению</h1>
+            <p><a href="https://iteam.ru/promo/53books/53 лучшие книги по управлению.pdf" class="btn btn-lg btn-danger">СКАЧАТЬ</a></p>
+            <!-- <Grform
               redirect="true"
               cta="ПОЛУЧИТЬ"
               campaign_token="Vsi5D"
-            />
+            /> -->
           </div>
         </div>
 
