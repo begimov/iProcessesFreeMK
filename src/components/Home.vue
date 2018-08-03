@@ -4,27 +4,29 @@
     <div class="jumbotron jumbotron-fluid mb-0">
       <div class="container text-center mt-5">
         <!-- <h2 class="d-none d-sm-block mt-5 mb-4"><strong>Получить план улучшения корпоративной культуры!</strong></h2> -->
-        <h1><small>Бесплатный мастер-класс</small><br>&laquo;Корпоративная культура: с чего начать&raquo;</h1>
-        <p class="lead mb-5"><span class="badge badge-dark">22 июня 11.00 Мск</span></p>
-        <h3 class="d-sm-none my-4">Получить план улучшения корпоративной культуры!</h3>
+        <h1>&laquo;Что должен знать каждый управленец&raquo;</h1>
+        <h2>Эффективные методы обучения руководителей</h2>
+        <h2>Бесплатный мастер-класс для собственников и руководителей</h2>
+        <p class="lead mb-4"><span class="badge badge-dark">9 августа в 11.00 Мск</span></p>
+        <!-- <h3 class="d-sm-none my-4">Получить план улучшения корпоративной культуры!</h3> -->
         <div class="rowtext-center">
           <div class="col">
             <Grform
               redirect="false"
               cta="Участвовать бесплатно"
-              campaign_token="RCjV"
+              campaign_token="nG2Jj"
             />
           </div>
         </div>
 
-        <div class="row mt-5">
+        <!-- <div class="row mt-5">
           <div class="col">
             <p class="lead"><span class="text-success check-mark">&#10004;</span> Какие корпоративные ценности мы хотим внедрить</p>
             <p class="lead"><span class="text-success check-mark">&#10004;</span> Опросы сотрудников - инструмент формирования корпоративной культуры</p>
             <p class="lead"><span class="text-success check-mark">&#10004;</span> Как организовать регулярные опросы сотрудников</p>
             <p class="lead"><span class="text-success check-mark">&#10004;</span> Как работать с результатами опросов</p>
           </div>
-        </div>
+        </div> -->
       </div>
     </div>
 
