@@ -7,7 +7,7 @@
         <h1>&laquo;Что должен знать каждый управленец&raquo;</h1>
         <h2>Эффективные методы обучения руководителей</h2>
         <h2>Бесплатный мастер-класс для собственников и руководителей</h2>
-        <p class="lead mb-4"><span class="badge badge-dark">9 августа в 11.00 Мск</span></p>
+        <p class="lead mb-4"><span class="badge badge-dark">23 августа в 11.00 Мск</span></p>
         <!-- <h3 class="d-sm-none my-4">Получить план улучшения корпоративной культуры!</h3> -->
         <div class="rowtext-center">
           <div class="col">
