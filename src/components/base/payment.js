@@ -35,7 +35,7 @@ export default {
     },
     methods: {
         buy() {
-            const orderId = 'NA=' + this.modal.email + '=' + this.modal.campaign_token
+            const orderId = 'NA=' + this.modal.email + '=' + this.modal.campaign_token + '=' + Date.now()
             this.modal.orderid = orderId
             this.payment.WMI_PAYMENT_NO = orderId
             const payload = {
