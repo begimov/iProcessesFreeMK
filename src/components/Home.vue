@@ -19,10 +19,9 @@
 
         <div class="row mt-5">
           <div class="col">
-            <p class="lead"><span class="text-success check-mark">&#10004;</span> Какие корпоративные ценности мы хотим внедрить</p>
-            <p class="lead"><span class="text-success check-mark">&#10004;</span> Опросы сотрудников - инструмент формирования корпоративной культуры</p>
-            <p class="lead"><span class="text-success check-mark">&#10004;</span> Как организовать регулярные опросы сотрудников</p>
-            <p class="lead"><span class="text-success check-mark">&#10004;</span> Как работать с результатами опросов</p>
+            <p class="lead"><span class="text-success check-mark">&#10004;</span> Как измерить качество горизонтальных коммуникаций.</p>
+            <p class="lead"><span class="text-success check-mark">&#10004;</span> Как устранить «барьеры» между подразделениями.</p>
+            <p class="lead"><span class="text-success check-mark">&#10004;</span> Как привить культуру сотрудничества.</p>
           </div>
         </div>
       </div>
