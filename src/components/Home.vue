@@ -7,7 +7,7 @@
           <h1 class="mb-3">Оплата</h1>
           <h2><span class="badge badge-primary">13 000 ~</span></h2>
               <Payment
-                WMI_PAYMENT_AMOUNT="13000"
+                WMI_PAYMENT_AMOUNT="12999"
                 WMI_DESCRIPTION="iTeam"
                 WMI_SUCCESS_URL="https://iteam.ru/wopayment"
                 WMI_FAIL_URL="https://iteam.ru/wopayment"
